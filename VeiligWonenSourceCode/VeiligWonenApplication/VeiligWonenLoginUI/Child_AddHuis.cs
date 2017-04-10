@@ -32,7 +32,7 @@ namespace VeiligWonenLoginUI
 
         private void Button_Add_Click(object sender, EventArgs e)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDB")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
             {
                 SqlDataAdapter sda = new SqlDataAdapter(@"Declare @MaxNo int,@No Varchar(50); Select @MaxNo = ISNULL (Max(cast(Right(HID,5) as Int)),0)+1 From Huis; Select 'HID' + Right ('00000' + Cast(@MaxNo AS varchar),5);", connection.ConnectionString);
                 DataTable dt = new DataTable();
@@ -48,7 +48,7 @@ namespace VeiligWonenLoginUI
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDB")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
             {
                 connection.Execute(@"Update Huis Set HID = '" + HID_Textbox.Text + "',StadsGebied = '" + Gebied_Dropdown.Text + "',Wijk ='" + Wijk_Dropdown.Text + "',Straat = '" + Straat_TextBox.Text + "',HuisNummer = '" + Huisnum_Textbox.Text + "',KoopHuur ='" + HuurKoop_Textbox.Text + "',Prijs = '" + Prijs_Textbox.Text + "',Omschrijving = '" + Omschrijving_TextBox.Text + "' where HID = '" + HID_Textbox.Text + "'", connection.ConnectionString);
                 LoadGridData(@"select * From Huis where Huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and Huis.Wijk = '" + Wijk_Dropdown.Text + "'");
@@ -81,7 +81,7 @@ namespace VeiligWonenLoginUI
 
         public void fillcombo(ComboBox combo, string query, string displayMember, string valueMember)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDB")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
             {
                 DataTable Table = new DataTable();
                 SqlDataAdapter sda = new SqlDataAdapter(query, connection.ConnectionString);
@@ -95,7 +95,7 @@ namespace VeiligWonenLoginUI
 
         public void LoadGridData(string query)
         {
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDB")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
             {
                 dataGridView_HuisResults.Rows.Clear();
                 SqlDataAdapter sda = new SqlDataAdapter(query, connection.ConnectionString);
@@ -129,6 +129,15 @@ namespace VeiligWonenLoginUI
             HuurKoop_Textbox.Text = dataGridView_HuisResults.SelectedRows[0].Cells[5].Value.ToString();
             Prijs_Textbox.Text = dataGridView_HuisResults.SelectedRows[0].Cells[6].Value.ToString();
             Omschrijving_TextBox.Text = dataGridView_HuisResults.SelectedRows[0].Cells[7].Value.ToString();
+        }
+
+        private void Delete_button_Click(object sender, EventArgs e)
+        {
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
+            {
+                connection.Execute(@"Delete  from huis where HID='" + HID_Textbox.Text + "'", connection.ConnectionString);
+            }
+            LoadGridData(@"select * From Huis where Huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and Huis.Wijk = '" + Wijk_Dropdown.Text + "'");
         }
 
     }

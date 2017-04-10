@@ -24,7 +24,7 @@ namespace VeiligWonenLoginUI
         private void LoginButton_Click(object sender, EventArgs e)
         {
             
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDB")))
+            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
             {
                 DataTable dt = new System.Data.DataTable();
 

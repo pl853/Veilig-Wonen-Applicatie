@@ -39,14 +39,6 @@
             this.Huisnum_Textbox = new System.Windows.Forms.TextBox();
             this.HuurKoop_Textbox = new System.Windows.Forms.ComboBox();
             this.dataGridView_HuisResults = new System.Windows.Forms.DataGridView();
-            this.Button_Add = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.UpdateButton = new System.Windows.Forms.Button();
-            this.Omschrijving_TextBox = new System.Windows.Forms.RichTextBox();
-            this.Prijs_Textbox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.Search_Button = new System.Windows.Forms.Button();
             this.HID_Collumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_Gebied = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_Wijk = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,6 +47,14 @@
             this.Column_KoopHuur = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_Prijs = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Button_Add = new System.Windows.Forms.Button();
+            this.Delete_button = new System.Windows.Forms.Button();
+            this.UpdateButton = new System.Windows.Forms.Button();
+            this.Omschrijving_TextBox = new System.Windows.Forms.RichTextBox();
+            this.Prijs_Textbox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Search_Button = new System.Windows.Forms.Button();
             this.HID_Textbox = new System.Windows.Forms.TextBox();
             this.HID_Lable = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_HuisResults)).BeginInit();
@@ -186,6 +186,62 @@
             this.dataGridView_HuisResults.TabStop = false;
             this.dataGridView_HuisResults.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dataGridView_HuisResults_MouseDoubleClick);
             // 
+            // HID_Collumn
+            // 
+            this.HID_Collumn.HeaderText = "HID";
+            this.HID_Collumn.Name = "HID_Collumn";
+            this.HID_Collumn.ReadOnly = true;
+            this.HID_Collumn.Width = 40;
+            // 
+            // Column_Gebied
+            // 
+            this.Column_Gebied.HeaderText = "Gebied";
+            this.Column_Gebied.MinimumWidth = 10;
+            this.Column_Gebied.Name = "Column_Gebied";
+            this.Column_Gebied.ReadOnly = true;
+            this.Column_Gebied.Width = 150;
+            // 
+            // Column_Wijk
+            // 
+            this.Column_Wijk.HeaderText = "Wijk";
+            this.Column_Wijk.Name = "Column_Wijk";
+            this.Column_Wijk.ReadOnly = true;
+            this.Column_Wijk.Width = 150;
+            // 
+            // Column_Straat
+            // 
+            this.Column_Straat.HeaderText = "Straat";
+            this.Column_Straat.Name = "Column_Straat";
+            this.Column_Straat.ReadOnly = true;
+            this.Column_Straat.Width = 150;
+            // 
+            // Column_Huisnum
+            // 
+            this.Column_Huisnum.HeaderText = "Num";
+            this.Column_Huisnum.Name = "Column_Huisnum";
+            this.Column_Huisnum.ReadOnly = true;
+            this.Column_Huisnum.Width = 50;
+            // 
+            // Column_KoopHuur
+            // 
+            this.Column_KoopHuur.HeaderText = "Te koop / Te huur";
+            this.Column_KoopHuur.Name = "Column_KoopHuur";
+            this.Column_KoopHuur.ReadOnly = true;
+            // 
+            // Column_Prijs
+            // 
+            this.Column_Prijs.HeaderText = "Prijs";
+            this.Column_Prijs.Name = "Column_Prijs";
+            this.Column_Prijs.ReadOnly = true;
+            this.Column_Prijs.Width = 60;
+            // 
+            // Column_Description
+            // 
+            this.Column_Description.HeaderText = "Omschrijving";
+            this.Column_Description.Name = "Column_Description";
+            this.Column_Description.ReadOnly = true;
+            this.Column_Description.Width = 150;
+            // 
             // Button_Add
             // 
             this.Button_Add.Location = new System.Drawing.Point(545, 314);
@@ -196,14 +252,15 @@
             this.Button_Add.UseVisualStyleBackColor = true;
             this.Button_Add.Click += new System.EventHandler(this.Button_Add_Click);
             // 
-            // button2
+            // Delete_button
             // 
-            this.button2.Location = new System.Drawing.Point(647, 314);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 41);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Delete";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Delete_button.Location = new System.Drawing.Point(647, 314);
+            this.Delete_button.Name = "Delete_button";
+            this.Delete_button.Size = new System.Drawing.Size(79, 41);
+            this.Delete_button.TabIndex = 12;
+            this.Delete_button.Text = "Delete";
+            this.Delete_button.UseVisualStyleBackColor = true;
+            this.Delete_button.Click += new System.EventHandler(this.Delete_button_Click);
             // 
             // UpdateButton
             // 
@@ -261,62 +318,6 @@
             this.Search_Button.UseVisualStyleBackColor = true;
             this.Search_Button.Click += new System.EventHandler(this.Search_Button_Click);
             // 
-            // HID_Collumn
-            // 
-            this.HID_Collumn.HeaderText = "HID";
-            this.HID_Collumn.Name = "HID_Collumn";
-            this.HID_Collumn.ReadOnly = true;
-            this.HID_Collumn.Width = 40;
-            // 
-            // Column_Gebied
-            // 
-            this.Column_Gebied.HeaderText = "Gebied";
-            this.Column_Gebied.MinimumWidth = 10;
-            this.Column_Gebied.Name = "Column_Gebied";
-            this.Column_Gebied.ReadOnly = true;
-            this.Column_Gebied.Width = 150;
-            // 
-            // Column_Wijk
-            // 
-            this.Column_Wijk.HeaderText = "Wijk";
-            this.Column_Wijk.Name = "Column_Wijk";
-            this.Column_Wijk.ReadOnly = true;
-            this.Column_Wijk.Width = 150;
-            // 
-            // Column_Straat
-            // 
-            this.Column_Straat.HeaderText = "Straat";
-            this.Column_Straat.Name = "Column_Straat";
-            this.Column_Straat.ReadOnly = true;
-            this.Column_Straat.Width = 150;
-            // 
-            // Column_Huisnum
-            // 
-            this.Column_Huisnum.HeaderText = "Num";
-            this.Column_Huisnum.Name = "Column_Huisnum";
-            this.Column_Huisnum.ReadOnly = true;
-            this.Column_Huisnum.Width = 50;
-            // 
-            // Column_KoopHuur
-            // 
-            this.Column_KoopHuur.HeaderText = "Te koop / Te huur";
-            this.Column_KoopHuur.Name = "Column_KoopHuur";
-            this.Column_KoopHuur.ReadOnly = true;
-            // 
-            // Column_Prijs
-            // 
-            this.Column_Prijs.HeaderText = "Prijs";
-            this.Column_Prijs.Name = "Column_Prijs";
-            this.Column_Prijs.ReadOnly = true;
-            this.Column_Prijs.Width = 60;
-            // 
-            // Column_Description
-            // 
-            this.Column_Description.HeaderText = "Omschrijving";
-            this.Column_Description.Name = "Column_Description";
-            this.Column_Description.ReadOnly = true;
-            this.Column_Description.Width = 150;
-            // 
             // HID_Textbox
             // 
             this.HID_Textbox.Enabled = false;
@@ -349,7 +350,7 @@
             this.Controls.Add(this.Prijs_Textbox);
             this.Controls.Add(this.Omschrijving_TextBox);
             this.Controls.Add(this.UpdateButton);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Delete_button);
             this.Controls.Add(this.Button_Add);
             this.Controls.Add(this.dataGridView_HuisResults);
             this.Controls.Add(this.HuurKoop_Textbox);
@@ -386,7 +387,7 @@
         private System.Windows.Forms.TextBox Huisnum_Textbox;
         private System.Windows.Forms.ComboBox HuurKoop_Textbox;
         private System.Windows.Forms.Button Button_Add;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Delete_button;
         private System.Windows.Forms.Button UpdateButton;
         private System.Windows.Forms.RichTextBox Omschrijving_TextBox;
         private System.Windows.Forms.TextBox Prijs_Textbox;
