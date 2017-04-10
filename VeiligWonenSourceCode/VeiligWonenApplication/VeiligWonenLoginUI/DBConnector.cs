@@ -13,5 +13,6 @@ namespace VeiligWonenLoginUI
         {
             return ConfigurationManager.ConnectionStrings[name].ConnectionString;
         }
+        
     }
 }

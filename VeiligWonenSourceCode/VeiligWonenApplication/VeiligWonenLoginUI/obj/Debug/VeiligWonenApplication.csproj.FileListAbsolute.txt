@@ -38,3 +38,4 @@ C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCod
 C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Properties.Resources.resources
 C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csproj.GenerateResource.Cache
 C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddPercentage.resources
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddPercentage.resources
