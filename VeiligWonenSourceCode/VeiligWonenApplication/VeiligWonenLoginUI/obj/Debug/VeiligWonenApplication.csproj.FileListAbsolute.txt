@@ -24,3 +24,17 @@ C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWo
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csproj.GenerateResource.Cache
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.exe
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.pdb
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\VeiligWonenLoginUI.exe.config
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.exe
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.pdb
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\VeiligWonenLoginUI.exe
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\VeiligWonenLoginUI.pdb
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Dapper.dll
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Dapper.xml
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csprojResolveAssemblyReference.cache
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddHuis.resources
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Parrent_MainUI.resources
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.LoginUI.resources
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Properties.Resources.resources
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csproj.GenerateResource.Cache
+C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddPercentage.resources

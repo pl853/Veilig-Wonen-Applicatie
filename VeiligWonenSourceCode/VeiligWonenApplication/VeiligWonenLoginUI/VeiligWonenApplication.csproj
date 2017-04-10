@@ -55,6 +55,12 @@
     <Compile Include="Child_AddHuis.Designer.cs">
       <DependentUpon>Child_AddHuis.cs</DependentUpon>
     </Compile>
+    <Compile Include="Child_AddPercentage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child_AddPercentage.Designer.cs">
+      <DependentUpon>Child_AddPercentage.cs</DependentUpon>
+    </Compile>
     <Compile Include="DBConnector.cs" />
     <Compile Include="Parrent_MainUI.cs">
       <SubType>Form</SubType>
@@ -72,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Child_AddHuis.resx">
       <DependentUpon>Child_AddHuis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child_AddPercentage.resx">
+      <DependentUpon>Child_AddPercentage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Parrent_MainUI.resx">
       <DependentUpon>Parrent_MainUI.cs</DependentUpon>
