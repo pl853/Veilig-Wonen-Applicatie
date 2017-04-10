@@ -28,7 +28,7 @@ namespace VeiligWonenLoginUI
             {
                 DataTable dt = new System.Data.DataTable();
 
-                SqlDataAdapter sda = new SqlDataAdapter(@"SELECT Role FROM [Login] Where UserName = '" + UserNameText.Text + 
+                SqlDataAdapter sda = new SqlDataAdapter(@"SELECT Role FROM [LoginAdmin] Where UserName = '" + UserNameText.Text + 
                     "' and Password = '" + PasswordText.Text + "'", connection.ConnectionString);
 
                 sda.Fill(dt);
@@ -54,6 +54,11 @@ namespace VeiligWonenLoginUI
                     Application.Exit();
                 }
 
+
+        }
+
+        private void LoginUI_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -11,3 +11,16 @@ C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApp\VeiligwonenGit\
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApp\VeiligwonenGit\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddHuis.resources
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApp\VeiligwonenGit\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Dapper.dll
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApp\VeiligwonenGit\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Dapper.xml
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\VeiligWonenLoginUI.exe.config
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\VeiligWonenLoginUI.exe
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\VeiligWonenLoginUI.pdb
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Dapper.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Dapper.xml
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csprojResolveAssemblyReference.cache
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddHuis.resources
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Parrent_MainUI.resources
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.LoginUI.resources
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Properties.Resources.resources
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csproj.GenerateResource.Cache
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.exe
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.pdb

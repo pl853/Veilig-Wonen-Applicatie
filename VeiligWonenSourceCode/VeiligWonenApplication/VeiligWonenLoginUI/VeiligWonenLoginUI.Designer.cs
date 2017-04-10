@@ -108,6 +108,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin Login";
             this.TransparencyKey = System.Drawing.Color.Red;
+            this.Load += new System.EventHandler(this.LoginUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
