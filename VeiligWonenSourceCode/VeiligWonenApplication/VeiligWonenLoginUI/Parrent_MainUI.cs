@@ -12,11 +12,20 @@ namespace VeiligWonenLoginUI
 {
     public partial class Parrent_MainUI : Form
     {
+        Child_AddHuis Addhuis = new Child_AddHuis();
+
         
+
         public Parrent_MainUI(string role)
         {
             InitializeComponent();
+
             Name_Lable.Text = role;
+            ChildMainUI MainUIuser = new ChildMainUI();
+            MainUIuser.Show();
+            MainUIuser.MdiParent = this;
+            MainUIuser.Dock = DockStyle.Fill;
+
         }
 
         private void Parrent_MainUI_Load(object sender, EventArgs e)
@@ -31,7 +40,7 @@ namespace VeiligWonenLoginUI
         private void ZoekHuis_MenuItem_Click(object sender, EventArgs e)
         {
 
-            
+            Addhuis.Hide();
         }
 
         private void Login_MenuItem_Click(object sender, EventArgs e)
@@ -43,7 +52,7 @@ namespace VeiligWonenLoginUI
 
         private void AddHuis_MenuItem_Click(object sender, EventArgs e)
         {
-            Child_AddHuis Addhuis = new Child_AddHuis();
+            
             Addhuis.MdiParent = this;
             Addhuis.Dock = DockStyle.Fill;
             Addhuis.Show();
@@ -52,6 +61,11 @@ namespace VeiligWonenLoginUI
         private void Parrent_MainUI_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void menuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

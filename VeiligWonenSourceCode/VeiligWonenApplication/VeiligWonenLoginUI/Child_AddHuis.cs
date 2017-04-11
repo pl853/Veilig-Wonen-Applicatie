@@ -39,7 +39,7 @@ namespace VeiligWonenLoginUI
                 sda.Fill(dt);
 
                 HID_Textbox.Text = dt.Rows[0][0].ToString();
-                connection.Execute(@"INSERT INTO [Huis] ([HID],[StadsGebied],[Wijk],[Straat],[HuisNummer],[KoopHuur],[Prijs],[Omschrijving])VALUES ('"+HID_Textbox.Text+"','" + Gebied_Dropdown.Text + "','" + Wijk_Dropdown.Text + "','" + Straat_TextBox.Text + "','" +Huisnum_Textbox.Text + "','" + HuurKoop_Textbox.Text+ "','" + Prijs_Textbox.Text + "','" + Omschrijving_TextBox.Text+"')", connection.ConnectionString);
+                connection.Execute(@"INSERT INTO [Huis] ([HID],[StadsGebied],[Wijk],[Straat],[HuisNummer],[KoopHuur],[Prijs],[Omschrijving],[Lat],[Long])VALUES ('"+HID_Textbox.Text+"','" + Gebied_Dropdown.Text + "','" + Wijk_Dropdown.Text + "','" + Straat_TextBox.Text + "','" +Huisnum_Textbox.Text + "','" + HuurKoop_Textbox.Text+ "','" + Prijs_Textbox.Text + "','" + Omschrijving_TextBox.Text+ "','" + LatTextBox.Text + "','" + LongTextBox.Text + "')", connection.ConnectionString);
             }
             LoadGridData(@"select * From Huis where Huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and Huis.Wijk = '" + Wijk_Dropdown.Text + "'");
 
@@ -50,10 +50,11 @@ namespace VeiligWonenLoginUI
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
             {
-                connection.Execute(@"Update Huis Set HID = '" + HID_Textbox.Text + "',StadsGebied = '" + Gebied_Dropdown.Text + "',Wijk ='" + Wijk_Dropdown.Text + "',Straat = '" + Straat_TextBox.Text + "',HuisNummer = '" + Huisnum_Textbox.Text + "',KoopHuur ='" + HuurKoop_Textbox.Text + "',Prijs = '" + Prijs_Textbox.Text + "',Omschrijving = '" + Omschrijving_TextBox.Text + "' where HID = '" + HID_Textbox.Text + "'", connection.ConnectionString);
-                LoadGridData(@"select * From Huis where Huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and Huis.Wijk = '" + Wijk_Dropdown.Text + "'");
-                MessageBox.Show("Succesfully Updated");
+                connection.Execute(@"Update Huis Set HID = '" + HID_Textbox.Text + "',StadsGebied = '" + Gebied_Dropdown.Text + "',Wijk ='" + Wijk_Dropdown.Text + "',Straat = '" + Straat_TextBox.Text + "',HuisNummer = '" + Huisnum_Textbox.Text + "',KoopHuur ='" + HuurKoop_Textbox.Text + "',Prijs = '" + Prijs_Textbox.Text + "',Omschrijving = '" + Omschrijving_TextBox.Text + "', Lat = '"+ LatTextBox.Text+"',Long = '"+LongTextBox.Text+"' where HID = '" + HID_Textbox.Text + "'", connection.ConnectionString);
+              
             }
+            MessageBox.Show("Succesfully Updated");
+            LoadGridData(@"select * From Huis where Huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and Huis.Wijk = '" + Wijk_Dropdown.Text + "'");
         }
 
         private void Search_Button_Click(object sender, EventArgs e)

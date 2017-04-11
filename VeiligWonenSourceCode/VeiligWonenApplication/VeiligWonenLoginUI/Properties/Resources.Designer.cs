@@ -59,45 +59,6 @@ namespace VeiligWonenLoginUI.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Logo {
-            get {
-                object obj = ResourceManager.GetObject("Logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rsz_1rsz_logo {
-            get {
-                object obj = ResourceManager.GetObject("rsz_1rsz_logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap rsz_ski_mask1600 {
-            get {
-                object obj = ResourceManager.GetObject("rsz_ski_mask1600", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ski_mask1600 {
-            get {
-                object obj = ResourceManager.GetObject("ski_mask1600", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
+       
     }
 }

@@ -38,4 +38,20 @@ C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCod
 C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Properties.Resources.resources
 C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csproj.GenerateResource.Cache
 C:\Users\Z\Desktop\VeiligWonenApp Git\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddPercentage.resources
-C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.Child_AddPercentage.resources
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\EntityFramework.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\EntityFramework.xml
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\AjaxMin.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\GMap.NET.Core.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\System.Data.SQLite.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\System.Data.SQLite.xml
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.ChildMainUI.resources
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csproj.VeiligWonenLoginUI.exe.config

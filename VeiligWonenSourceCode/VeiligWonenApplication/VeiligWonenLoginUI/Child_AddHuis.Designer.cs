@@ -57,6 +57,10 @@
             this.Search_Button = new System.Windows.Forms.Button();
             this.HID_Textbox = new System.Windows.Forms.TextBox();
             this.HID_Lable = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.LatTextBox = new System.Windows.Forms.TextBox();
+            this.LongTextBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_HuisResults)).BeginInit();
             this.SuspendLayout();
             // 
@@ -276,7 +280,7 @@
             // 
             this.Omschrijving_TextBox.Location = new System.Drawing.Point(676, 118);
             this.Omschrijving_TextBox.Name = "Omschrijving_TextBox";
-            this.Omschrijving_TextBox.Size = new System.Drawing.Size(241, 175);
+            this.Omschrijving_TextBox.Size = new System.Drawing.Size(241, 107);
             this.Omschrijving_TextBox.TabIndex = 14;
             this.Omschrijving_TextBox.Text = "";
             // 
@@ -338,10 +342,46 @@
             this.HID_Lable.TabIndex = 20;
             this.HID_Lable.Text = "HID :";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(483, 254);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(125, 17);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Position  Latitude :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(728, 254);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(83, 17);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Longditute :";
+            // 
+            // LatTextBox
+            // 
+            this.LatTextBox.Location = new System.Drawing.Point(614, 251);
+            this.LatTextBox.Name = "LatTextBox";
+            this.LatTextBox.Size = new System.Drawing.Size(100, 22);
+            this.LatTextBox.TabIndex = 23;
+            // 
+            // LongTextBox
+            // 
+            this.LongTextBox.Location = new System.Drawing.Point(809, 251);
+            this.LongTextBox.Name = "LongTextBox";
+            this.LongTextBox.Size = new System.Drawing.Size(100, 22);
+            this.LongTextBox.TabIndex = 24;
+            // 
             // Child_AddHuis
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(943, 700);
+            this.Controls.Add(this.LongTextBox);
+            this.Controls.Add(this.LatTextBox);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.HID_Lable);
             this.Controls.Add(this.HID_Textbox);
             this.Controls.Add(this.Search_Button);
@@ -405,5 +445,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_Description;
         private System.Windows.Forms.TextBox HID_Textbox;
         private System.Windows.Forms.Label HID_Lable;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox LatTextBox;
+        private System.Windows.Forms.TextBox LongTextBox;
     }
 }

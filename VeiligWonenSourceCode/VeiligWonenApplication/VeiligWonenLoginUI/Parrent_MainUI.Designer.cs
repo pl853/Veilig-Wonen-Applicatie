@@ -41,7 +41,7 @@
             // 
             this.LoggedInAs_Lable.AutoSize = true;
             this.LoggedInAs_Lable.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LoggedInAs_Lable.Location = new System.Drawing.Point(6, 753);
+            this.LoggedInAs_Lable.Location = new System.Drawing.Point(-5, 753);
             this.LoggedInAs_Lable.Margin = new System.Windows.Forms.Padding(3, 10, 3, 40);
             this.LoggedInAs_Lable.Name = "LoggedInAs_Lable";
             this.LoggedInAs_Lable.Size = new System.Drawing.Size(155, 25);
@@ -89,6 +89,7 @@
             this.menuStrip.Size = new System.Drawing.Size(286, 844);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
+            this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
             // AddData_MenuItem
             // 
