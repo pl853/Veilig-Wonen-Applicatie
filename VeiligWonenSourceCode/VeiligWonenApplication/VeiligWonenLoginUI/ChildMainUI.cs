@@ -42,8 +42,6 @@ namespace VeiligWonenLoginUI
             GoogleMapsControl.MaxZoom = 24;
             GoogleMapsControl.Zoom = 12;
             ShowMarkers("select * from huis ", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` ");
-
-
         }
 
         void CreateMarker(string name, double Latitude, double Longditute, string Huisnummer, string Prijs, string KoopHuur)
@@ -58,36 +56,64 @@ namespace VeiligWonenLoginUI
 
         private void Zoek_Button_Click(object sender, EventArgs e)
         {
-            GoogleMapsControl.Overlays.Clear();
-
-            if (Straat_TextBox.Text != "")
+            FillPercentages();
+            if (Stadsgebied_Dropdown.Text == "")
             {
-                if (Huisnummer_TextBox.Text != "")
+                MessageBox.Show("Selecteer een Stadsgebied");
+            }
+            else
+            {
+                if (Straat_TextBox.Text != "")
                 {
-                    ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "' and HuisNummer = '" + Huisnummer_TextBox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'and HuisNummer = '" + Huisnummer_TextBox.Text + "'");
+                    if (Huisnummer_TextBox.Text != "")
+                    {
+                        if (KoopHuur_Dropdown.Text != "")
+                        {
+                            if (PrijsTot_Textbox.Text != "")
+                            {
+                                GoogleMapsControl.Overlays.Clear();
+                                ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "' and HuisNummer = '" + Huisnummer_TextBox.Text + "'and KoopHuur = '" + KoopHuur_Dropdown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'and HuisNummer = '" + Huisnummer_TextBox.Text + "'and KoopHuur = '" + KoopHuur_Dropdown.Text + "'");
+                            }
+                        
+                            else
+                            {
+                                GoogleMapsControl.Overlays.Clear();
+                                ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "' and HuisNummer = '" + Huisnummer_TextBox.Text + "'and KoopHuur = '" + KoopHuur_Dropdown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'and HuisNummer = '" + Huisnummer_TextBox.Text + "'and KoopHuur = '" + KoopHuur_Dropdown.Text + "'");
+                            }
+                        }
+                        else
+                        {
+                            GoogleMapsControl.Overlays.Clear();
+                            ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "' and HuisNummer = '" + Huisnummer_TextBox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'and HuisNummer = '" + Huisnummer_TextBox.Text + "'");
+                        }
+                    }
+                    else
+                    {
+                        GoogleMapsControl.Overlays.Clear();
+                        ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'");
+
+                    }
+                }
+                else if (Huisnummer_TextBox.Text != "")
+                {
+
+                    MessageBox.Show("Selecteer een straat.");
+                }
+                else if (KoopHuur_Dropdown.Text != "")
+                {
+                    GoogleMapsControl.Overlays.Clear();
+                    ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and KoopHuur = '" + KoopHuur_Dropdown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "' and KoopHuur = '" + KoopHuur_Dropdown.Text + "'");
 
                 }
                 else
                 {
-                    ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'");
+                    GoogleMapsControl.Overlays.Clear();
+                    ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'");
 
                 }
-            }
-            else if (Huisnummer_TextBox.Text != "")
-            {
-                ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and HuisNummer = '" + Huisnummer_TextBox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'and HuisNummer = '" + Huisnummer_TextBox.Text + "'");
-
-            }
-            else
-            {
-                ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and wijk = '" + Wijk_Dropdown.Text + "'");
-
-            }
-         
-
-           
-            setMapPosition("SELECT wijk.Lat,wijk.Long From sql11168746.wijk where wijk.Naam = '" + Wijk_Dropdown.Text + "'");
-
+                setMapPosition("SELECT wijk.Lat,wijk.Long From sql11168746.wijk where wijk.Naam = '" + Wijk_Dropdown.Text + "'");
+                KoopHuur_Dropdown.SelectedIndex = -1;
+            }        
         }
 
         private void Stadsgebied_Dropdown_SelectedIndexChanged(object sender, EventArgs e)
@@ -96,11 +122,6 @@ namespace VeiligWonenLoginUI
             Int32.TryParse(Stadsgebied_Dropdown.SelectedValue.ToString(), out val);
             string query = "SELECT WID , Naam,GID from wijk WHERE GID = " + val;
             ChildAddHuis.fillcombo(Wijk_Dropdown, query, "Naam", "WID");
-
-        }
-
-        private void Wijk_Dropdown_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
 
@@ -142,11 +163,25 @@ namespace VeiligWonenLoginUI
 
         }
 
+        public void FillPercentages()
+        {
+            MySqlDataAdapter sda = new MySqlDataAdapter(@"select subcategoriecriminaliteit.Per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_Dropdown.Text+"'and subcategoriecriminaliteit.Naam = 'Woninginbraak' ",con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            Woninginbraak_perc.Text = dt.Rows[0][0].ToString();
+        }
+
         private void Stadsgebied_Dropdown_MouseDown(object sender, MouseEventArgs e)
         {
             string query = "SELECT stadsgebied.GID , stadsgebied.Naam from stadsgebied";
             ChildAddHuis.fillcombo(Stadsgebied_Dropdown, query, "Naam", "GID");
             Stadsgebied_Dropdown_SelectedIndexChanged(null, null);
+        }
+
+        private void ChildMainUI_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

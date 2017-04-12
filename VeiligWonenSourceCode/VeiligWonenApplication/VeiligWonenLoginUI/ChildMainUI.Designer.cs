@@ -28,10 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GoogleMapsControl = new GMap.NET.WindowsForms.GMapControl();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Stadsgebied_Dropdown = new System.Windows.Forms.ComboBox();
             this.Wijk_Dropdown = new System.Windows.Forms.ComboBox();
             this.Straat_TextBox = new System.Windows.Forms.TextBox();
@@ -41,13 +44,24 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.PrijsTot_Textbox = new System.Windows.Forms.TextBox();
-            this.PrijsVan_Textbox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.KoopHuur_Dropdown = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Zoek_Button = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.Data_Tabcontrol = new System.Windows.Forms.TabControl();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.label8 = new System.Windows.Forms.Label();
+            this.Woninginbraak_perc = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.Autoinbraak_perc = new System.Windows.Forms.Label();
+            this.tabPage2.SuspendLayout();
+            this.Data_Tabcontrol.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
             this.SuspendLayout();
             // 
             // GoogleMapsControl
@@ -76,36 +90,6 @@
             this.GoogleMapsControl.TabIndex = 0;
             this.GoogleMapsControl.Zoom = 0D;
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(850, 0);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(452, 842);
-            this.tabControl1.TabIndex = 1;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(444, 813);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(444, 813);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // Stadsgebied_Dropdown
             // 
             this.Stadsgebied_Dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -127,7 +111,6 @@
             this.Wijk_Dropdown.Name = "Wijk_Dropdown";
             this.Wijk_Dropdown.Size = new System.Drawing.Size(232, 33);
             this.Wijk_Dropdown.TabIndex = 3;
-            this.Wijk_Dropdown.SelectedIndexChanged += new System.EventHandler(this.Wijk_Dropdown_SelectedIndexChanged);
             // 
             // Straat_TextBox
             // 
@@ -188,44 +171,29 @@
             // PrijsTot_Textbox
             // 
             this.PrijsTot_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrijsTot_Textbox.Location = new System.Drawing.Point(737, 88);
+            this.PrijsTot_Textbox.Location = new System.Drawing.Point(638, 91);
             this.PrijsTot_Textbox.Name = "PrijsTot_Textbox";
             this.PrijsTot_Textbox.Size = new System.Drawing.Size(82, 32);
             this.PrijsTot_Textbox.TabIndex = 10;
-            // 
-            // PrijsVan_Textbox
-            // 
-            this.PrijsVan_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrijsVan_Textbox.Location = new System.Drawing.Point(566, 88);
-            this.PrijsVan_Textbox.Name = "PrijsVan_Textbox";
-            this.PrijsVan_Textbox.Size = new System.Drawing.Size(82, 32);
-            this.PrijsVan_Textbox.TabIndex = 11;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(444, 94);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 23);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Prijs  van :";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(665, 92);
+            this.label6.Location = new System.Drawing.Point(531, 97);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 23);
+            this.label6.Size = new System.Drawing.Size(101, 23);
             this.label6.TabIndex = 13;
-            this.label6.Text = "tot :";
+            this.label6.Text = "Prijs tot :";
             // 
             // KoopHuur_Dropdown
             // 
             this.KoopHuur_Dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.KoopHuur_Dropdown.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KoopHuur_Dropdown.FormattingEnabled = true;
+            this.KoopHuur_Dropdown.Items.AddRange(new object[] {
+            "Te Koop",
+            "Te Huur"});
             this.KoopHuur_Dropdown.Location = new System.Drawing.Point(638, 25);
             this.KoopHuur_Dropdown.Name = "KoopHuur_Dropdown";
             this.KoopHuur_Dropdown.Size = new System.Drawing.Size(181, 33);
@@ -251,6 +219,119 @@
             this.Zoek_Button.UseVisualStyleBackColor = true;
             this.Zoek_Button.Click += new System.EventHandler(this.Zoek_Button_Click);
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.chart1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(444, 813);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Geweldpleging";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // Data_Tabcontrol
+            // 
+            this.Data_Tabcontrol.Controls.Add(this.tabPage1);
+            this.Data_Tabcontrol.Controls.Add(this.tabPage2);
+            this.Data_Tabcontrol.Location = new System.Drawing.Point(850, -4);
+            this.Data_Tabcontrol.Multiline = true;
+            this.Data_Tabcontrol.Name = "Data_Tabcontrol";
+            this.Data_Tabcontrol.SelectedIndex = 0;
+            this.Data_Tabcontrol.Size = new System.Drawing.Size(452, 842);
+            this.Data_Tabcontrol.TabIndex = 1;
+            // 
+            // chart1
+            // 
+            this.chart1.BorderSkin.BackColor = System.Drawing.Color.Black;
+            this.chart1.BorderSkin.BorderWidth = 4;
+            chartArea4.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chart1.Legends.Add(legend4);
+            this.chart1.Location = new System.Drawing.Point(-4, 0);
+            this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SemiTransparent;
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.chart1.Series.Add(series4);
+            this.chart1.Size = new System.Drawing.Size(436, 300);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.Autoinbraak_perc);
+            this.tabPage1.Controls.Add(this.label10);
+            this.tabPage1.Controls.Add(this.Woninginbraak_perc);
+            this.tabPage1.Controls.Add(this.label8);
+            this.tabPage1.Controls.Add(this.chart2);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(444, 813);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Inbraak";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // chart2
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart2.Legends.Add(legend3);
+            this.chart2.Location = new System.Drawing.Point(-4, 0);
+            this.chart2.Name = "chart2";
+            this.chart2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Fire;
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chart2.Series.Add(series3);
+            this.chart2.Size = new System.Drawing.Size(452, 300);
+            this.chart2.TabIndex = 1;
+            this.chart2.Text = "chart2";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(10, 347);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(149, 20);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "% Woninginbraak :";
+            // 
+            // Woninginbraak_perc
+            // 
+            this.Woninginbraak_perc.AutoSize = true;
+            this.Woninginbraak_perc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Woninginbraak_perc.Location = new System.Drawing.Point(176, 347);
+            this.Woninginbraak_perc.Name = "Woninginbraak_perc";
+            this.Woninginbraak_perc.Size = new System.Drawing.Size(42, 20);
+            this.Woninginbraak_perc.TabIndex = 3;
+            this.Woninginbraak_perc.Text = "perc";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(10, 389);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(133, 20);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "% Auto-inbraak :";
+            // 
+            // Autoinbraak_perc
+            // 
+            this.Autoinbraak_perc.AutoSize = true;
+            this.Autoinbraak_perc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Autoinbraak_perc.Location = new System.Drawing.Point(176, 389);
+            this.Autoinbraak_perc.Name = "Autoinbraak_perc";
+            this.Autoinbraak_perc.Size = new System.Drawing.Size(42, 20);
+            this.Autoinbraak_perc.TabIndex = 5;
+            this.Autoinbraak_perc.Text = "perc";
+            // 
             // ChildMainUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -260,8 +341,6 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.KoopHuur_Dropdown);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.PrijsVan_Textbox);
             this.Controls.Add(this.PrijsTot_Textbox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -271,13 +350,19 @@
             this.Controls.Add(this.Straat_TextBox);
             this.Controls.Add(this.Wijk_Dropdown);
             this.Controls.Add(this.Stadsgebied_Dropdown);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.Data_Tabcontrol);
             this.Controls.Add(this.GoogleMapsControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ChildMainUI";
             this.Text = "ChildMainUI";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ChildMainUI_FormClosed);
             this.Load += new System.EventHandler(this.ChildMainUI_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.Data_Tabcontrol.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -286,9 +371,6 @@
         #endregion
 
         private GMap.NET.WindowsForms.GMapControl GoogleMapsControl;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.ComboBox Stadsgebied_Dropdown;
         private System.Windows.Forms.ComboBox Wijk_Dropdown;
         private System.Windows.Forms.TextBox Straat_TextBox;
@@ -298,11 +380,18 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox PrijsTot_Textbox;
-        private System.Windows.Forms.TextBox PrijsVan_Textbox;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox KoopHuur_Dropdown;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button Zoek_Button;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.TabControl Data_Tabcontrol;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
+        private System.Windows.Forms.Label Autoinbraak_perc;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label Woninginbraak_perc;
+        private System.Windows.Forms.Label label8;
     }
 }
