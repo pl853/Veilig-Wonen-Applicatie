@@ -70,6 +70,7 @@
     <Reference Include="GMap.NET.WindowsPresentation, Version=1.7.9.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
       <HintPath>..\packages\GMap.NET.Windows.1.7.9\lib\net40\GMap.NET.WindowsPresentation.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -111,7 +112,6 @@
     <Compile Include="Child_AddHuis.Designer.cs">
       <DependentUpon>Child_AddHuis.cs</DependentUpon>
     </Compile>
-    <Compile Include="DBConnector.cs" />
     <Compile Include="Parrent_MainUI.cs">
       <SubType>Form</SubType>
     </Compile>

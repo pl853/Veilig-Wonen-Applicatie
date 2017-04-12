@@ -54,4 +54,5 @@ C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWo
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\System.Data.SQLite.xml
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\System.Data.SQLite.dll.config
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenLoginUI.ChildMainUI.resources
-C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\obj\Debug\VeiligWonenApplication.csproj.VeiligWonenLoginUI.exe.config
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\MySql.Data.dll
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenSourceCode\VeiligWonenApplication\VeiligWonenLoginUI\bin\Debug\MySql.Data.xml

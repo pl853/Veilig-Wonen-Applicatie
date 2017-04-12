@@ -324,11 +324,9 @@
             // 
             // HID_Textbox
             // 
-            this.HID_Textbox.Enabled = false;
             this.HID_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HID_Textbox.Location = new System.Drawing.Point(225, 57);
             this.HID_Textbox.Name = "HID_Textbox";
-            this.HID_Textbox.ReadOnly = true;
             this.HID_Textbox.Size = new System.Drawing.Size(98, 32);
             this.HID_Textbox.TabIndex = 19;
             // 

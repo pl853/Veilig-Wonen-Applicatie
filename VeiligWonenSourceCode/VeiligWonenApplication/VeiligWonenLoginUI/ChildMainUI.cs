@@ -11,12 +11,13 @@ using GMap.NET;
 using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 
 namespace VeiligWonenLoginUI
 {
     public partial class ChildMainUI : Form
     {
+        MySqlConnection con = new MySqlConnection();
         GMarkerGoogle marker;
         GMapOverlay markerOverlay;
         DataTable dt;
@@ -27,6 +28,7 @@ namespace VeiligWonenLoginUI
 
         private void ChildMainUI_Load(object sender, EventArgs e)
         {
+            con.ConnectionString = "server = sql11.freemysqlhosting.net; database=sql11168746; user=sql11168746; password=7u21Rl2GCK";
             GoogleMapsControl.DragButton = MouseButtons.Left;
             GoogleMapsControl.CanDragMap = true;
             GoogleMapsControl.MapProvider = GMapProviders.GoogleMap;
@@ -35,19 +37,14 @@ namespace VeiligWonenLoginUI
             GoogleMapsControl.MaxZoom = 24;
             GoogleMapsControl.Zoom = 11;
 
-            List<string> huizen = new List<string>();
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
-            {
+                List<string> huizen = new List<string>();
                 DataTable tap = new DataTable();
-                new SqlDataAdapter(@"SELECT * FROM Huis where Stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and Wijk = '" + Wijk_Dropdown.Text + "'", connection.ConnectionString).Fill(tap);
+                new MySqlDataAdapter(@"SELECT * FROM huis where Stadsgebied = '" + Stadsgebied_Dropdown.Text + "' and Wijk = '" + Wijk_Dropdown.Text + "'", con.ConnectionString).Fill(tap);
                 huizen = tap.Rows.OfType<DataRow>().Select(dr => dr.Field<string>("Straat")).ToList();
-            }
 
             foreach (var huis in huizen)
             {
-                using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
-                {
-                    SqlDataAdapter sda = new SqlDataAdapter(@"Select Straat,Lat,Long From Huis where Wijk = '"+Wijk_Dropdown.Text+"' ",connection.ConnectionString);
+                    MySqlDataAdapter sda = new MySqlDataAdapter(@"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`FROM `sql11168746`.`huis` where huis.wijk  = '" + Wijk_Dropdown.Text+"' ",con.ConnectionString);
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
 
@@ -59,7 +56,6 @@ namespace VeiligWonenLoginUI
                         double Lat = double.Parse(MyDoubleLat);
                         CreateMarker(i[0].ToString(), Long, Lat);
                     }
-                }
             }
 
         }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +15,7 @@ namespace VeiligWonenLoginUI
     public partial class LoginUI : Form
     {
         public int AttemptCount = 3;
+        MySqlConnection con = new MySqlConnection();
 
         public LoginUI()
         {
@@ -23,13 +24,10 @@ namespace VeiligWonenLoginUI
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            
-            using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(DBConnector.ConnectionValue("VeiligWonenDataBase")))
-            {
-                DataTable dt = new System.Data.DataTable();
-
-                SqlDataAdapter sda = new SqlDataAdapter(@"SELECT Role FROM [LoginAdmin] Where UserName = '" + UserNameText.Text + 
-                    "' and Password = '" + PasswordText.Text + "'", connection.ConnectionString);
+            con.ConnectionString = "server = sql11.freemysqlhosting.net; database=sql11168746; user=sql11168746; password=7u21Rl2GCK";
+            DataTable dt = new DataTable();
+            MySqlDataAdapter sda = new MySqlDataAdapter(@"SELECT Role FROM login Where UserName = '" + UserNameText.Text + 
+            "' and Password = '" + PasswordText.Text + "'",con.ConnectionString);
 
                 sda.Fill(dt);
 
@@ -48,7 +46,6 @@ namespace VeiligWonenLoginUI
                     MessageBox.Show("Invalid Username or Password. You have " + AttemptCount + " attempts Left.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
-            } 
                 if (AttemptCount == 0)
                 {
                     Application.Exit();
