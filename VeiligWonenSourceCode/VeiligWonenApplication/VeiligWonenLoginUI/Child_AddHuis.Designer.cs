@@ -55,12 +55,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Search_Button = new System.Windows.Forms.Button();
-            this.HID_Textbox = new System.Windows.Forms.TextBox();
-            this.HID_Lable = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.LatTextBox = new System.Windows.Forms.TextBox();
             this.LongTextBox = new System.Windows.Forms.TextBox();
+            this.HID_Textbox = new System.Windows.Forms.TextBox();
+            this.HID_Lable = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_HuisResults)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,6 +74,7 @@
             this.Gebied_Dropdown.Size = new System.Drawing.Size(229, 33);
             this.Gebied_Dropdown.TabIndex = 0;
             this.Gebied_Dropdown.SelectedIndexChanged += new System.EventHandler(this.Gebied_Dropdown_SelectedIndexChanged);
+            this.Gebied_Dropdown.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Gebied_Dropdown_MouseDown);
             // 
             // Wijk_Dropdown
             // 
@@ -322,24 +323,6 @@
             this.Search_Button.UseVisualStyleBackColor = true;
             this.Search_Button.Click += new System.EventHandler(this.Search_Button_Click);
             // 
-            // HID_Textbox
-            // 
-            this.HID_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HID_Textbox.Location = new System.Drawing.Point(225, 57);
-            this.HID_Textbox.Name = "HID_Textbox";
-            this.HID_Textbox.Size = new System.Drawing.Size(98, 32);
-            this.HID_Textbox.TabIndex = 19;
-            // 
-            // HID_Lable
-            // 
-            this.HID_Lable.AutoSize = true;
-            this.HID_Lable.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HID_Lable.Location = new System.Drawing.Point(19, 60);
-            this.HID_Lable.Name = "HID_Lable";
-            this.HID_Lable.Size = new System.Drawing.Size(66, 25);
-            this.HID_Lable.TabIndex = 20;
-            this.HID_Lable.Text = "HID :";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -371,6 +354,25 @@
             this.LongTextBox.Name = "LongTextBox";
             this.LongTextBox.Size = new System.Drawing.Size(100, 22);
             this.LongTextBox.TabIndex = 24;
+            // 
+            // HID_Textbox
+            // 
+            this.HID_Textbox.Enabled = false;
+            this.HID_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HID_Textbox.Location = new System.Drawing.Point(225, 57);
+            this.HID_Textbox.Name = "HID_Textbox";
+            this.HID_Textbox.Size = new System.Drawing.Size(98, 32);
+            this.HID_Textbox.TabIndex = 19;
+            // 
+            // HID_Lable
+            // 
+            this.HID_Lable.AutoSize = true;
+            this.HID_Lable.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HID_Lable.Location = new System.Drawing.Point(19, 60);
+            this.HID_Lable.Name = "HID_Lable";
+            this.HID_Lable.Size = new System.Drawing.Size(66, 25);
+            this.HID_Lable.TabIndex = 20;
+            this.HID_Lable.Text = "HID :";
             // 
             // Child_AddHuis
             // 
@@ -441,11 +443,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_KoopHuur;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_Prijs;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_Description;
-        private System.Windows.Forms.TextBox HID_Textbox;
-        private System.Windows.Forms.Label HID_Lable;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox LatTextBox;
         private System.Windows.Forms.TextBox LongTextBox;
+        private System.Windows.Forms.TextBox HID_Textbox;
+        private System.Windows.Forms.Label HID_Lable;
     }
 }

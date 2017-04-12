@@ -103,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1730, 844);
+            this.ClientSize = new System.Drawing.Size(1561, 844);
             this.Controls.Add(this.Name_Lable);
             this.Controls.Add(this.LoggedInAs_Lable);
             this.Controls.Add(this.menuStrip);

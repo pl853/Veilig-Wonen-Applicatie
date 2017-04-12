@@ -24,36 +24,43 @@ namespace VeiligWonenLoginUI
 
         private void Child_AddHuis_Load(object sender, EventArgs e)
         {
-            string query = "SELECT stadsgebied.GID , stadsgebied.Naam from stadsgebied";  //Aanmaken van invulling voor Combobox
-            fillcombo(Gebied_Dropdown, query, "Naam", "GID");            //Aanmaken van invulling voor Combobox
-            Gebied_Dropdown_SelectedIndexChanged(null, null);            //Aanmaken van invulling voor Combobox
-            LoadGridData(@"select * From huis where huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and huis.Wijk = '" + Wijk_Dropdown.Text + "'");
+
 
         }
 
         private void Button_Add_Click(object sender, EventArgs e)
         {
-            con.Execute(@"INSERT INTO `sql11168746`.`huis`(`StadsGebied`,`Wijk`,`Straat`,`Huisnummer`,`KoopHuur`,`Prijs`,`Omschrijving`,`Lat`,`Long`) VALUES('" + Gebied_Dropdown.Text + "','" + Wijk_Dropdown.Text + "','" + Straat_TextBox.Text + "','" +Huisnum_Textbox.Text + "','" + HuurKoop_Textbox.Text+ "','" + Prijs_Textbox.Text + "','" + Omschrijving_TextBox.Text+ "','" + LatTextBox.Text + "','" + LongTextBox.Text +"')", con.ConnectionString);
+            con.Execute(@"INSERT INTO `sql11168746`.`huis`(`StadsGebied`,`Wijk`,`Straat`,`Huisnummer`,`KoopHuur`,`Prijs`,`Omschrijving`,`Lat`,`Long`) VALUES('" + Gebied_Dropdown.Text + "','" + Wijk_Dropdown.Text + "','" + Straat_TextBox.Text + "','" + Huisnum_Textbox.Text + "','" + HuurKoop_Textbox.Text + "','" + Prijs_Textbox.Text + "','" + Omschrijving_TextBox.Text + "','" + LatTextBox.Text + "','" + LongTextBox.Text + "')", con.ConnectionString);
             LoadGridData(@"select * From huis where huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and huis.Wijk = '" + Wijk_Dropdown.Text + "'");
 
         }
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            con.Execute(@"Update Huis Set HID = '" + HID_Textbox.Text + "',StadsGebied = '" + Gebied_Dropdown.Text + "',Wijk ='" + Wijk_Dropdown.Text + "',Straat = '" + Straat_TextBox.Text + "',HuisNummer = '" + Huisnum_Textbox.Text + "',KoopHuur ='" + HuurKoop_Textbox.Text + "',Prijs = '" + Prijs_Textbox.Text + "',Omschrijving = '" + Omschrijving_TextBox.Text + "', Lat = '"+ LatTextBox.Text+"',Long = '"+LongTextBox.Text+"' where HID = '" + HID_Textbox.Text + "'", con.ConnectionString);
+            con.Execute(@"Update Huis Set HID = '" + HID_Textbox.Text + "',StadsGebied = '" + Gebied_Dropdown.Text + "',Wijk ='" + Wijk_Dropdown.Text + "',Straat = '" + Straat_TextBox.Text + "',HuisNummer = '" + Huisnum_Textbox.Text + "',KoopHuur ='" + HuurKoop_Textbox.Text + "',Prijs = '" + Prijs_Textbox.Text + "',Omschrijving = '" + Omschrijving_TextBox.Text + "', Lat = '" + LatTextBox.Text + "',Long = '" + LongTextBox.Text + "' where HID = '" + HID_Textbox.Text + "'", con.ConnectionString);
             MessageBox.Show("Succesfully Updated");
-            LoadGridData(@"select * From huis 
+            LoadGridData(@"select * 
+                                    From huis 
                                     where huis.StadsGebied = '" + Gebied_Dropdown.Text + "' " +
                                     "and huis.Wijk = '" + Wijk_Dropdown.Text + "'");
         }
 
         private void Search_Button_Click(object sender, EventArgs e)
         {
-            LoadGridData(@"select * From Huis where huis.StadsGebied = '" + Gebied_Dropdown.Text + "' " +
-                "and huis.Wijk = '" + Wijk_Dropdown.Text + "'" +
-                "and huis.HuisNummer = '" + Huisnum_Textbox.Text + "'" +
-                "or huis.Straat = '" + Straat_TextBox.Text + "'" +
-                "or huis.Prijs = '" + Prijs_Textbox.Text + "'");
+
+            if (Straat_TextBox.Text != "" && Huisnum_Textbox.Text != "")
+            {
+                LoadGridData(@"SELECT `huis`.`HID`,
+                            `huis`.`StadsGebied`,
+                            `huis`.`Wijk`,
+                            `huis`.`Straat`,
+                            `huis`.`Huisnummer`,
+                            `huis`.`KoopHuur`,
+                            `huis`.`Prijs`,
+                            `huis`.`Omschrijving`
+                             FROM `sql11168746`.`huis`
+                             where huis.Straat = '" + Straat_TextBox.Text + "' and huis.Huisnummer = '" + Huisnum_Textbox.Text + "'");
+            }
         }
 
         private void Gebied_Dropdown_SelectedIndexChanged(object sender, EventArgs e)
@@ -61,7 +68,7 @@ namespace VeiligWonenLoginUI
             int val;
             dataGridView_HuisResults.Rows.Clear();
             Int32.TryParse(Gebied_Dropdown.SelectedValue.ToString(), out val);
-            string query = "SELECT WID , Naam,GID from wijk WHERE GID = "+val;
+            string query = "SELECT WID , Naam,GID from wijk WHERE GID = " + val;
             fillcombo(Wijk_Dropdown, query, "Naam", "WID");
         }
 
@@ -83,23 +90,23 @@ namespace VeiligWonenLoginUI
 
         public void LoadGridData(string query)
         {
-                dataGridView_HuisResults.Rows.Clear();
-                MySqlDataAdapter sda = new MySqlDataAdapter(query, con);
-                DataTable dt = new DataTable();
-                sda.Fill(dt);
+            dataGridView_HuisResults.Rows.Clear();
+            MySqlDataAdapter sda = new MySqlDataAdapter(query, con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
 
-                foreach (DataRow item in dt.Rows)
-                {
-                    int n = dataGridView_HuisResults.Rows.Add();
-                    dataGridView_HuisResults.Rows[n].Cells[0].Value = item["HID"].ToString();
-                    dataGridView_HuisResults.Rows[n].Cells[1].Value = item["StadsGebied"].ToString();
-                    dataGridView_HuisResults.Rows[n].Cells[2].Value = item["Wijk"].ToString();
-                    dataGridView_HuisResults.Rows[n].Cells[3].Value = item["Straat"].ToString();
-                    dataGridView_HuisResults.Rows[n].Cells[4].Value = item["HuisNummer"].ToString();
-                    dataGridView_HuisResults.Rows[n].Cells[5].Value = item["KoopHuur"].ToString();
-                    dataGridView_HuisResults.Rows[n].Cells[6].Value = item["Prijs"].ToString();
-                    dataGridView_HuisResults.Rows[n].Cells[7].Value = item["Omschrijving"].ToString();
-                }
+            foreach (DataRow item in dt.Rows)
+            {
+                int n = dataGridView_HuisResults.Rows.Add();
+                dataGridView_HuisResults.Rows[n].Cells[0].Value = item["HID"].ToString();
+                dataGridView_HuisResults.Rows[n].Cells[1].Value = item["StadsGebied"].ToString();
+                dataGridView_HuisResults.Rows[n].Cells[2].Value = item["Wijk"].ToString();
+                dataGridView_HuisResults.Rows[n].Cells[3].Value = item["Straat"].ToString();
+                dataGridView_HuisResults.Rows[n].Cells[4].Value = item["HuisNummer"].ToString();
+                dataGridView_HuisResults.Rows[n].Cells[5].Value = item["KoopHuur"].ToString();
+                dataGridView_HuisResults.Rows[n].Cells[6].Value = item["Prijs"].ToString();
+                dataGridView_HuisResults.Rows[n].Cells[7].Value = item["Omschrijving"].ToString();
+            }
 
 
 
@@ -130,6 +137,12 @@ namespace VeiligWonenLoginUI
 
             LoadGridData(@"select * From huis where huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and huis.Wijk = '" + Wijk_Dropdown.Text + "'");
         }
-
+        private void Gebied_Dropdown_MouseDown(object sender, MouseEventArgs e)
+        {
+            string query = "SELECT stadsgebied.GID , stadsgebied.Naam from stadsgebied";  //Aanmaken van invulling voor Combobox
+            fillcombo(Gebied_Dropdown, query, "Naam", "GID");            //Aanmaken van invulling voor Combobox
+            Gebied_Dropdown_SelectedIndexChanged(null, null);            //Aanmaken van invulling voor Combobox
+            LoadGridData(@"select * From huis where huis.StadsGebied = '" + Gebied_Dropdown.Text + "' and huis.Wijk = '" + Wijk_Dropdown.Text + "'");
+        }
     }
 }
