@@ -1,0 +1,636 @@
+IJsselmonde;;;;;;;
+
+
+Diefstal;;;;;;;
+;;buurtprobleem fietsendiefstal;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;5,6;9,1;6,1;6,5;8
+;;Lombardijen;13,7;18,6;18,7;17,5;14,6
+;;Groot IJsselmonde;14,4;16,4;19,8;15,8;19,7
+;;Beverwaard;24;18,2;21,7;18,5;22,1
+;;IJsselmonde;15,4;16,6;18,6;15,2;17,8
+;;Rotterdam;18,7;18,2;20;18,5;18,2
+
+;;buurtprobleem diefstal uit de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;11,4;15;12,5;14,6;12
+;;Lombardijen;9,1;13,4;11,3;11,2;11,1
+;;Groot IJsselmonde;13,7;16,2;14,7;12,2;14,3
+;;Beverwaard;15,9;18,1;20,1;15,3;23,5
+;;IJsselmonde;12,8;15,8;14,8;13,3;15,2
+;;Rotterdam;16,6;15,8;15,4;15,7;14,1
+
+;;buurtprobleem beschadiging aan of diefstal vanaf de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;8,5;15;13,1;11,5;9,6
+;;Lombardijen;11,9;19,3;19,7;15,4;16,3
+;;Groot IJsselmonde;10,7;16,1;19,4;16,5;16,1
+;;Beverwaard;19,5;24;24,9;23,6;32,6
+;;IJsselmonde;12,7;18,4;20;17,5;18,9
+;;Rotterdam;16,9;16,8;18,2;18,2;17,2
+
+;;slachtofferschap autodiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0,5;1,6;0,7;0,3;0,4
+;;Lombardijen;0;0;0,8;1,1;0,7
+;;Groot IJsselmonde;0;0,8;0,5;0;1,1
+;;Beverwaard;0,5;0;1,3;0,8;1,4
+;;IJsselmonde;0,2;0,5;0,8;0,3;1
+;;Rotterdam;0,7;0,5;1,2;1;0,6
+
+;;slachtofferschap diefstal uit de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;1,6;2,7;1;3;3
+;;Lombardijen;1,6;10,8;5,2;2,6;5,1
+;;Groot IJsselmonde;6,9;4;3,6;2,2;3,2
+;;Beverwaard;3,8;6,3;3,8;4,1;2,9
+;;IJsselmonde;3,8;6;3,6;2,9;3,5
+;;Rotterdam;7,1;6,8;5,8;4,9;4
+
+;;slachtofferschap diefstal vanaf de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;15,3;28,4;18,7;12,8;11,6
+;;Lombardijen;18,7;36;24,7;12,3;16,8
+;;Groot IJsselmonde;28,7;19,8;21,4;13,7;16,1
+;;Beverwaard;24,3;40,6;24,6;14,6;16,7
+;;IJsselmonde;24,1;29,7;22,4;13,7;15,8
+;;Rotterdam;29,6;30,5;25,2;15,7;14,7
+
+;;slachtofferschap fietsendiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0,9;1,7;3,9;2;2
+;;Lombardijen;3,9;7,3;3,6;3,9;2,2
+;;Groot IJsselmonde;1;3;3,1;3;2,4
+;;Beverwaard;5,1;6,6;3,5;2,3;3;;;;;
+;;IJsselmonde;2,7;4,7;3,4;2,7;2,5;;;;;
+;;Rotterdam;5,3;5,2;9,1;3,9;5;;;;;
+
+;;slachtofferschap overige diefstal;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;1,7;1,3;0,9;4;2,4;;;;;
+;;Lombardijen;0,6;6,4;2;4,1;4,5;;;;;
+;;Groot IJsselmonde;2,9;2,5;4,2;2,8;3,8;;;;;
+;;Beverwaard;4,4;5,2;6,7;5,7;4,9;;;;;
+;;IJsselmonde;2,6;3,8;3,9;3,8;4;;;;;
+;;Rotterdam;2,6;3,7;3,3;3;3,2;;;;;
+
+;;1.2.1 aangiften diefstal uit/vanaf motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;163;92;121;173;99;29,4;16,4;21;29,5;17,1
+;;Lombardijen;176;136;147;108;178;12,5;10;11,2;8,3;13,4
+;;Groot IJsselmonde;302;285;257;265;271;11,3;10,5;9,5;9,9;10
+;;Beverwaard;88;174;121;150;99;7,1;14,1;9,9;12,3;8,2
+;;IJsselmonde;729;687;646;696;647;12,4;11,7;11,1;12;11,1
+;;Rotterdam;9249;8086;9744;8917;7615;15,8;13,9;16,8;15,3;12,8
+
+;;1.2.2 aangiften diefstal van motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;27;22;25;23;17;4,9;3,9;4,3;3,9;2,9
+;;Lombardijen;75;37;29;21;20;5,3;2,7;2,2;1,6;1,5
+;;Groot IJsselmonde;103;84;73;79;53;3,9;3,1;2,7;2,9;1,9
+;;Beverwaard;25;33;32;23;25;2;2,7;2,6;1,9;2,1
+;;IJsselmonde;230;176;159;146;115;3,9;3;2,7;2,5;2
+;;Rotterdam;1679;1423;1323;1411;1173;2,9;2,4;2,3;2,4;2
+
+;;1.2.3 aangiften diefstal van brom-, snor-, fietsen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;21;24;28;25;24;3,8;4,3;4,9;4,3;4,1
+;;Lombardijen;122;132;130;70;75;8,6;9,7;9,9;5,4;5,6
+;;Groot IJsselmonde;137;166;154;214;184;5,1;6,1;5,7;8;6,8
+;;Beverwaard;54;40;28;34;33;4,3;3,2;2,3;2,8;2,7
+;;IJsselmonde;334;362;340;343;316;5,7;6,2;5,9;5,9;5,4
+;;Rotterdam;3983;3982;4927;4108;4438;6,8;6,8;8,5;7;7,5
+
+;;1.2.4 aangiften zakkenrollerij;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;26;15;18;12;30;4,7;2,7;3,1;2;5,2
+;;Lombardijen;18;18;11;22;22;1,3;1,3;0,8;1,7;1,7
+;;Groot IJsselmonde;51;61;92;96;68;1,9;2,3;3,4;3,6;2,5
+;;Beverwaard;8;8;6;7;10;0,6;0,7;0,5;0,6;0,8
+;;IJsselmonde;103;102;127;137;130;1,8;1,7;2,2;2,4;2,2
+;;Rotterdam;2456;2570;2564;1996;2138;4,2;4,4;4,4;3,4;3,6
+
+;;1.2.5 aangiften diefstal af/uit/van overige voertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;14;12;5;8;22;2,5;2,1;0,9;1,4;3,8
+;;Lombardijen;16;23;26;23;14;1,1;1,7;2;1,8;1,1
+;;Groot IJsselmonde;25;35;36;44;23;0,9;1,3;1,3;1,6;0,8
+;;Beverwaard;12;9;13;14;17;1;0,7;1,1;1,1;1,4
+;;IJsselmonde;67;79;80;89;76;1,1;1,3;1,4;1,5;1,3
+;;Rotterdam;682;850;834;780;729;1,2;1,5;1,4;1,3;1,2
+
+;;2.5.2 aangiften winkeldiefstal;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;21;12;12;6;5;807,7;153,9;148,1;69,8;61
+;;Lombardijen;12;10;14;9;6;187,5;101;148,9;105,9;73,2
+;;Groot IJsselmonde;40;27;28;37;14;289,9;134,3;142,9;180,5;70,4
+;;Beverwaard;13;27;11;7;3;464,3;658,5;224,5;148,9;65,2
+;;IJsselmonde;86;76;65;59;28;335,9;181,4;154,8;139,5;68,5
+;;Rotterdam;1377;1227;1004;1050;775;263,1;178,9;147,7;156,6;122
+
+;;1.6.2 aangiften overige vermogensdelicten;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;68;63;84;72;104;12,3;11,3;14,6;12,3;17,9
+;;Lombardijen;92;92;94;87;127;6,5;6,7;7,2;6,7;9,5
+;;Groot IJsselmonde;201;202;211;252;300;7,5;7,5;7,8;9,4;11
+;;Beverwaard;64;51;48;54;75;5,1;4,1;3,9;4,4;6,2
+;;IJsselmonde;425;408;437;465;606;7,2;7;7,5;8;10,4
+;;Rotterdam;6743;6410;6346;6196;7209;11,5;11;10,9;10,6;12,1
+
+Drugsoverlast;;;;;;;;;;;;
+
+;;buurtprobleem drugsoverlast;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;1,7;4,4;2,2;7,1;4,6;;;;;
+;;Lombardijen;2,3;9;12,2;7;8,3;;;;;
+;;Groot IJsselmonde;5,1;4,4;6,4;6,7;5,6;;;;;
+;;Beverwaard;6,3;9,1;11,7;8,4;22,5;;;;;
+;;IJsselmonde;4,4;6,4;8,4;7,2;9,6;;;;;
+;;Rotterdam;8,2;6,7;9,9;10,2;10,1;;;;;
+
+;;2.1.1 meldingen drugsoverlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;% vaak;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;6;7;7;7;1;1,1;1,3;1,2;1,2;0,2
+;;Lombardijen;12;10;10;12;13;0,8;0,7;0,8;0,9;1
+;;Groot IJsselmonde;22;13;14;26;21;0,8;0,5;0,5;1;0,8
+;;Beverwaard;8;12;10;11;12;0,6;1;0,8;0,9;1
+;;IJsselmonde;48;42;41;56;47;0,8;0,7;0,7;1;0,8
+;;Rotterdam;1242;1135;1071;1022;726;2,1;2;1,8;1,7;1,2
+
+Geweld;;;;;;;;;;;;
+
+;;buurtprobleem bedreiging;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;0;0,6;0,5;2,8;2,1;;;;;
+;;Lombardijen;1,7;5,1;5,4;5;5,9;;;;;
+;;Groot IJsselmonde;4,8;4;6,1;4,6;8,3;;;;;
+;;Beverwaard;4,6;6,4;6,8;8,7;15,4;;;;;
+;;IJsselmonde;3,5;4,5;5,5;5,4;8,6
+;;Rotterdam;3,3;3,1;4,5;4,8;5,8
+
+;;buurtprobleem geweldsdelicten;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0;2,6;0,5;1,7;2,1
+;;Lombardijen;0,6;3,2;3,6;4;5,5
+;;Groot IJsselmonde;2,4;4,6;5,7;5,5;5,8
+;;Beverwaard;6,2;9,1;6,7;7,7;32
+;;IJsselmonde;2,5;5,1;4,9;5,4;10,8
+;;Rotterdam;3,9;3,7;4,6;4,7;5,9
+
+;;buurtprobleem tasjesroof;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0;0;1,1;0,4;0,8
+;;Lombardijen;1,1;3,8;4,4;2,7;3,4
+;;Groot IJsselmonde;4,7;2,5;5,7;4,2;8,1
+;;Beverwaard;2,9;3,2;2,6;2,4;8,4
+;;IJsselmonde;3;2,7;4,3;3,1;6,4
+;;Rotterdam;3,2;2,8;3,4;3;3,4
+
+;;slachtofferschap tasjesroof met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0;0;0;0,2;0
+;;Lombardijen;0;0;1,3;0;0,2
+;;Groot IJsselmonde;0,8;0,6;0,5;0,1;0,2
+;;Beverwaard;0,6;0,6;0,5;0;0,2
+;;IJsselmonde;0,5;0,4;0,6;0,1;0,2
+;;Rotterdam;0,5;0,5;0,3;0,2;0,2
+
+;;slachtofferschap tasjesroof zonder geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0,6;0;1,2;1,3;0,7
+;;Lombardijen;0,5;1,3;0,9;0,9;1,9
+;;Groot IJsselmonde;0,8;0,6;1,1;1,6;1,1
+;;Beverwaard;0,6;0,6;0,4;0,6;1,3
+;;IJsselmonde;0,6;0,7;0,9;1,3;1,3
+;;Rotterdam;1,3;1,3;1,3;1,2;1,2
+
+;;slachtofferschap bedreiging met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;1,1;2;3,7;1,8;2,7
+;;Lombardijen;1,1;3,2;3,1;3,6;1,9
+;;Groot IJsselmonde;1,7;1,6;1,9;3,2;3,7
+;;Beverwaard;1,7;2;3,6;4,5;2,4
+;;IJsselmonde;1,5;2,1;2,7;3;2,9
+;;Rotterdam;2,8;2,6;2,8;2,9;3,1
+
+;;slachtofferschap mishandeling;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;0;0;0,7;0,7;0,5;;;;;
+;;Lombardijen;0,5;0;1,3;0,2;0,6;;;;;
+;;Groot IJsselmonde;0;0,3;0,8;0,5;0,5;;;;;
+;;Beverwaard;0,5;0;1,7;0,4;0,6;;;;;
+;;IJsselmonde;0,2;0,1;1,1;0,5;0,5;;;;;
+;;Rotterdam;0,4;0,5;0,8;0,4;0,8;;;;;
+
+;;1.4.1 aangiften zedenmisdrijven;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;10;6;3;3;3;1,8;1,1;0,5;0,5;0,5
+;;Lombardijen;14;18;17;5;7;1;1,3;1,3;0,4;0,5
+;;Groot IJsselmonde;28;33;15;23;13;1;1,2;0,6;0,9;0,5
+;;Beverwaard;14;13;11;5;7;1,1;1,1;0,9;0,4;0,6
+;;IJsselmonde;66;70;46;36;30;1,1;1,2;0,8;0,6;0,5
+;;Rotterdam;474;433;376;352;236;0,8;0,7;0,6;0,6;0,4
+
+;;1.4.3 aangiften openlijke geweldpleging tegen personen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;12;6;7;6;6;2,2;1,1;1,2;1;1
+;;Lombardijen;6;12;14;6;4;0,4;0,9;1,1;0,5;0,3
+;;Groot IJsselmonde;38;34;32;30;25;1,4;1,3;1,2;1,1;0,9
+;;Beverwaard;12;7;9;8;10;1;0,6;0,7;0,7;0,8
+;;IJsselmonde;68;59;62;50;45;1,2;1;1,1;0,9;0,8
+;;Rotterdam;637;700;621;620;508;1,1;1,2;1,1;1,1;0,9
+
+;;1.4.6 aangiften straatroof;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;5;2;3;3;1;0,9;0,4;0,5;0,5;0,2
+;;Lombardijen;28;24;29;25;19;2;1,8;2,2;1,9;1,4
+;;Groot IJsselmonde;90;44;38;49;48;3,4;1,6;1,4;1,8;1,8
+;;Beverwaard;22;8;4;13;7;1,8;0,7;0,3;1,1;0,6
+;;IJsselmonde;145;78;74;90;75;2,5;1,3;1,3;1,6;1,3
+;;Rotterdam;1484;1262;1161;992;1018;2,5;2,2;2;1,7;1,7
+
+;;1.4.7 aangiften overval;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;1;0;2;6;0;0,2;0;0,3;1;0
+;;Lombardijen;9;7;8;2;1;0,6;0,5;0,6;0,2;0,1
+;;Groot IJsselmonde;8;17;22;15;16;0,3;0,6;0,8;0,6;0,6
+;;Beverwaard;5;1;5;6;6;0,4;0,1;0,4;0,5;0,5
+;;IJsselmonde;23;25;37;29;23;0,4;0,4;0,6;0,5;0,4
+;;Rotterdam;212;245;304;295;235;0,4;0,4;0,5;0,5;0,4
+
+;;1.4.4 meldingen bedreiging;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;13;14;11;11;10;2,3;2,5;1,9;1,9;1,7
+;;Lombardijen;32;27;30;36;40;2,3;2;2,3;2,8;3
+;;Groot IJsselmonde;78;81;70;65;54;2,9;3;2,6;2,4;2
+;;Beverwaard;30;34;34;35;27;2,4;2,8;2,8;2,9;2,2
+;;IJsselmonde;153;156;145;147;131;2,6;2,7;2,5;2,5;2,2
+;;Rotterdam;1723;1742;1591;1488;1287;2,9;3;2,7;2,5;2,2
+
+;;1.4.5 meldingen mishandeling;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;80;71;81;85;74;14,4;12,7;14,1;14,5;12,7
+;;Lombardijen;193;181;157;213;178;13,7;13,3;12;16,4;13,4
+;;Groot IJsselmonde;328;367;350;374;360;12,3;13,6;13;13,9;13,2
+;;Beverwaard;166;191;167;183;176;13,4;15,5;13,7;15;14,6
+;;IJsselmonde;767;810;755;855;788;13;13,8;13;14,8;13,5
+;;Rotterdam;10335;10639;10667;10882;9915;17,6;18,3;18,4;18,6;16,7
+
+Inbraak;;;;;;;;;;;;
+
+;;buurtprobleem woninginbraak;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;6,2;16,3;5,6;7,6;10,5;;;;;
+;;Lombardijen;13,1;10,3;8,4;8,4;14,7;;;;;
+;;Groot IJsselmonde;12,6;14,9;15,4;12,3;25,5;;;;;
+;;Beverwaard;17,9;22,7;20,1;11,9;26,1;;;;;
+;;IJsselmonde;13,3;15,6;13,8;11,3;21,7;;;;;
+;;Rotterdam;12,9;12;12,1;11,1;13,5;;;;;
+
+;;slachtofferschap poging tot inbraak;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0,6;1,9;2,8;1,2;1,3
+;;Lombardijen;1,2;2,6;1,7;1,5;2,5
+;;Groot IJsselmonde;2,8;2,5;2,2;2,4;4,5
+;;Beverwaard;3,3;5,2;4,3;1,7;2,3
+;;IJsselmonde;2,3;3;2,6;2;3,3
+;;Rotterdam;3,5;3,1;3;2,5;2,8
+
+;;slachtofferschap woninginbraak;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;1,7;3,1;0,6;0,8;0,8
+;;Lombardijen;1,7;0,6;0,4;1,5;1,4
+;;Groot IJsselmonde;0,4;1,2;1,3;0,6;1,9
+;;Beverwaard;3,3;3,2;3,2;1,7;1,8
+;;IJsselmonde;1,4;1,7;1,4;1;1,7
+;;Rotterdam;2;2;2;1,4;1,3;;;;;
+
+;;1.1.1 aangiften woninginbraak;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;20;46;17;22;36;8,3;18,8;6,7;8,5;13,9
+;;Lombardijen;84;116;66;110;95;12,2;17,2;10,2;17,4;14,9
+;;Groot IJsselmonde;149;194;180;194;241;11,6;14,9;13,7;14,8;18,3
+;;Beverwaard;93;91;96;74;80;19,5;19;20;15,4;16,6
+;;IJsselmonde;346;447;359;400;452;12,9;16,6;13,3;14,9;16,8
+;;Rotterdam;4420;3779;4018;3756;3787;16,4;14;14,9;13,8;13,7
+
+;;1.1.2 aangiften inbraak in garages, schuren en tuinhuizen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;18;18;18;4;10;7,5;7,4;7,1;1,5;3,9
+;;Lombardijen;45;43;34;21;22;6,5;6,4;5,3;3,3;3,4
+;;Groot IJsselmonde;96;94;99;88;107;7,5;7,2;7,5;6,7;8,1
+;;Beverwaard;95;84;36;20;31;19,9;17,6;7,5;4,1;6,4
+;;IJsselmonde;254;239;187;133;170;9,4;8,9;7;5;6,3
+;;Rotterdam;2629;1881;1746;1595;1295;9,8;7;6,5;5,8;4,7
+
+;;2.5.1 aangiften inbraak in bedrijven/instellingen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;39;18;13;32;18;141,3;68,2;45,5;110,3;58,3
+;;Lombardijen;71;52;41;50;24;228,3;151,2;123,9;156,3;75
+;;Groot IJsselmonde;187;108;77;102;40;297,8;161,4;112,4;143,9;56,7
+;;Beverwaard;56;33;11;27;2;359;189,7;58,2;147,5;11,4
+;;IJsselmonde;353;211;142;211;84;257,5;145,4;95,2;140,5;55,6
+;;Rotterdam;2730;2271;1957;1947;1237;132,4;108,7;90,9;89,2;55,2
+
+Vandalisme;;;;;;;
+
+;;buurtprobleem bekladding muren/gebouwen;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;4;4,6;5,6;3,9;5,1
+;;Lombardijen;15,5;16,6;19,2;17,9;12,2
+;;Groot IJsselmonde;8,8;8,4;16;11,2;10,1
+;;Beverwaard;9,3;23,9;23,5;21,8;23,2
+;;IJsselmonde;10,1;13,2;17,3;13,2;12,8
+;;Rotterdam;14,3;14,9;18,7;17;13,9
+
+;;buurtprobleem vernieling telefooncellen/bus- of tramhokjes ;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;10,8;15,7;18,8;12,1;8,4
+;;Lombardijen;22,4;25,6;31,7;25;15,6
+;;Groot IJsselmonde;33,1;27,6;35,5;25,8;21,1
+;;Beverwaard;34,6;48,3;35,9;23,9;28,7;;;;;
+;;IJsselmonde;28,7;30,4;33,1;23,3;20,1;;;;;
+;;Rotterdam;18,6;17,7;19,4;16,2;11,8;;;;;
+
+;;slachtofferschap overige beschadiging/vernieling;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;1,7;3,9;4,1;5,3;4,3;;;;;
+;;Lombardijen;1,1;3,2;6,1;6,8;7,2;;;;;
+;;Groot IJsselmonde;3,8;2,5;6,5;5,9;6,3;;;;;
+;;Beverwaard;1,7;4,5;13,5;6,9;7,9;;;;;
+;;IJsselmonde;2,5;3,2;7,6;6,1;6,6;;;;;
+;;Rotterdam;3,7;2,7;8,1;7,3;6,5;;;;;
+
+;;2.2.1 meldingen vernieling cq zaakbeschadiging;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;30;28;35;21;12;5,4;5;6,1;3,6;2,1
+;;Lombardijen;106;138;96;112;52;7,5;10,1;7,3;8,6;3,9
+;;Groot IJsselmonde;154;163;194;144;143;5,8;6;7,2;5,4;5,3
+;;Beverwaard;60;63;57;60;36;4,8;5,1;4,7;4,9;3
+;;IJsselmonde;350;392;382;337;243;6;6,7;6,6;5,8;4,2
+;;Rotterdam;3972;3999;3803;3203;2376;6,8;6,9;6,6;5,5;4
+
+;;meldingen kleine buitenbranden;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;11;16;8;5;5;0,3;0,5;0,3;0,2;0,2
+;;Lombardijen;26;29;25;25;4;1;1,1;1;1;0,2
+;;Groot IJsselmonde;43;41;32;18;10;0,7;0,7;0,5;0,3;0,2
+;;Beverwaard;26;33;13;22;6;1,7;2,2;0,9;1,4;0,4
+;;IJsselmonde;106;119;78;70;25;0,8;0,9;0,6;0,5;0,2
+;;Rotterdam;967;970;900;849;556;0,7;0,7;0,7;0,6;0,4
+
+Overlast;;;;;;;
+
+;;buurtprobleem overlast van groepen jongeren;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;3,4;7,2;10;9,1;9,6
+;;Lombardijen;11,4;17,2;24,1;18,2;23,6
+;;Groot IJsselmonde;13,9;12,5;18,8;15,5;17,9
+;;Beverwaard;17,7;25,2;31,9;24,8;36,6
+;;IJsselmonde;13,1;15,8;21,8;17,1;22,3
+;;Rotterdam;14,3;14;19,1;20,1;20
+
+;;buurtprobleem dronken mensen op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;0;4,6;3,9;2,7;4,1
+;;Lombardijen;2,2;1,9;7,5;6,2;6,8
+;;Groot IJsselmonde;0,8;2,5;3,6;4,8;6,5;
+;;Beverwaard;3,4;2,6;6,3;7,2;10,6;
+;;IJsselmonde;1,6;2,6;5,1;5,2;7,2;
+;;Rotterdam;5,4;5;8,7;10,5;11,1;
+
+;;buurtprobleem lastig gevallen worden op straat;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;
+;;Oud IJsselmonde;0;2,7;0,5;1,3;2,9;
+;;Lombardijen;1,1;4,5;5;3,3;7,3;
+;;Groot IJsselmonde;2,3;1,9;5,1;5,2;6,5;
+;;Beverwaard;2,8;3,2;6,7;6,4;11,3;
+;;IJsselmonde;1,9;2,8;5;4,8;7,3;
+;;Rotterdam;3,1;2,6;5,6;6,2;6,4;
+
+;;2.4.1 meldingen burengerucht (relatieproblemen);;;;;;
+;;;absoluut;;;;;genormaliseerd
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;107;123;149;121;107;19,3;22;25,9;20,7;18,4
+;;Lombardijen;340;318;306;358;362;24,1;23,3;23,3;27,5;27,2
+;;Groot IJsselmonde;581;662;746;763;686;21,8;24,5;27,7;28,4;25,2
+;;Beverwaard;371;360;416;358;382;29,8;29,1;34,2;29,4;31,7
+;;IJsselmonde;1399;1463;1617;1600;1537;23,8;24,9;27,9;27,6;26,3
+;;Rotterdam;15483;15318;16151;16936;16299;26,4;26,3;27,8;29;27,4
+
+;;2.7.1 meldingen overlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;89;59;58;48;50;16;10,5;10,1;8,2;8,6
+;;Lombardijen;257;240;190;236;222;18,2;17,6;14,5;18,1;16,7
+;;Groot IJsselmonde;681;592;456;344;374;25,5;21,9;16,9;12,8;13,7
+;;Beverwaard;263;225;220;237;139;21,2;18,2;18,1;19,5;11,5
+;;IJsselmonde;1290;1116;924;865;785;21,9;19;15,9;14,9;13,4
+;;Rotterdam;11983;10454;9484;9740;8323;20,4;18;16,3;16,7;14
+
+Schoon en heel;;;;;;;;;;;;
+
+;;buurtprobleem vervuiling op straat;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;17,7;26,2;29,3;24,5;23,2;;;;;
+;;Lombardijen;26,5;32,6;35,5;26;32,5;;;;;
+;;Groot IJsselmonde;31,6;21,2;27,7;30,2;28,7;;;;;
+;;Beverwaard;26,4;36,7;45,7;32,1;40;;;;;
+;;IJsselmonde;28;27,6;33,4;29,6;31,3;;;;;
+;;Rotterdam;33,8;32,9;36,3;36;33,9;;;;;
+
+;;buurtprobleem hondenpoep op straat;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;36,4;35,6;35,8;31,8;32;;;;;
+;;Lombardijen;24,1;33,4;25,6;23,8;27,2
+;;Groot IJsselmonde;34,1;25,3;35,3;34,4;32,5
+;;Beverwaard;41,7;44,3;55,5;39,6;43,8
+;;IJsselmonde;33,4;32,2;37,4;34,6;33,6
+;;Rotterdam;38,1;35,9;36,5;35,1;32,4
+
+;;buurtprobleem vuil naast de container;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;10,8;12,1;12,8;13,3;14,8
+;;Lombardijen;14,4;19,9;32,5;29,7;28,3
+;;Groot IJsselmonde;14,1;8,1;26,7;21,9;22,2
+;;Beverwaard;14,8;25,9;44,7;40;43,8
+;;IJsselmonde;14;15;30,4;25,6;27,4
+;;Rotterdam;23,9;23,6;37,1;37,5;35,9
+
+;;buurtprobleem wildplassen;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;7,4;10,3;14,5;11,4;15,2
+;;Lombardijen;7,4;11,5;13,8;15,2;13,8
+;;Groot IJsselmonde;5,3;5,9;13,3;13,5;14,4
+;;Beverwaard;4,6;5,8;17,7;13,1;14,4
+;;IJsselmonde;5,8;7,6;14,4;13,2;14,3
+;;Rotterdam;9,9;9,3;18;19,3;17,9
+
+;;buurtprobleem gaten of verzakkingen in de bestrating;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;15,9;14,3;12,2;13,8;13,3
+;;Lombardijen;13,2;21,1;26,8;25,9;20,4
+;;Groot IJsselmonde;20;14,7;26,9;22,4;17,2
+;;Beverwaard;14,3;22;27,6;22,2;21,4
+;;IJsselmonde;16,7;17,7;25,6;21,3;18,4
+;;Rotterdam;21,7;21,2;26,5;25,4;23,5
+
+;;buurtprobleem vernield of kapot straatmeubilair;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;1,1;7,8;5,6;5;5,5;;;;;
+;;Lombardijen;4,5;8,4;11,9;11,6;8,6;;;;;
+;;Groot IJsselmonde;9,5;6,6;12,7;11,9;10,5;;;;;
+;;Beverwaard;10,4;16,2;26,4;13,3;17,8;;;;;
+;;IJsselmonde;7,7;9,1;14,7;11,2;11,1;;;;;
+;;Rotterdam;8;8;13;12,8;10,4;;;;;
+
+;;score op de productnormering;;;;;;;;;;
+;;;Schoon;;;;;Heel;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;4,3;4,3;4,4;4,5;4,5;3,6;3,6;3,8;3,7;4
+;;Lombardijen;4,3;4,3;4,3;4,5;4,5;3,6;3,7;3,7;3,7;3,8
+;;Groot IJsselmonde;4,3;4,4;4,4;4,4;4,3;3,7;3,8;3,8;3,8;4
+;;Beverwaard;4,2;4,3;4,2;4,4;4,3;3,6;3,8;3,8;3,9;3,8
+;;IJsselmonde;4,3;4,3;4,3;4,4;4,4;3,7;3,7;3,8;3,8;3,9
+;;Rotterdam;4,1;4,2;4,2;4,4;4,5;3,7;3,7;3,7;3,9;4,1
+
+Verkeer;;;;;;;;;;;;
+
+;;buurtprobleem aanrijdingen;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;4,6;4,6;13,3;7,8;7,8;;;;;
+;;Lombardijen;5,8;6,4;5,8;13,5;9,6;;;;;
+;;Groot IJsselmonde;11,8;7,2;10,9;13,9;11,3;;;;;
+;;Beverwaard;2,3;3,9;3,9;5,1;4,9;;;;;
+;;IJsselmonde;7,6;6;8,5;10,8;9,2;;;;;
+;;Rotterdam;6,2;4,9;8,9;9,8;9;;;;;
+
+;;buurtprobleem agressief verkeersgedrag;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;13,6;18,4;18,3;12,9;13,6
+;;Lombardijen;14,9;24,6;20,7;21,3;20,7
+;;Groot IJsselmonde;22,1;18;17,4;18;16,7
+;;Beverwaard;19,6;30,3;20,2;20,6;29,5
+;;IJsselmonde;19;22,2;18,8;18,1;20
+;;Rotterdam;21,1;19,5;19,5;20,2;18,9
+
+;;slachtofferschap aanrijding met doorrijden;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;1,1;1,3;0,9;0,8;1,3
+;;Lombardijen;0;1,3;0,7;0,8;1,2
+;;Groot IJsselmonde;1,6;0,3;0,5;0,7;1,1
+;;Beverwaard;1,1;1,3;1,3;1,3;1,4
+;;IJsselmonde;1,1;0,9;0,8;0,9;1,2
+;;Rotterdam;0,8;0,8;0,8;0,9;1
+
+;;slachtofferschap aanrijding zonder doorrijden;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;2,3;2,6;1,8;2,9;2,7;;;;;
+;;Lombardijen;1,1;3,2;3,6;2,2;2,6;;;;;
+;;Groot IJsselmonde;1,9;1,6;3;2,9;3,4;;;;;
+;;Beverwaard;0;4,6;3,8;3,7;2,9;;;;;
+;;IJsselmonde;1,3;2,7;3,2;3;3;;;;;
+;;Rotterdam;2;2,3;3,1;3,3;3;;;;;
+
+;;1.3.1 meldingen verkeersongevallen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Oud IJsselmonde;259;229;250;258;172;46,7;40,9;43,5;44,1;29,6
+;;Lombardijen;182;206;193;210;172;12,9;15,1;14,7;16,1;12,9
+;;Groot IJsselmonde;394;402;413;409;334;14,8;14,9;15,3;15,2;12,3
+;;Beverwaard;72;67;47;52;45;5,8;5,4;3,9;4,3;3,7
+;;IJsselmonde;907;904;903;929;723;15,4;15,4;15,6;16;12,4
+;;Rotterdam;10352;10242;9755;9636;7830;17,7;17,6;16,8;16,5;13,2
+
+Overig;;;;;;;;;;;;
+
+;;tevredenheid met het wonen in de buurt ;;;;;;;;;;
+;;% (zeer) tevreden;2006;2007;2008;2009;2011;;;;;
+;;Oud IJsselmonde;85,9;85,4;85,1;81,4;85,9;;;;;
+;;Lombardijen;74,4;77,4;68,6;72,6;67,7;;;;;
+;;Groot IJsselmonde;76,6;73,5;68,9;75,9;74,1;;;;;
+;;Beverwaard;71,3;79,2;63,6;67,2;56,2;;;;;
+;;IJsselmonde;75,8;76,7;69,3;74,4;70,1;;;;;
+;;Rotterdam;79,4;79,9;75;73,4;74,4;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
