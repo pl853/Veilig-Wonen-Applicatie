@@ -54,3 +54,4 @@ C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWo
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenNewUI\VeiligWonenNewUI\obj\Debug\VeiligWonenApp.csproj.GenerateResource.Cache
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenNewUI\VeiligWonenNewUI\obj\Debug\VeiligWonenNewUI.exe
 C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenNewUI\VeiligWonenNewUI\obj\Debug\VeiligWonenNewUI.pdb
+C:\Users\piete\OneDrive\Documents\Projects\Overig\VeiligWonenApplicatie\VeiligWonenNewUI\VeiligWonenNewUI\obj\Debug\VeiligWonenNewUI.Addhuis_UI.resources

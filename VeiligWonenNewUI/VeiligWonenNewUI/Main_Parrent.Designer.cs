@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_Ui));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Logout_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.Role_label = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.Name_Label = new System.Windows.Forms.Label();
@@ -46,54 +47,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.Exit_btn = new System.Windows.Forms.PictureBox();
-            this.ManageHuizen_Panel = new System.Windows.Forms.Panel();
-            this.LongTextBox = new System.Windows.Forms.TextBox();
-            this.LatTextBox = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.HID_Lable = new System.Windows.Forms.Label();
-            this.HID_Textbox = new System.Windows.Forms.TextBox();
-            this.Search_Button = new System.Windows.Forms.Button();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.Prijs_Textbox = new System.Windows.Forms.TextBox();
-            this.Omschrijving_TextBox = new System.Windows.Forms.RichTextBox();
-            this.UpdateButton = new System.Windows.Forms.Button();
-            this.Delete_button = new System.Windows.Forms.Button();
-            this.Button_Add = new System.Windows.Forms.Button();
-            this.dataGridView_HuisResults = new System.Windows.Forms.DataGridView();
-            this.HID_Collumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Gebied = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Wijk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Straat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Huisnum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_KoopHuur = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Prijs = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column_Description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Lat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Long = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HuurKoop_Textbox = new System.Windows.Forms.ComboBox();
-            this.Huisnum_Textbox = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label_Wijk = new System.Windows.Forms.Label();
-            this.label_stadsgebied = new System.Windows.Forms.Label();
-            this.Wijkadd_Dropdown = new System.Windows.Forms.ComboBox();
-            this.StadsGebiedAdd_Dropdown = new System.Windows.Forms.ComboBox();
-            this.StadsGebied_Dropdown = new System.Windows.Forms.ComboBox();
-            this.KoopHuur_DropDown = new System.Windows.Forms.ComboBox();
-            this.Wijk_dropdown = new System.Windows.Forms.ComboBox();
-            this.Search_Btn = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.PrijsTot_Textbox = new System.Windows.Forms.TextBox();
-            this.Straat_TextBox = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -108,23 +61,34 @@
             this.AutoTotaal_Circle = new Bunifu.Framework.UI.BunifuCircleProgressbar();
             this.AutoInbraak_Circle = new Bunifu.Framework.UI.BunifuCircleProgressbar();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.GoogleMapsControl = new GMap.NET.WindowsForms.GMapControl();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.Exit_btn = new System.Windows.Forms.PictureBox();
+            this.StadsGebied_Dropdown = new System.Windows.Forms.ComboBox();
+            this.KoopHuur_DropDown = new System.Windows.Forms.ComboBox();
+            this.Wijk_dropdown = new System.Windows.Forms.ComboBox();
+            this.Search_Btn = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.PrijsTot_Textbox = new System.Windows.Forms.TextBox();
+            this.Straat_TextBox = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.GoogleMapsControl = new GMap.NET.WindowsForms.GMapControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).BeginInit();
-            this.ManageHuizen_Panel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_HuisResults)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
+            this.panel1.Controls.Add(this.Logout_Button);
             this.panel1.Controls.Add(this.Role_label);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.Name_Label);
@@ -140,13 +104,50 @@
             this.panel1.Size = new System.Drawing.Size(263, 716);
             this.panel1.TabIndex = 0;
             // 
+            // Logout_Button
+            // 
+            this.Logout_Button.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(172)))), ((int)(((byte)(209)))));
+            this.Logout_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(179)))), ((int)(((byte)(227)))));
+            this.Logout_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Logout_Button.BorderRadius = 0;
+            this.Logout_Button.ButtonText = "Log out";
+            this.Logout_Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Logout_Button.DisabledColor = System.Drawing.Color.Gray;
+            this.Logout_Button.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Logout_Button.Iconcolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(172)))), ((int)(((byte)(209)))));
+            this.Logout_Button.Iconimage = ((System.Drawing.Image)(resources.GetObject("Logout_Button.Iconimage")));
+            this.Logout_Button.Iconimage_right = null;
+            this.Logout_Button.Iconimage_right_Selected = null;
+            this.Logout_Button.Iconimage_Selected = null;
+            this.Logout_Button.IconMarginLeft = 0;
+            this.Logout_Button.IconMarginRight = 0;
+            this.Logout_Button.IconRightVisible = true;
+            this.Logout_Button.IconRightZoom = 0D;
+            this.Logout_Button.IconVisible = true;
+            this.Logout_Button.IconZoom = 80D;
+            this.Logout_Button.IsTab = false;
+            this.Logout_Button.Location = new System.Drawing.Point(53, 618);
+            this.Logout_Button.Margin = new System.Windows.Forms.Padding(4, 32, 4, 4);
+            this.Logout_Button.Name = "Logout_Button";
+            this.Logout_Button.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(179)))), ((int)(((byte)(227)))));
+            this.Logout_Button.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(172)))), ((int)(((byte)(209)))));
+            this.Logout_Button.OnHoverTextColor = System.Drawing.Color.White;
+            this.Logout_Button.selected = false;
+            this.Logout_Button.Size = new System.Drawing.Size(164, 46);
+            this.Logout_Button.TabIndex = 17;
+            this.Logout_Button.Text = "Log out";
+            this.Logout_Button.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Logout_Button.Textcolor = System.Drawing.Color.White;
+            this.Logout_Button.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Logout_Button.Click += new System.EventHandler(this.Logout_Button_Click);
+            // 
             // Role_label
             // 
             this.Role_label.AutoSize = true;
             this.Role_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
             this.Role_label.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Role_label.ForeColor = System.Drawing.Color.White;
-            this.Role_label.Location = new System.Drawing.Point(109, 651);
+            this.Role_label.Location = new System.Drawing.Point(110, 567);
             this.Role_label.Name = "Role_label";
             this.Role_label.Size = new System.Drawing.Size(47, 19);
             this.Role_label.TabIndex = 16;
@@ -158,7 +159,7 @@
             this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
             this.label9.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(73, 621);
+            this.label9.Location = new System.Drawing.Point(74, 537);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(123, 19);
             this.label9.TabIndex = 15;
@@ -170,7 +171,7 @@
             this.Name_Label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
             this.Name_Label.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name_Label.ForeColor = System.Drawing.Color.White;
-            this.Name_Label.Location = new System.Drawing.Point(149, 596);
+            this.Name_Label.Location = new System.Drawing.Point(150, 512);
             this.Name_Label.Name = "Name_Label";
             this.Name_Label.Size = new System.Drawing.Size(59, 19);
             this.Name_Label.TabIndex = 14;
@@ -182,7 +183,7 @@
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
             this.label8.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(43, 596);
+            this.label8.Location = new System.Drawing.Point(44, 512);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 19);
             this.label8.TabIndex = 13;
@@ -388,7 +389,6 @@
             this.panel2.Controls.Add(this.tabControl1);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.Exit_btn);
-            this.panel2.Controls.Add(this.ManageHuizen_Panel);
             this.panel2.Controls.Add(this.StadsGebied_Dropdown);
             this.panel2.Controls.Add(this.KoopHuur_DropDown);
             this.panel2.Controls.Add(this.Wijk_dropdown);
@@ -407,6 +407,241 @@
             this.panel2.Size = new System.Drawing.Size(991, 716);
             this.panel2.TabIndex = 2;
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.ItemSize = new System.Drawing.Size(70, 21);
+            this.tabControl1.Location = new System.Drawing.Point(592, 129);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(413, 584);
+            this.tabControl1.TabIndex = 11;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.chart1);
+            this.tabPage1.Controls.Add(this.bunifuCustomLabel6);
+            this.tabPage1.Controls.Add(this.bunifuCustomLabel3);
+            this.tabPage1.Controls.Add(this.bunifuCustomLabel1);
+            this.tabPage1.Controls.Add(this.WoningInbraak_Circle);
+            this.tabPage1.Controls.Add(this.bunifuCustomLabel5);
+            this.tabPage1.Controls.Add(this.bunifuCustomLabel4);
+            this.tabPage1.Controls.Add(this.bunifuCustomLabel2);
+            this.tabPage1.Controls.Add(this.WoningTotaal_Circle);
+            this.tabPage1.Controls.Add(this.AutoTotaal_Circle);
+            this.tabPage1.Controls.Add(this.AutoInbraak_Circle);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(405, 555);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Inbraak";
+            // 
+            // chart1
+            // 
+            this.chart1.BorderSkin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.chart1.BorderSkin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(9, 16);
+            this.chart1.Name = "chart1";
+            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Grayscale;
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(351, 217);
+            this.chart1.TabIndex = 28;
+            this.chart1.Text = "chart1";
+            // 
+            // bunifuCustomLabel6
+            // 
+            this.bunifuCustomLabel6.AutoSize = true;
+            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel6.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(248, 405);
+            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(112, 19);
+            this.bunifuCustomLabel6.TabIndex = 23;
+            this.bunifuCustomLabel6.Text = "Rotterdam :";
+            // 
+            // bunifuCustomLabel3
+            // 
+            this.bunifuCustomLabel3.AutoSize = true;
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(233, 386);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(142, 19);
+            this.bunifuCustomLabel3.TabIndex = 20;
+            this.bunifuCustomLabel3.Text = "% Auto-Inbraak";
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(233, 236);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(150, 19);
+            this.bunifuCustomLabel1.TabIndex = 19;
+            this.bunifuCustomLabel1.Text = "% Auto-inbraak :";
+            // 
+            // WoningInbraak_Circle
+            // 
+            this.WoningInbraak_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WoningInbraak_Circle.animated = true;
+            this.WoningInbraak_Circle.animationIterval = 1;
+            this.WoningInbraak_Circle.animationSpeed = 1;
+            this.WoningInbraak_Circle.BackColor = System.Drawing.Color.White;
+            this.WoningInbraak_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WoningInbraak_Circle.BackgroundImage")));
+            this.WoningInbraak_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.WoningInbraak_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.WoningInbraak_Circle.LabelVisible = true;
+            this.WoningInbraak_Circle.LineProgressThickness = 8;
+            this.WoningInbraak_Circle.LineThickness = 5;
+            this.WoningInbraak_Circle.Location = new System.Drawing.Point(237, 251);
+            this.WoningInbraak_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.WoningInbraak_Circle.MaxValue = 100;
+            this.WoningInbraak_Circle.Name = "WoningInbraak_Circle";
+            this.WoningInbraak_Circle.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.WoningInbraak_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.WoningInbraak_Circle.Size = new System.Drawing.Size(138, 138);
+            this.WoningInbraak_Circle.TabIndex = 25;
+            this.WoningInbraak_Circle.Value = 0;
+            // 
+            // bunifuCustomLabel5
+            // 
+            this.bunifuCustomLabel5.AutoSize = true;
+            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel5.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomLabel5.Location = new System.Drawing.Point(39, 405);
+            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(112, 19);
+            this.bunifuCustomLabel5.TabIndex = 22;
+            this.bunifuCustomLabel5.Text = "Rotterdam :";
+            // 
+            // bunifuCustomLabel4
+            // 
+            this.bunifuCustomLabel4.AutoSize = true;
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(15, 386);
+            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(155, 19);
+            this.bunifuCustomLabel4.TabIndex = 21;
+            this.bunifuCustomLabel4.Text = "% Woninginbraak";
+            // 
+            // bunifuCustomLabel2
+            // 
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.DimGray;
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(15, 236);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(165, 19);
+            this.bunifuCustomLabel2.TabIndex = 18;
+            this.bunifuCustomLabel2.Text = "% Woninginbraak :";
+            // 
+            // WoningTotaal_Circle
+            // 
+            this.WoningTotaal_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.WoningTotaal_Circle.animated = true;
+            this.WoningTotaal_Circle.animationIterval = 1;
+            this.WoningTotaal_Circle.animationSpeed = 1;
+            this.WoningTotaal_Circle.BackColor = System.Drawing.Color.White;
+            this.WoningTotaal_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WoningTotaal_Circle.BackgroundImage")));
+            this.WoningTotaal_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.WoningTotaal_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.WoningTotaal_Circle.LabelVisible = true;
+            this.WoningTotaal_Circle.LineProgressThickness = 8;
+            this.WoningTotaal_Circle.LineThickness = 5;
+            this.WoningTotaal_Circle.Location = new System.Drawing.Point(23, 420);
+            this.WoningTotaal_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.WoningTotaal_Circle.MaxValue = 100;
+            this.WoningTotaal_Circle.Name = "WoningTotaal_Circle";
+            this.WoningTotaal_Circle.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.WoningTotaal_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.WoningTotaal_Circle.Size = new System.Drawing.Size(143, 143);
+            this.WoningTotaal_Circle.TabIndex = 24;
+            this.WoningTotaal_Circle.Value = 0;
+            // 
+            // AutoTotaal_Circle
+            // 
+            this.AutoTotaal_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AutoTotaal_Circle.animated = true;
+            this.AutoTotaal_Circle.animationIterval = 2;
+            this.AutoTotaal_Circle.animationSpeed = 1;
+            this.AutoTotaal_Circle.BackColor = System.Drawing.Color.White;
+            this.AutoTotaal_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AutoTotaal_Circle.BackgroundImage")));
+            this.AutoTotaal_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.AutoTotaal_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.AutoTotaal_Circle.LabelVisible = true;
+            this.AutoTotaal_Circle.LineProgressThickness = 8;
+            this.AutoTotaal_Circle.LineThickness = 5;
+            this.AutoTotaal_Circle.Location = new System.Drawing.Point(237, 420);
+            this.AutoTotaal_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.AutoTotaal_Circle.MaxValue = 100;
+            this.AutoTotaal_Circle.Name = "AutoTotaal_Circle";
+            this.AutoTotaal_Circle.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.AutoTotaal_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.AutoTotaal_Circle.Size = new System.Drawing.Size(142, 142);
+            this.AutoTotaal_Circle.TabIndex = 27;
+            this.AutoTotaal_Circle.Value = 0;
+            // 
+            // AutoInbraak_Circle
+            // 
+            this.AutoInbraak_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.AutoInbraak_Circle.animated = true;
+            this.AutoInbraak_Circle.animationIterval = 1;
+            this.AutoInbraak_Circle.animationSpeed = 1;
+            this.AutoInbraak_Circle.BackColor = System.Drawing.Color.White;
+            this.AutoInbraak_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AutoInbraak_Circle.BackgroundImage")));
+            this.AutoInbraak_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.AutoInbraak_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.AutoInbraak_Circle.LabelVisible = true;
+            this.AutoInbraak_Circle.LineProgressThickness = 8;
+            this.AutoInbraak_Circle.LineThickness = 5;
+            this.AutoInbraak_Circle.Location = new System.Drawing.Point(23, 251);
+            this.AutoInbraak_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.AutoInbraak_Circle.MaxValue = 100;
+            this.AutoInbraak_Circle.Name = "AutoInbraak_Circle";
+            this.AutoInbraak_Circle.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.AutoInbraak_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.AutoInbraak_Circle.Size = new System.Drawing.Size(138, 138);
+            this.AutoInbraak_Circle.TabIndex = 26;
+            this.AutoInbraak_Circle.Value = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(371, 558);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Geweld";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.panel4.Location = new System.Drawing.Point(0, 113);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(995, 10);
+            this.panel4.TabIndex = 24;
+            // 
             // Exit_btn
             // 
             this.Exit_btn.Image = ((System.Drawing.Image)(resources.GetObject("Exit_btn.Image")));
@@ -416,354 +651,6 @@
             this.Exit_btn.TabIndex = 23;
             this.Exit_btn.TabStop = false;
             this.Exit_btn.Click += new System.EventHandler(this.Exit_btn_Click);
-            // 
-            // ManageHuizen_Panel
-            // 
-            this.ManageHuizen_Panel.Controls.Add(this.LongTextBox);
-            this.ManageHuizen_Panel.Controls.Add(this.LatTextBox);
-            this.ManageHuizen_Panel.Controls.Add(this.label10);
-            this.ManageHuizen_Panel.Controls.Add(this.label11);
-            this.ManageHuizen_Panel.Controls.Add(this.HID_Lable);
-            this.ManageHuizen_Panel.Controls.Add(this.HID_Textbox);
-            this.ManageHuizen_Panel.Controls.Add(this.Search_Button);
-            this.ManageHuizen_Panel.Controls.Add(this.label12);
-            this.ManageHuizen_Panel.Controls.Add(this.label13);
-            this.ManageHuizen_Panel.Controls.Add(this.Prijs_Textbox);
-            this.ManageHuizen_Panel.Controls.Add(this.Omschrijving_TextBox);
-            this.ManageHuizen_Panel.Controls.Add(this.UpdateButton);
-            this.ManageHuizen_Panel.Controls.Add(this.Delete_button);
-            this.ManageHuizen_Panel.Controls.Add(this.Button_Add);
-            this.ManageHuizen_Panel.Controls.Add(this.dataGridView_HuisResults);
-            this.ManageHuizen_Panel.Controls.Add(this.HuurKoop_Textbox);
-            this.ManageHuizen_Panel.Controls.Add(this.Huisnum_Textbox);
-            this.ManageHuizen_Panel.Controls.Add(this.textBox1);
-            this.ManageHuizen_Panel.Controls.Add(this.label14);
-            this.ManageHuizen_Panel.Controls.Add(this.label15);
-            this.ManageHuizen_Panel.Controls.Add(this.label16);
-            this.ManageHuizen_Panel.Controls.Add(this.label_Wijk);
-            this.ManageHuizen_Panel.Controls.Add(this.label_stadsgebied);
-            this.ManageHuizen_Panel.Controls.Add(this.Wijkadd_Dropdown);
-            this.ManageHuizen_Panel.Controls.Add(this.StadsGebiedAdd_Dropdown);
-            this.ManageHuizen_Panel.Location = new System.Drawing.Point(204, 249);
-            this.ManageHuizen_Panel.Name = "ManageHuizen_Panel";
-            this.ManageHuizen_Panel.Size = new System.Drawing.Size(287, 438);
-            this.ManageHuizen_Panel.TabIndex = 4;
-            // 
-            // LongTextBox
-            // 
-            this.LongTextBox.Location = new System.Drawing.Point(836, 251);
-            this.LongTextBox.Name = "LongTextBox";
-            this.LongTextBox.Size = new System.Drawing.Size(100, 22);
-            this.LongTextBox.TabIndex = 49;
-            // 
-            // LatTextBox
-            // 
-            this.LatTextBox.Location = new System.Drawing.Point(641, 251);
-            this.LatTextBox.Name = "LatTextBox";
-            this.LatTextBox.Size = new System.Drawing.Size(100, 22);
-            this.LatTextBox.TabIndex = 48;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(755, 254);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 17);
-            this.label10.TabIndex = 47;
-            this.label10.Text = "Longditute :";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(510, 254);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(125, 17);
-            this.label11.TabIndex = 46;
-            this.label11.Text = "Position  Latitude :";
-            // 
-            // HID_Lable
-            // 
-            this.HID_Lable.AutoSize = true;
-            this.HID_Lable.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HID_Lable.Location = new System.Drawing.Point(46, 60);
-            this.HID_Lable.Name = "HID_Lable";
-            this.HID_Lable.Size = new System.Drawing.Size(66, 25);
-            this.HID_Lable.TabIndex = 45;
-            this.HID_Lable.Text = "HID :";
-            // 
-            // HID_Textbox
-            // 
-            this.HID_Textbox.Enabled = false;
-            this.HID_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HID_Textbox.Location = new System.Drawing.Point(252, 57);
-            this.HID_Textbox.Name = "HID_Textbox";
-            this.HID_Textbox.Size = new System.Drawing.Size(98, 32);
-            this.HID_Textbox.TabIndex = 44;
-            // 
-            // Search_Button
-            // 
-            this.Search_Button.Location = new System.Drawing.Point(865, 314);
-            this.Search_Button.Name = "Search_Button";
-            this.Search_Button.Size = new System.Drawing.Size(79, 41);
-            this.Search_Button.TabIndex = 43;
-            this.Search_Button.Text = "Search";
-            this.Search_Button.UseVisualStyleBackColor = true;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(524, 113);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(161, 25);
-            this.label12.TabIndex = 42;
-            this.label12.Text = "Omschrijving :";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(547, 60);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(138, 25);
-            this.label13.TabIndex = 41;
-            this.label13.Text = "Vraag prijs :";
-            // 
-            // Prijs_Textbox
-            // 
-            this.Prijs_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Prijs_Textbox.Location = new System.Drawing.Point(703, 57);
-            this.Prijs_Textbox.Name = "Prijs_Textbox";
-            this.Prijs_Textbox.Size = new System.Drawing.Size(241, 32);
-            this.Prijs_Textbox.TabIndex = 40;
-            // 
-            // Omschrijving_TextBox
-            // 
-            this.Omschrijving_TextBox.Location = new System.Drawing.Point(703, 118);
-            this.Omschrijving_TextBox.Name = "Omschrijving_TextBox";
-            this.Omschrijving_TextBox.Size = new System.Drawing.Size(241, 107);
-            this.Omschrijving_TextBox.TabIndex = 39;
-            this.Omschrijving_TextBox.Text = "";
-            // 
-            // UpdateButton
-            // 
-            this.UpdateButton.Location = new System.Drawing.Point(770, 314);
-            this.UpdateButton.Name = "UpdateButton";
-            this.UpdateButton.Size = new System.Drawing.Size(79, 41);
-            this.UpdateButton.TabIndex = 38;
-            this.UpdateButton.Text = "Update";
-            this.UpdateButton.UseVisualStyleBackColor = true;
-            // 
-            // Delete_button
-            // 
-            this.Delete_button.Location = new System.Drawing.Point(674, 314);
-            this.Delete_button.Name = "Delete_button";
-            this.Delete_button.Size = new System.Drawing.Size(79, 41);
-            this.Delete_button.TabIndex = 37;
-            this.Delete_button.Text = "Delete";
-            this.Delete_button.UseVisualStyleBackColor = true;
-            // 
-            // Button_Add
-            // 
-            this.Button_Add.Location = new System.Drawing.Point(572, 314);
-            this.Button_Add.Name = "Button_Add";
-            this.Button_Add.Size = new System.Drawing.Size(79, 41);
-            this.Button_Add.TabIndex = 36;
-            this.Button_Add.Text = "Add";
-            this.Button_Add.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView_HuisResults
-            // 
-            this.dataGridView_HuisResults.AllowUserToAddRows = false;
-            this.dataGridView_HuisResults.AllowUserToDeleteRows = false;
-            this.dataGridView_HuisResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_HuisResults.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.HID_Collumn,
-            this.Column_Gebied,
-            this.Column_Wijk,
-            this.Column_Straat,
-            this.Column_Huisnum,
-            this.Column_KoopHuur,
-            this.Column_Prijs,
-            this.Column_Description,
-            this.Lat,
-            this.Long});
-            this.dataGridView_HuisResults.Location = new System.Drawing.Point(51, 393);
-            this.dataGridView_HuisResults.Name = "dataGridView_HuisResults";
-            this.dataGridView_HuisResults.ReadOnly = true;
-            this.dataGridView_HuisResults.RowTemplate.Height = 24;
-            this.dataGridView_HuisResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_HuisResults.Size = new System.Drawing.Size(893, 267);
-            this.dataGridView_HuisResults.StandardTab = true;
-            this.dataGridView_HuisResults.TabIndex = 35;
-            this.dataGridView_HuisResults.TabStop = false;
-            // 
-            // HID_Collumn
-            // 
-            this.HID_Collumn.HeaderText = "HID";
-            this.HID_Collumn.Name = "HID_Collumn";
-            this.HID_Collumn.ReadOnly = true;
-            this.HID_Collumn.Width = 40;
-            // 
-            // Column_Gebied
-            // 
-            this.Column_Gebied.HeaderText = "Gebied";
-            this.Column_Gebied.MinimumWidth = 10;
-            this.Column_Gebied.Name = "Column_Gebied";
-            this.Column_Gebied.ReadOnly = true;
-            this.Column_Gebied.Width = 150;
-            // 
-            // Column_Wijk
-            // 
-            this.Column_Wijk.HeaderText = "Wijk";
-            this.Column_Wijk.Name = "Column_Wijk";
-            this.Column_Wijk.ReadOnly = true;
-            this.Column_Wijk.Width = 150;
-            // 
-            // Column_Straat
-            // 
-            this.Column_Straat.HeaderText = "Straat";
-            this.Column_Straat.Name = "Column_Straat";
-            this.Column_Straat.ReadOnly = true;
-            this.Column_Straat.Width = 150;
-            // 
-            // Column_Huisnum
-            // 
-            this.Column_Huisnum.HeaderText = "Num";
-            this.Column_Huisnum.Name = "Column_Huisnum";
-            this.Column_Huisnum.ReadOnly = true;
-            this.Column_Huisnum.Width = 50;
-            // 
-            // Column_KoopHuur
-            // 
-            this.Column_KoopHuur.HeaderText = "Te koop / Te huur";
-            this.Column_KoopHuur.Name = "Column_KoopHuur";
-            this.Column_KoopHuur.ReadOnly = true;
-            // 
-            // Column_Prijs
-            // 
-            this.Column_Prijs.HeaderText = "Prijs";
-            this.Column_Prijs.Name = "Column_Prijs";
-            this.Column_Prijs.ReadOnly = true;
-            this.Column_Prijs.Width = 60;
-            // 
-            // Column_Description
-            // 
-            this.Column_Description.HeaderText = "Omschrijving";
-            this.Column_Description.Name = "Column_Description";
-            this.Column_Description.ReadOnly = true;
-            this.Column_Description.Width = 150;
-            // 
-            // Lat
-            // 
-            this.Lat.HeaderText = "Lat";
-            this.Lat.Name = "Lat";
-            this.Lat.ReadOnly = true;
-            // 
-            // Long
-            // 
-            this.Long.HeaderText = "Long";
-            this.Long.Name = "Long";
-            this.Long.ReadOnly = true;
-            // 
-            // HuurKoop_Textbox
-            // 
-            this.HuurKoop_Textbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.HuurKoop_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HuurKoop_Textbox.FormattingEnabled = true;
-            this.HuurKoop_Textbox.Items.AddRange(new object[] {
-            "Te koop",
-            "Te huur"});
-            this.HuurKoop_Textbox.Location = new System.Drawing.Point(252, 322);
-            this.HuurKoop_Textbox.Name = "HuurKoop_Textbox";
-            this.HuurKoop_Textbox.Size = new System.Drawing.Size(229, 33);
-            this.HuurKoop_Textbox.TabIndex = 34;
-            // 
-            // Huisnum_Textbox
-            // 
-            this.Huisnum_Textbox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Huisnum_Textbox.Location = new System.Drawing.Point(252, 268);
-            this.Huisnum_Textbox.Name = "Huisnum_Textbox";
-            this.Huisnum_Textbox.Size = new System.Drawing.Size(76, 32);
-            this.Huisnum_Textbox.TabIndex = 33;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(252, 214);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(229, 32);
-            this.textBox1.TabIndex = 26;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(46, 217);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 25);
-            this.label14.TabIndex = 32;
-            this.label14.Text = "Straat :";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(46, 275);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(157, 25);
-            this.label15.TabIndex = 31;
-            this.label15.Text = "Huisnummer :";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(46, 325);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(205, 25);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "Te koop / Te huur :";
-            // 
-            // label_Wijk
-            // 
-            this.label_Wijk.AutoSize = true;
-            this.label_Wijk.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Wijk.Location = new System.Drawing.Point(46, 167);
-            this.label_Wijk.Name = "label_Wijk";
-            this.label_Wijk.Size = new System.Drawing.Size(73, 25);
-            this.label_Wijk.TabIndex = 29;
-            this.label_Wijk.Text = "Wijk :";
-            // 
-            // label_stadsgebied
-            // 
-            this.label_stadsgebied.AutoSize = true;
-            this.label_stadsgebied.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_stadsgebied.Location = new System.Drawing.Point(46, 113);
-            this.label_stadsgebied.Name = "label_stadsgebied";
-            this.label_stadsgebied.Size = new System.Drawing.Size(150, 25);
-            this.label_stadsgebied.TabIndex = 28;
-            this.label_stadsgebied.Text = "Stadsgebied :";
-            // 
-            // Wijkadd_Dropdown
-            // 
-            this.Wijkadd_Dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.Wijkadd_Dropdown.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Wijkadd_Dropdown.FormattingEnabled = true;
-            this.Wijkadd_Dropdown.Location = new System.Drawing.Point(252, 164);
-            this.Wijkadd_Dropdown.Name = "Wijkadd_Dropdown";
-            this.Wijkadd_Dropdown.Size = new System.Drawing.Size(229, 33);
-            this.Wijkadd_Dropdown.TabIndex = 27;
-            // 
-            // StadsGebiedAdd_Dropdown
-            // 
-            this.StadsGebiedAdd_Dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.StadsGebiedAdd_Dropdown.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StadsGebiedAdd_Dropdown.FormattingEnabled = true;
-            this.StadsGebiedAdd_Dropdown.Location = new System.Drawing.Point(252, 110);
-            this.StadsGebiedAdd_Dropdown.Name = "StadsGebiedAdd_Dropdown";
-            this.StadsGebiedAdd_Dropdown.Size = new System.Drawing.Size(229, 33);
-            this.StadsGebiedAdd_Dropdown.TabIndex = 25;
             // 
             // StadsGebied_Dropdown
             // 
@@ -818,7 +705,7 @@
             this.Search_Btn.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
             this.Search_Btn.ActiveForecolor = System.Drawing.Color.White;
             this.Search_Btn.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.Search_Btn.BackColor = System.Drawing.Color.White;
+            this.Search_Btn.BackColor = System.Drawing.SystemColors.Window;
             this.Search_Btn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Search_Btn.BackgroundImage")));
             this.Search_Btn.ButtonText = "Zoek";
             this.Search_Btn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -911,232 +798,6 @@
             this.label3.TabIndex = 12;
             this.label3.Text = "Gebied : ";
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(626, 126);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(379, 587);
-            this.tabControl1.TabIndex = 11;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.chart1);
-            this.tabPage1.Controls.Add(this.bunifuCustomLabel6);
-            this.tabPage1.Controls.Add(this.bunifuCustomLabel3);
-            this.tabPage1.Controls.Add(this.bunifuCustomLabel1);
-            this.tabPage1.Controls.Add(this.WoningInbraak_Circle);
-            this.tabPage1.Controls.Add(this.bunifuCustomLabel5);
-            this.tabPage1.Controls.Add(this.bunifuCustomLabel4);
-            this.tabPage1.Controls.Add(this.bunifuCustomLabel2);
-            this.tabPage1.Controls.Add(this.WoningTotaal_Circle);
-            this.tabPage1.Controls.Add(this.AutoTotaal_Circle);
-            this.tabPage1.Controls.Add(this.AutoInbraak_Circle);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(371, 558);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Inbraak";
-            // 
-            // chart1
-            // 
-            this.chart1.BorderSkin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.chart1.BorderSkin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            chartArea10.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea10);
-            legend10.Name = "Legend1";
-            this.chart1.Legends.Add(legend10);
-            this.chart1.Location = new System.Drawing.Point(9, 16);
-            this.chart1.Name = "chart1";
-            this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Grayscale;
-            series10.ChartArea = "ChartArea1";
-            series10.Legend = "Legend1";
-            series10.Name = "Series1";
-            this.chart1.Series.Add(series10);
-            this.chart1.Size = new System.Drawing.Size(351, 217);
-            this.chart1.TabIndex = 28;
-            this.chart1.Text = "chart1";
-            // 
-            // bunifuCustomLabel6
-            // 
-            this.bunifuCustomLabel6.AutoSize = true;
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel6.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(237, 418);
-            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(112, 19);
-            this.bunifuCustomLabel6.TabIndex = 23;
-            this.bunifuCustomLabel6.Text = "Rotterdam :";
-            // 
-            // bunifuCustomLabel3
-            // 
-            this.bunifuCustomLabel3.AutoSize = true;
-            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(212, 399);
-            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(142, 19);
-            this.bunifuCustomLabel3.TabIndex = 20;
-            this.bunifuCustomLabel3.Text = "% Auto-Inbraak";
-            // 
-            // bunifuCustomLabel1
-            // 
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(204, 254);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(150, 19);
-            this.bunifuCustomLabel1.TabIndex = 19;
-            this.bunifuCustomLabel1.Text = "% Auto-inbraak :";
-            // 
-            // WoningInbraak_Circle
-            // 
-            this.WoningInbraak_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WoningInbraak_Circle.animated = false;
-            this.WoningInbraak_Circle.animationIterval = 1;
-            this.WoningInbraak_Circle.animationSpeed = 1;
-            this.WoningInbraak_Circle.BackColor = System.Drawing.Color.White;
-            this.WoningInbraak_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WoningInbraak_Circle.BackgroundImage")));
-            this.WoningInbraak_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.WoningInbraak_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.WoningInbraak_Circle.LabelVisible = true;
-            this.WoningInbraak_Circle.LineProgressThickness = 8;
-            this.WoningInbraak_Circle.LineThickness = 5;
-            this.WoningInbraak_Circle.Location = new System.Drawing.Point(226, 276);
-            this.WoningInbraak_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.WoningInbraak_Circle.MaxValue = 100;
-            this.WoningInbraak_Circle.Name = "WoningInbraak_Circle";
-            this.WoningInbraak_Circle.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.WoningInbraak_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.WoningInbraak_Circle.Size = new System.Drawing.Size(123, 123);
-            this.WoningInbraak_Circle.TabIndex = 25;
-            this.WoningInbraak_Circle.Value = 0;
-            // 
-            // bunifuCustomLabel5
-            // 
-            this.bunifuCustomLabel5.AutoSize = true;
-            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel5.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(34, 420);
-            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(112, 19);
-            this.bunifuCustomLabel5.TabIndex = 22;
-            this.bunifuCustomLabel5.Text = "Rotterdam :";
-            // 
-            // bunifuCustomLabel4
-            // 
-            this.bunifuCustomLabel4.AutoSize = true;
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(9, 401);
-            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(155, 19);
-            this.bunifuCustomLabel4.TabIndex = 21;
-            this.bunifuCustomLabel4.Text = "% Woninginbraak";
-            // 
-            // bunifuCustomLabel2
-            // 
-            this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Lucida Sans", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel2.ForeColor = System.Drawing.Color.DimGray;
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(3, 254);
-            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(165, 19);
-            this.bunifuCustomLabel2.TabIndex = 18;
-            this.bunifuCustomLabel2.Text = "% Woninginbraak :";
-            // 
-            // WoningTotaal_Circle
-            // 
-            this.WoningTotaal_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.WoningTotaal_Circle.animated = false;
-            this.WoningTotaal_Circle.animationIterval = 1;
-            this.WoningTotaal_Circle.animationSpeed = 1;
-            this.WoningTotaal_Circle.BackColor = System.Drawing.Color.White;
-            this.WoningTotaal_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WoningTotaal_Circle.BackgroundImage")));
-            this.WoningTotaal_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.WoningTotaal_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.WoningTotaal_Circle.LabelVisible = true;
-            this.WoningTotaal_Circle.LineProgressThickness = 8;
-            this.WoningTotaal_Circle.LineThickness = 5;
-            this.WoningTotaal_Circle.Location = new System.Drawing.Point(19, 434);
-            this.WoningTotaal_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.WoningTotaal_Circle.MaxValue = 100;
-            this.WoningTotaal_Circle.Name = "WoningTotaal_Circle";
-            this.WoningTotaal_Circle.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.WoningTotaal_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.WoningTotaal_Circle.Size = new System.Drawing.Size(129, 129);
-            this.WoningTotaal_Circle.TabIndex = 24;
-            this.WoningTotaal_Circle.Value = 0;
-            // 
-            // AutoTotaal_Circle
-            // 
-            this.AutoTotaal_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.AutoTotaal_Circle.animated = false;
-            this.AutoTotaal_Circle.animationIterval = 1;
-            this.AutoTotaal_Circle.animationSpeed = 1;
-            this.AutoTotaal_Circle.BackColor = System.Drawing.Color.White;
-            this.AutoTotaal_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AutoTotaal_Circle.BackgroundImage")));
-            this.AutoTotaal_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.AutoTotaal_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.AutoTotaal_Circle.LabelVisible = true;
-            this.AutoTotaal_Circle.LineProgressThickness = 8;
-            this.AutoTotaal_Circle.LineThickness = 5;
-            this.AutoTotaal_Circle.Location = new System.Drawing.Point(226, 430);
-            this.AutoTotaal_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.AutoTotaal_Circle.MaxValue = 100;
-            this.AutoTotaal_Circle.Name = "AutoTotaal_Circle";
-            this.AutoTotaal_Circle.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.AutoTotaal_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.AutoTotaal_Circle.Size = new System.Drawing.Size(128, 128);
-            this.AutoTotaal_Circle.TabIndex = 27;
-            this.AutoTotaal_Circle.Value = 0;
-            // 
-            // AutoInbraak_Circle
-            // 
-            this.AutoInbraak_Circle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.AutoInbraak_Circle.animated = false;
-            this.AutoInbraak_Circle.animationIterval = 1;
-            this.AutoInbraak_Circle.animationSpeed = 1;
-            this.AutoInbraak_Circle.BackColor = System.Drawing.Color.White;
-            this.AutoInbraak_Circle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AutoInbraak_Circle.BackgroundImage")));
-            this.AutoInbraak_Circle.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.AutoInbraak_Circle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.AutoInbraak_Circle.LabelVisible = true;
-            this.AutoInbraak_Circle.LineProgressThickness = 8;
-            this.AutoInbraak_Circle.LineThickness = 5;
-            this.AutoInbraak_Circle.Location = new System.Drawing.Point(17, 274);
-            this.AutoInbraak_Circle.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.AutoInbraak_Circle.MaxValue = 100;
-            this.AutoInbraak_Circle.Name = "AutoInbraak_Circle";
-            this.AutoInbraak_Circle.ProgressBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.AutoInbraak_Circle.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.AutoInbraak_Circle.Size = new System.Drawing.Size(131, 131);
-            this.AutoInbraak_Circle.TabIndex = 26;
-            this.AutoInbraak_Circle.Value = 0;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(371, 558);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Geweld";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // GoogleMapsControl
             // 
             this.GoogleMapsControl.Bearing = 0F;
@@ -1159,17 +820,9 @@
             this.GoogleMapsControl.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.GoogleMapsControl.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.GoogleMapsControl.ShowTileGridLines = false;
-            this.GoogleMapsControl.Size = new System.Drawing.Size(634, 600);
+            this.GoogleMapsControl.Size = new System.Drawing.Size(593, 600);
             this.GoogleMapsControl.TabIndex = 10;
             this.GoogleMapsControl.Zoom = 0D;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            this.panel4.Location = new System.Drawing.Point(0, 113);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(995, 10);
-            this.panel4.TabIndex = 24;
             // 
             // Main_Ui
             // 
@@ -1192,14 +845,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).EndInit();
-            this.ManageHuizen_Panel.ResumeLayout(false);
-            this.ManageHuizen_Panel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_HuisResults)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1244,46 +894,11 @@
         private System.Windows.Forms.ComboBox Wijk_dropdown;
         private System.Windows.Forms.ComboBox StadsGebied_Dropdown;
         private System.Windows.Forms.ComboBox KoopHuur_DropDown;
-        private System.Windows.Forms.Panel ManageHuizen_Panel;
-        private System.Windows.Forms.TextBox LongTextBox;
-        private System.Windows.Forms.TextBox LatTextBox;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label HID_Lable;
-        private System.Windows.Forms.TextBox HID_Textbox;
-        private System.Windows.Forms.Button Search_Button;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox Prijs_Textbox;
-        private System.Windows.Forms.RichTextBox Omschrijving_TextBox;
-        private System.Windows.Forms.Button UpdateButton;
-        private System.Windows.Forms.Button Delete_button;
-        private System.Windows.Forms.Button Button_Add;
-        private System.Windows.Forms.DataGridView dataGridView_HuisResults;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HID_Collumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column_Gebied;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column_Wijk;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column_Straat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column_Huisnum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column_KoopHuur;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column_Prijs;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column_Description;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Lat;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Long;
-        private System.Windows.Forms.ComboBox HuurKoop_Textbox;
-        private System.Windows.Forms.TextBox Huisnum_Textbox;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label_Wijk;
-        private System.Windows.Forms.Label label_stadsgebied;
-        private System.Windows.Forms.ComboBox Wijkadd_Dropdown;
-        private System.Windows.Forms.ComboBox StadsGebiedAdd_Dropdown;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox Exit_btn;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.Panel panel4;
+        private Bunifu.Framework.UI.BunifuFlatButton Logout_Button;
     }
 }
 

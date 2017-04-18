@@ -44,6 +44,7 @@ namespace VeiligWonenNewUI
 
             if (dt.Rows.Count == 1)
             {
+                this.Hide();
                 Main_Ui MainUI = new Main_Ui(dt.Rows[0][0].ToString(), dt.Rows[0][1].ToString());
                 MainUI.Show();
             }

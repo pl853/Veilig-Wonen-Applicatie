@@ -31,12 +31,18 @@ namespace VeiligWonenNewUI
 
         List<string> huizen = new List<string>();
 
+        Addhuis_UI Addhuis = new Addhuis_UI();
 
-        public Main_Ui(string Role,string UserName)
+
+        public Main_Ui(string Role, string UserName)
         {
             InitializeComponent();
 
             //filling labels
+            WoningTotaal_Circle.Value = 23;
+
+            AutoTotaal_Circle.Value = 13;
+
             Name_Label.Text = UserName;
             Role_label.Text = Role;
         }
@@ -44,13 +50,11 @@ namespace VeiligWonenNewUI
         private void VeiligWonen_Load(object sender, EventArgs e)
         {
             OnAppLoad();
-            
+
         }
 
         void OnAppLoad()
         {
-            // invisabele on load
-            ManageHuizen_Panel.Visible = false;
             // what check who logged and what to display
             if (Role_label.Text != "Admin")
             {
@@ -66,7 +70,7 @@ namespace VeiligWonenNewUI
             GoogleMapsControl.MinZoom = 11;
             GoogleMapsControl.MaxZoom = 24;
             GoogleMapsControl.Zoom = 12;
-        }    
+        }
 
         void CreateMarker(string name, double Latitude, double Longditute, string Huisnummer, string Prijs, string KoopHuur)
         {
@@ -129,12 +133,16 @@ namespace VeiligWonenNewUI
 
         private void Managehuizen_MenuItem_Click(object sender, EventArgs e)
         {
-            ManageHuizen_Panel.Visible = true;
+            Addhuis.Show();
+            Addhuis.MdiParent = this;
+            Addhuis.Dock = DockStyle.Fill;
+            panel2.Hide();
         }
 
         private void ZoekHuis_MenuItem_Click(object sender, EventArgs e)
         {
-            ManageHuizen_Panel.Visible = false;
+            Addhuis.Hide();
+            panel2.Show();
         }
 
         private void Exit_btn_Click(object sender, EventArgs e)
@@ -163,9 +171,6 @@ namespace VeiligWonenNewUI
             DataTable dt = new DataTable();
             sda.Fill(dt);
 
-            WoningTotaal_Circle.Value = 23;
-            AutoInbraak_Circle.Value = 13;
-
             if (dt.Rows.Count >= 1)
             {
                 string WoningInbraak_percstr = dt.Rows[0][0].ToString();
@@ -176,7 +181,12 @@ namespace VeiligWonenNewUI
 
         private void Search_Btn_Click(object sender, EventArgs e)
         {
-            FillPercentages();
+            string prijsstring = PrijsTot_Textbox.Text;
+            int prijsint = int.Parse(prijsstring);
+
+            ClearPercentages(); //clears last 
+            FillPercentages(); // fills new
+
             if (StadsGebied_Dropdown.Text == "")
             {
                 MessageBox.Show("Selecteer een Stadsgebied");
@@ -186,25 +196,27 @@ namespace VeiligWonenNewUI
                 if (Straat_TextBox.Text != "")
                 {
 
-                        if (KoopHuur_DropDown.Text != "")
+                    if (KoopHuur_DropDown.Text != "")
+                    {
+                        ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'and Prijs < '"+prijsint+"'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'");
+                        
+                        if (PrijsTot_Textbox.Text != "")
                         {
-                            if (PrijsTot_Textbox.Text != "")
-                            {
-                                GoogleMapsControl.Overlays.Clear();
-                                ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "' and Straat = '" + Straat_TextBox.Text +"'and KoopHuur = '" + KoopHuur_DropDown.Text + "'");
-                            }
-
-                            else
-                            {
-                                GoogleMapsControl.Overlays.Clear();
-                                ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "' and Straat = '" + Straat_TextBox.Text +"'and KoopHuur = '" + KoopHuur_DropDown.Text + "'");
-                            }
+                            GoogleMapsControl.Overlays.Clear();
+                            ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'and Prijs < '" + PrijsTot_Textbox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'");
                         }
+
                         else
                         {
                             GoogleMapsControl.Overlays.Clear();
-                            ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'");
+                            ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'and KoopHuur = '" + KoopHuur_DropDown.Text + "'");
                         }
+                    }
+                    else
+                    {
+                        GoogleMapsControl.Overlays.Clear();
+                        ShowMarkers(@"SELECT * FROM huis where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "'and Straat = '" + Straat_TextBox.Text + "'", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11168746`.`huis` where stadsgebied = '" + StadsGebied_Dropdown.Text + "' and wijk = '" + Wijk_dropdown.Text + "' and Straat = '" + Straat_TextBox.Text + "'");
+                    }
                 }
                 else if (KoopHuur_DropDown.Text != "")
                 {
@@ -221,6 +233,19 @@ namespace VeiligWonenNewUI
                 setMapPosition("SELECT wijk.Lat,wijk.Long From sql11168746.wijk where wijk.Naam = '" + Wijk_dropdown.Text + "'");
                 KoopHuur_DropDown.SelectedIndex = -1;
             }
+        }
+
+        void ClearPercentages()
+        {
+            WoningInbraak_Circle.Value = 0;
+            AutoInbraak_Circle.Value = 0;
+        }
+
+        private void Logout_Button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login_UI LoginUI = new Login_UI();
+            LoginUI.Show();
         }
     }
 }

@@ -84,6 +84,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Addhuis_UI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addhuis_UI.Designer.cs">
+      <DependentUpon>Addhuis_UI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login_UI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Addhuis_UI.resx">
+      <DependentUpon>Addhuis_UI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_UI.resx">
       <DependentUpon>Login_UI.cs</DependentUpon>
     </EmbeddedResource>
