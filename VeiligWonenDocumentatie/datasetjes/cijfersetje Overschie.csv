@@ -1,0 +1,504 @@
+Overschie;;;;;;;
+
+
+Diefstal;;;;;;;
+;;buurtprobleem fietsendiefstal;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;11,6;17,4;14,7;16,2;19,6
+;;Overschie eo;5,1;12;11,5;13,2;16,5
+;;Overschie;8,1;13,4;13;14,6;17,9
+;;Rotterdam;18,7;18,2;20;18,5;18,2
+
+;;buurtprobleem diefstal uit de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;11,1;16,7;15,4;25,4;17,2
+;;Overschie eo;8,4;9,4;10,8;18;13,3
+;;Overschie;9,7;12,3;12,9;21,4;15,1
+;;Rotterdam;16,6;15,8;15,4;15,7;14,1
+
+;;buurtprobleem beschadiging aan of diefstal vanaf de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;11,1;17,3;19,6;22,7;18,1
+;;Overschie eo;17,2;15,1;13,6;21;18,3
+;;Overschie;14,3;16,1;16,4;21,8;18,2
+;;Rotterdam;16,9;16,8;18,2;18,2;17,2
+
+;;slachtofferschap autodiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;1,8;0,9;2,2;2,4;0,5
+;;Overschie eo;0;0;0,7;1,6;0,4
+;;Overschie;0,7;0,3;1,3;1,9;0,5
+;;Rotterdam;0,7;0,5;1,2;1;0,6
+
+;;slachtofferschap diefstal uit de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;5,4;9,2;4,5;7,7;5,3
+;;Overschie eo;5,3;4,7;4,1;2,5;3,2
+;;Overschie;5,2;6,3;4,3;4,6;4
+;;Rotterdam;7,1;6,8;5,8;4,9;4
+
+;;slachtofferschap diefstal vanaf de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;27;37,6;11,8;15,7;15,4
+;;Overschie eo;15,8;23,5;18;16,1;13,4
+;;Overschie;19,9;28,4;15,4;16;14,2
+;;Rotterdam;29,6;30,5;25,2;15,7;14,7
+
+;;slachtofferschap fietsendiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;1,5;5,6;4,7;2,6;2,3;;;;;
+;;Overschie eo;0,3;2,1;4,6;2,7;3,1;;;;;
+;;Overschie;0,7;3,4;4,7;2,6;2,8;;;;;
+;;Rotterdam;5,3;5,2;9,1;3,9;5;;;;;
+
+;;slachtofferschap overige diefstal;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;2,2;1,3;2,5;2,6;4,6;;;;;
+;;Overschie eo;1,7;2,5;2,3;4,3;3,1;;;;;
+;;Overschie;1,9;2,2;2,4;3,5;3,8;;;;;
+;;Rotterdam;2,6;3,7;3,3;3;3,2;;;;;
+
+;;1.2.1 aangiften diefstal uit/vanaf motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;100;92;111;136;103;13,7;12,7;15,2;18,7;14,2
+;;Overschie eo;155;110;177;151;130;18;12,9;20,9;17,5;15
+;;Overschie;255;202;288;287;233;16;12,8;18,3;18,1;14,6
+;;Rotterdam;9249;8086;9744;8917;7615;15,8;13,9;16,8;15,3;12,8
+
+;;1.2.2 aangiften diefstal van motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;22;16;30;18;25;3;2,2;4,1;2,5;3,4
+;;Overschie eo;14;21;25;30;28;1,6;2,5;2,9;3,5;3,2
+;;Overschie;36;37;55;48;53;2,3;2,3;3,5;3;3,3
+;;Rotterdam;1679;1423;1323;1411;1173;2,9;2,4;2,3;2,4;2
+
+;;1.2.3 aangiften diefstal van brom-, snor-, fietsen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;41;28;30;26;39;5,6;3,9;4,1;3,6;5,4
+;;Overschie eo;44;27;32;25;43;5,1;3,2;3,8;2,9;5
+;;Overschie;85;55;62;51;82;5,3;3,5;3,9;3,2;5,1
+;;Rotterdam;3983;3982;4927;4108;4438;6,8;6,8;8,5;7;7,5
+
+;;1.2.4 aangiften zakkenrollerij;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;9;7;6;7;8;1,2;1;0,8;1;1,1
+;;Overschie eo;4;8;7;7;7;0,5;0,9;0,8;0,8;0,8
+;;Overschie;13;15;13;14;15;0,8;1;0,8;0,9;0,9
+;;Rotterdam;2456;2570;2564;1996;2138;4,2;4,4;4,4;3,4;3,6
+
+;;1.2.5 aangiften diefstal af/uit/van overige voertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;7;7;16;15;26;1;1;2,2;2,1;3,6
+;;Overschie eo;10;15;25;25;19;1,2;1,8;2,9;2,9;2,2
+;;Overschie;17;22;41;40;45;1,1;1,4;2,6;2,5;2,8
+;;Rotterdam;682;850;834;780;729;1,2;1,5;1,4;1,3;1,2
+
+;;2.5.2 aangiften winkeldiefstal;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;3;7;10;8;2;51,7;116,7;163,9;133,3;34,5
+;;Overschie eo;0;0;0;1;1;0;0;0;9,2;9,8
+;;Overschie;3;7;10;9;3;28;41,4;61,3;53,3;18,8
+;;Rotterdam;1377;1227;1004;1050;775;263,1;178,9;147,7;156,6;122
+
+;;1.6.2 aangiften overige vermogensdelicten;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;57;49;49;42;43;7,8;6,8;6,7;5,8;5,9
+;;Overschie eo;102;74;62;64;91;11,9;8,7;7,3;7,4;10,5
+;;Overschie;159;123;111;106;134;10;7,8;7;6,7;8,4
+;;Rotterdam;6743;6410;6346;6196;7209;11,5;11;10,9;10,6;12,1
+
+Drugsoverlast;;;;;;;;;;;;
+
+;;buurtprobleem drugsoverlast;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;1,1;2,5;3;4,9;7,6;;;;;
+;;Overschie eo;1,7;2,5;3,1;3,6;2,2;;;;;
+;;Overschie;1,4;2,5;3,1;4,2;4,6;;;;;
+;;Rotterdam;8,2;6,7;9,9;10,2;10,1;;;;;
+
+;;2.1.1 meldingen drugsoverlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;% vaak;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;9;5;5;5;7;1,2;0,7;0,7;0,7;1
+;;Overschie eo;12;11;6;5;11;1,4;1,3;0,7;0,6;1,3
+;;Overschie;21;16;11;10;18;1,3;1;0,7;0,6;1,1
+;;Rotterdam;1242;1135;1071;1022;726;2,1;2;1,8;1,7;1,2
+
+Geweld;;;;;;;;;;;;
+
+;;buurtprobleem bedreiging;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;1,1;0,6;3,3;4,6;2,6;;;;;
+;;Overschie eo;0,6;0,6;1,1;2,1;1;;;;;
+;;Overschie;0,8;0,7;2,1;3,2;1,7;;;;;
+;;Rotterdam;3,3;3,1;4,5;4,8;5,8;;;;;
+
+;;buurtprobleem geweldsdelicten;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;1,1;1,3;2;2;3,6
+;;Overschie eo;0;1,9;1,1;2,5;1,3
+;;Overschie;0,5;1,8;1,5;2,3;2,3
+;;Rotterdam;3,9;3,7;4,6;4,7;5,9
+
+;;buurtprobleem tasjesroof;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;1,1;3,9;1,4;3,2;2
+;;Overschie eo;0;0,6;2,6;1,6;0,3
+;;Overschie;0,5;2,1;2,1;2,3;1,1
+;;Rotterdam;3,2;2,8;3,4;3;3,4
+
+;;slachtofferschap tasjesroof met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;0,6;0,6;0;0,7;0
+;;Overschie eo;0,6;0;0;0;0
+;;Overschie;0,6;0,3;0;0,3;0
+;;Rotterdam;0,5;0,5;0,3;0,2;0,2
+
+;;slachtofferschap tasjesroof zonder geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;0,6;1,3;0,8;0,8;0,6
+;;Overschie eo;0,6;0;1,5;1,6;1,4
+;;Overschie;0,6;0,7;1,2;1,2;1,1
+;;Rotterdam;1,3;1,3;1,3;1,2;1,2
+
+;;slachtofferschap bedreiging met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;2,2;1,3;1;0,1;2,5
+;;Overschie eo;0;1,3;3,4;3,2;5,6
+;;Overschie;1;1,5;2,3;2,3;4,2
+;;Rotterdam;2,8;2,6;2,8;2,9;3,1;;;;;
+
+;;slachtofferschap mishandeling;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;0,5;0;0,7;0,3;0,5;;;;;
+;;Overschie eo;0;0;0,3;0,5;1,3;;;;;
+;;Overschie;0,2;0;0,5;0,4;1;;;;;
+;;Rotterdam;0,4;0,5;0,8;0,4;0,8;;;;;
+
+;;1.4.1 aangiften zedenmisdrijven;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;5;3;2;4;2;0,7;0,4;0,3;0,6;0,3
+;;Overschie eo;0;7;4;0;2;0;0,8;0,5;0;0,2
+;;Overschie;5;10;6;4;4;0,3;0,6;0,4;0,3;0,3
+;;Rotterdam;474;433;376;352;236;0,8;0,7;0,6;0,6;0,4
+
+;;1.4.3 aangiften openlijke geweldpleging tegen personen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;2;3;1;6;7;0,3;0,4;0,1;0,8;1
+;;Overschie eo;5;1;5;1;3;0,6;0,1;0,6;0,1;0,3
+;;Overschie;7;4;6;7;10;0,4;0,3;0,4;0,4;0,6
+;;Rotterdam;637;700;621;620;508;1,1;1,2;1,1;1,1;0,9
+
+;;1.4.6 aangiften straatroof;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;5;7;4;4;9;0,7;1;0,5;0,6;1,2
+;;Overschie eo;4;3;1;3;3;0,5;0,4;0,1;0,3;0,3
+;;Overschie;9;10;5;7;12;0,6;0,6;0,3;0,4;0,8
+;;Rotterdam;1484;1262;1161;992;1018;2,5;2,2;2;1,7;1,7
+
+;;1.4.7 aangiften overval;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;2;4;2;3;0;0,3;0,6;0,3;0,4;0
+;;Overschie eo;2;3;3;3;4;0,2;0,4;0,4;0,3;0,5
+;;Overschie;4;7;5;6;4;0,3;0,4;0,3;0,4;0,3
+;;Rotterdam;212;245;304;295;235;0,4;0,4;0,5;0,5;0,4
+
+;;1.4.4 meldingen bedreiging;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;19;9;8;11;19;2,6;1,2;1,1;1,5;2,6
+;;Overschie eo;13;17;18;11;4;1,5;2;2,1;1,3;0,5
+;;Overschie;32;26;26;22;23;2;1,6;1,6;1,4;1,4
+;;Rotterdam;1723;1742;1591;1488;1287;2,9;3;2,7;2,5;2,2
+
+;;1.4.5 meldingen mishandeling;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;76;68;71;63;56;10,4;9,4;9,7;8,7;7,7
+;;Overschie eo;86;65;68;70;66;10;7,6;8;8,1;7,6
+;;Overschie;162;133;139;133;122;10,2;8,4;8,8;8,4;7,7
+;;Rotterdam;10335;10639;10667;10882;9915;17,6;18,3;18,4;18,6;16,7
+
+Inbraak;;;;;;;;;;;;
+
+;;buurtprobleem woninginbraak;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;17;17,8;13,8;17,2;17,9;;;;;
+;;Overschie eo;13,2;10,1;12;11,5;10,6;;;;;
+;;Overschie;15;14,6;12,8;14,1;13,9;;;;;
+;;Rotterdam;12,9;12;12,1;11,1;13,5
+
+;;slachtofferschap poging tot inbraak;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;4,9;1,3;2,5;2;3,2
+;;Overschie eo;3,4;1,9;2,5;4,6;3,5
+;;Overschie;4,1;1,5;2,5;3,4;3,4
+;;Rotterdam;3,5;3,1;3;2,5;2,8
+
+;;slachtofferschap woninginbraak;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;1,7;0,6;1,5;1,7;4,1
+;;Overschie eo;1,1;3,8;1,9;1,7;2
+;;Overschie;1,4;2,7;1,7;1,7;3
+;;Rotterdam;2;2;2;1,4;1,3
+
+;;1.1.1 aangiften woninginbraak;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;80;54;50;53;63;22,7;15,5;14,2;14,9;17,5
+;;Overschie eo;55;35;46;55;60;15,2;9,7;12,8;15,1;16,3
+;;Overschie;135;89;96;108;123;18,9;12,5;13,5;15;16,9
+;;Rotterdam;4420;3779;4018;3756;3787;16,4;14;14,9;13,8;13,7
+
+;;1.1.2 aangiften inbraak in garages, schuren en tuinhuizen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;29;21;44;23;26;8,2;6;12,5;6,5;7,2
+;;Overschie eo;60;48;40;54;35;16,6;13,3;11,1;14,9;9,5
+;;Overschie;89;69;84;77;61;12,5;9,7;11,8;10,7;8,4
+;;Rotterdam;2629;1881;1746;1595;1295;9,8;7;6,5;5,8;4,7
+
+;;2.5.1 aangiften inbraak in bedrijven/instellingen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;30;21;29;40;20;171,4;118,6;166,7;223,5;109,3
+;;Overschie eo;27;21;22;44;15;65,1;51,1;52,5;104,3;34,3
+;;Overschie;57;42;51;84;35;96,6;71,4;86;139,8;56,5
+;;Rotterdam;2730;2271;1957;1947;1237;132,4;108,7;90,9;89,2;55,2
+
+Vandalisme;;;;;;;;;;;;
+
+;;buurtprobleem bekladding muren/gebouwen;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;8,9;15,3;17,9;14,5;14,7;;;;;
+;;Overschie eo;7,9;12;13,3;14,8;6,5;;;;;
+;;Overschie;8,4;14,8;15,4;14,7;10,2;;;;;
+;;Rotterdam;14,3;14,9;18,7;17;13,9;;;;;
+
+;;buurtprobleem vernieling telefooncellen/bus- of tramhokjes ;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;25;25,5;37,2;24,3;18,5
+;;Overschie eo;21,7;15,7;15,7;14,4;10,7
+;;Overschie;23,2;21,2;25,6;18,9;14,3
+;;Rotterdam;18,6;17,7;19,4;16,2;11,8
+
+;;slachtofferschap overige beschadiging/vernieling;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;0;2,6;3,5;5;2,4
+;;Overschie eo;1,1;1,3;6,3;8,8;6,6
+;;Overschie;0,6;1,7;5;7,1;4,7
+;;Rotterdam;3,7;2,7;8,1;7,3;6,5
+
+;;2.2.1 meldingen vernieling cq zaakbeschadiging;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;45;41;40;33;22;6,1;5,7;5,5;4,5;3
+;;Overschie eo;54;39;37;35;24;6,3;4,6;4,4;4,1;2,8
+;;Overschie;99;80;77;68;46;6,2;5,1;4,9;4,3;2,9
+;;Rotterdam;3972;3999;3803;3203;2376;6,8;6,9;6,6;5,5;4
+
+;;meldingen kleine buitenbranden;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;11;5;8;14;6;0,8;0,4;0,6;1,1;0,5
+;;Overschie eo;14;15;23;23;12;0,1;0,1;0,2;0,2;0,1
+;;Overschie;25;20;31;37;18;0,2;0,1;0,2;0,2;0,1
+;;Rotterdam;967;970;900;849;556;0,7;0,7;0,7;0,6;0,4
+
+Overlast;;;;;;;;;;;;
+
+;;buurtprobleem overlast van groepen jongeren;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;8,8;9,1;16,3;17,5;21
+;;Overschie eo;4,5;8,2;9,9;11,2;7,3
+;;Overschie;6,5;8,8;12,8;14;13,6
+;;Rotterdam;14,3;14;19,1;20,1;20
+
+;;buurtprobleem dronken mensen op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;1,7;2;2,1;4,1;5,7
+;;Overschie eo;1,1;2,5;2,1;2,9;1,6
+;;Overschie;1,4;1,8;2,1;3,5;3,5
+;;Rotterdam;5,4;5;8,7;10,5;11,1
+
+;;buurtprobleem lastig gevallen worden op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;0;0,7;3,6;3,5;6,8;;;;;
+;;Overschie eo;0;2,5;2,9;2,1;1,3;;;;;
+;;Overschie;0;1,2;3,3;2,8;3,8;;;;;
+;;Rotterdam;3,1;2,6;5,6;6,2;6,4;;;;;
+
+;;2.4.1 meldingen burengerucht (relatieproblemen);;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;173;177;188;208;151;23,6;24,4;25,8;28,7;20,7
+;;Overschie eo;145;142;113;149;98;16,9;16,7;13,3;17,3;11,3
+;;Overschie;318;319;301;357;249;20;20,2;19,1;22,5;15,6
+;;Rotterdam;15483;15318;16151;16936;16299;26,4;26,3;27,8;29;27,4
+
+;;2.7.1 meldingen overlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;110;85;67;96;77;15;11,7;9,2;13,2;10,6
+;;Overschie eo;141;115;95;118;61;16,4;13,5;11,2;13,7;7
+;;Overschie;251;200;162;214;138;15,8;12,7;10,3;13,5;8,7
+;;Rotterdam;11983;10454;9484;9740;8323;20,4;18;16,3;16,7;14
+
+Schoon en heel;;;;;;;;;;;;
+
+;;buurtprobleem vervuiling op straat;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;26,2;22,8;26;29,9;32,4;;;;;
+;;Overschie eo;27,8;23,9;22,2;25,2;21,4;;;;;
+;;Overschie;27,1;26,6;24;27,3;26,4;;;;;
+;;Rotterdam;33,8;32,9;36,3;36;33,9;;;;;
+
+;;buurtprobleem hondenpoep op straat;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;26,1;30,7;30,8;28,3;33,4
+;;Overschie eo;41,4;39,7;40;35,8;36,7
+;;Overschie;34,2;38,7;35,8;32,4;35,2
+;;Rotterdam;38,1;35,9;36,5;35,1;32,4
+
+;;buurtprobleem vuil naast de container;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;21,7;21,8;39,1;34,9;42,4
+;;Overschie eo;14,6;15,1;26;31,3;20,7
+;;Overschie;17,9;19,5;32;32,9;30,6
+;;Rotterdam;23,9;23,6;37,1;37,5;35,9
+
+;;buurtprobleem wildplassen;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;2,2;4,5;9,5;9,6;9,5
+;;Overschie eo;3,4;1,9;5,3;5,4;3,8
+;;Overschie;2,8;3,2;7,2;7,3;6,4
+;;Rotterdam;9,9;9,3;18;19,3;17,9
+
+;;buurtprobleem gaten of verzakkingen in de bestrating;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;18,8;17,8;23,1;22,9;26,1
+;;Overschie eo;25;17;30,1;28,6;27,4
+;;Overschie;22,1;19,6;26,9;26;26,9
+;;Rotterdam;21,7;21,2;26,5;25,4;23,5
+
+;;buurtprobleem vernield of kapot straatmeubilair;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;2,8;5;9,8;9,2;7,2
+;;Overschie eo;4,8;7,5;6,4;9,5;6,2
+;;Overschie;3,9;7;7,9;9,4;6,7
+;;Rotterdam;8;8;13;12,8;10,4;;;;;
+
+;;score op de productnormering;;;;;;;;;;
+;;;Schoon;;;;;Heel;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;4,3;4,3;4,3;4,5;4,7;4;4;4,1;4,2;4,4
+;;Overschie eo;4,4;4,3;4,4;4,5;4,7;3,5;3,5;3,8;4;4,3
+;;Overschie;4,4;4,2;4,4;4,5;4,7;3,8;3,8;3,9;4,1;4,3
+;;Rotterdam;4,1;4,2;4,2;4,4;4,5;3,7;3,7;3,7;3,9;4,1
+
+Verkeer;;;;;;;;;;;;
+
+;;buurtprobleem aanrijdingen;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;2,8;3,2;10,1;4,1;4,8;;;;;
+;;Overschie eo;3,4;3,8;5,2;2,8;9;;;;;
+;;Overschie;3,1;4;7,4;3,4;7
+;;Rotterdam;6,2;4,9;8,9;9,8;9
+
+;;buurtprobleem agressief verkeersgedrag;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Kleinpolder;12,8;7,8;11,6;15,4;15,9
+;;Overschie eo;16,9;14,5;18,7;17,6;14,4
+;;Overschie;15;12;15,4;16,6;15,1
+;;Rotterdam;21,1;19,5;19,5;20,2;18,9
+
+;;slachtofferschap aanrijding met doorrijden;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Kleinpolder;0;0,7;0,5;0,7;1,6
+;;Overschie eo;1,1;0;1,7;0,5;1,2
+;;Overschie;0,6;0;1,1;0,6;1,4
+;;Rotterdam;0,8;0,8;0,8;0,9;1
+
+;;slachtofferschap aanrijding zonder doorrijden;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011;;;;;
+;;Kleinpolder;0,6;0,6;4;2,5;2,8;;;;;
+;;Overschie eo;3,3;3,1;3;3,4;4;;;;;
+;;Overschie;2;1,9;3,4;2,9;3,5;;;;;
+;;Rotterdam;2;2,3;3,1;3,3;3;;;;;
+
+;;1.3.1 meldingen verkeersongevallen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Kleinpolder;262;239;222;214;163;35,8;33;30,5;29,5;22,4
+;;Overschie eo;328;259;241;254;183;38,2;30,4;28,4;29,4;21,1
+;;Overschie;590;498;463;468;346;37,1;31,6;29,4;29,4;21,7
+;;Rotterdam;10352;10242;9755;9636;7830;17,7;17,6;16,8;16,5;13,2
+
+Overig;;;;;;;
+
+;;tevredenheid met het wonen in de buurt ;;;;;
+;;% (zeer) tevreden;2006;2007;2008;2009;2011
+;;Kleinpolder;81,9;74,3;78,8;77,7;73
+;;Overschie eo;83,7;84,9;86,1;80,3;85,8
+;;Overschie;82,8;80,9;82,8;79,1;79,9
+;;Rotterdam;79,4;79,9;75;73,4;74,4
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;

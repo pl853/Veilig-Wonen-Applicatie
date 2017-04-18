@@ -1,0 +1,702 @@
+Hillegersberg-Schiebroek;;;;;;;
+
+
+Diefstal;;;;;;;
+;;buurtprobleem fietsendiefstal;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;13,1;16,1;14,2;14,9;17,2
+;;Hillegersberg Zuid;15,4;12,4;11,6;10,7;10,7
+;;Hillegersberg Noord;5,6;7,6;12,9;10,2;7,9
+;;Terbregge;2,9;1,3;2,5;6,5;3,5
+;;Molenlaankwartier;9,2;13;7,5;6,5;10
+;;Hillegersberg-Schiebroek;10,8;12,6;11,2;11;11,9
+;;Rotterdam;18,7;18,2;20;18,5;18,2
+
+;;buurtprobleem diefstal uit de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;10,9;7,3;9,5;8,4;11,2
+;;Hillegersberg Zuid;13,1;11,2;9,9;7,9;8,9
+;;Hillegersberg Noord;3,9;4,5;10,7;8,4;10,2
+;;Terbregge;1,1;2,7;3,4;11,8;9,8
+;;Molenlaankwartier;6,8;9,7;11,9;6;9,4
+;;Hillegersberg-Schiebroek;8,6;8;9,7;8,2;10,2
+;;Rotterdam;16,6;15,8;15,4;15,7;14,1
+
+;;buurtprobleem beschadiging aan of diefstal vanaf de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;12,3;12,3;13,7;14;14
+;;Hillegersberg Zuid;10,8;13,1;16,1;7,1;11,3
+;;Hillegersberg Noord;9,4;8,3;13,4;9,4;8,4
+;;Terbregge;5,4;5,3;4,7;9,1;11,5
+;;Molenlaankwartier;6,2;11;11,1;4,5;11
+;;Hillegersberg-Schiebroek;9,9;11,2;12,9;9,7;11,8
+;;Rotterdam;16,9;16,8;18,2;18,2;17,2
+
+;;slachtofferschap autodiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;0;0,6;0,5;1,1;0,5
+;;Hillegersberg Zuid;0;0,6;0,3;0,8;1
+;;Hillegersberg Noord;0;0;1,1;0;0,9
+;;Terbregge;0,9;0;0;1,4;0,6
+;;Molenlaankwartier;0;0;0,7;0,7;0,2
+;;Hillegersberg-Schiebroek;0,1;0,3;0,6;0,8;0,6
+;;Rotterdam;0,7;0,5;1,2;1;0,6
+
+;;slachtofferschap diefstal uit de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;3,1;7,3;5,8;3,9;3,2
+;;Hillegersberg Zuid;2,9;9,4;3,7;3,7;4,2
+;;Hillegersberg Noord;2,1;1,9;3,4;1,6;2
+;;Terbregge;2,5;1,5;1,4;3,7;3,8
+;;Molenlaankwartier;2,3;3,2;4,5;1,8;3,1
+;;Hillegersberg-Schiebroek;2,5;5,2;4,3;2,9;3,2
+;;Rotterdam;7,1;6,8;5,8;4,9;4
+
+;;slachtofferschap diefstal vanaf de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;20,6;25,2;19,4;13,6;12,5
+;;Hillegersberg Zuid;25,3;26,2;26,4;12,9;12,5
+;;Hillegersberg Noord;27,7;23,6;16,1;13,2;10,8
+;;Terbregge;10,9;15,8;11,9;10,8;8,5
+;;Molenlaankwartier;16,8;13,2;19;8,8;10,4
+;;Hillegersberg-Schiebroek;21,2;21,5;19,1;12;11,3
+;;Rotterdam;29,6;30,5;25,2;15,7;14,7
+
+;;slachtofferschap fietsendiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;3,6;3,3;3,7;4;3,1
+;;Hillegersberg Zuid;8,2;5,5;10,8;3,5;2,2
+;;Hillegersberg Noord;2,6;5,2;3;4;3,1
+;;Terbregge;1,5;1,5;4,6;2,8;1
+;;Molenlaankwartier;2,8;4,3;4,3;2,3;3,3
+;;Hillegersberg-Schiebroek;4;4;5,1;3,4;2,8
+;;Rotterdam;5,3;5,2;9,1;3,9;5
+
+;;slachtofferschap overige diefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;1,7;2,2;4;3;2,9
+;;Hillegersberg Zuid;2,8;1,3;2,6;2,3;3,6
+;;Hillegersberg Noord;1,1;0,6;2,3;2,6;1,8
+;;Terbregge;2,3;1,3;3,1;2,6;2,1;;;;;
+;;Molenlaankwartier;1,1;1,3;3,4;2,7;3,5;;;;;
+;;Hillegersberg-Schiebroek;1,8;1,4;3,3;2,7;2,9;;;;;
+;;Rotterdam;2,6;3,7;3,3;3;3,2;;;;;
+
+;;1.2.1 aangiften diefstal uit/vanaf motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;198;112;191;157;152;12,8;7,4;12,6;10,3;9,6
+;;Hillegersberg Zuid;82;109;135;58;132;10,8;14,3;17,7;7,6;17,2
+;;Hillegersberg Noord;51;59;92;69;60;7,6;8,6;13,1;9,2;7,7
+;;Terbregge;34;11;42;35;32;9,8;3,2;12,1;10;9,2
+;;Molenlaankwartier;53;44;89;55;93;7;5,8;11,8;7,2;12
+;;Hillegersberg-Schiebroek;418;335;549;374;469;10,2;8,2;13,4;9;11
+;;Rotterdam;9249;8086;9744;8917;7615;15,8;13,9;16,8;15,3;12,8
+
+;;1.2.2 aangiften diefstal van motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;43;29;19;19;33;2,8;1,9;1,3;1,3;2,1
+;;Hillegersberg Zuid;20;21;16;29;15;2,6;2,8;2,1;3,8;2
+;;Hillegersberg Noord;16;12;9;19;5;2,4;1,8;1,3;2,5;0,6
+;;Terbregge;5;9;5;5;11;1,4;2,6;1,4;1,4;3,2
+;;Molenlaankwartier;7;7;12;14;7;0,9;0,9;1,6;1,8;0,9
+;;Hillegersberg-Schiebroek;91;78;61;86;71;2,2;1,9;1,5;2,1;1,7
+;;Rotterdam;1679;1423;1323;1411;1173;2,9;2,4;2,3;2,4;2
+
+;;1.2.3 aangiften diefstal van brom-, snor-, fietsen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;111;68;68;87;112;7,2;4,5;4,5;5,7;7
+;;Hillegersberg Zuid;89;75;65;96;76;11,7;9,8;8,5;12,6;9,9
+;;Hillegersberg Noord;56;32;55;57;53;8,4;4,7;7,8;7,6;6,8
+;;Terbregge;9;4;8;19;14;2,6;1,2;2,3;5,5;4
+;;Molenlaankwartier;30;22;26;36;31;3,9;2,9;3,4;4,7;4
+;;Hillegersberg-Schiebroek;295;201;222;295;286;7,2;4,9;5,4;7,1;6,7
+;;Rotterdam;3983;3982;4927;4108;4438;6,8;6,8;8,5;7;7,5
+
+;;1.2.4 aangiften zakkenrollerij;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;20;15;20;14;27;1,3;1;1,3;0,9;1,7
+;;Hillegersberg Zuid;7;10;17;13;11;0,9;1,3;2,2;1,7;1,4
+;;Hillegersberg Noord;9;4;17;11;18;1,3;0,6;2,4;1,5;2,3
+;;Terbregge;1;0;0;0;0;0,3;0;0;0;0
+;;Molenlaankwartier;4;4;1;9;3;0,5;0,5;0,1;1,2;0,4
+;;Hillegersberg-Schiebroek;41;33;55;47;59;1;0,8;1,3;1,1;1,4
+;;Rotterdam;2456;2570;2564;1996;2138;4,2;4,4;4,4;3,4;3,6
+
+;;1.2.5 aangiften diefstal af/uit/van overige voertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;14;15;22;14;21;0,9;1;1,5;0,9;1,3
+;;Hillegersberg Zuid;13;12;8;8;17;1,7;1,6;1;1,1;2,2
+;;Hillegersberg Noord;4;6;17;8;10;0,6;0,9;2,4;1,1;1,3
+;;Terbregge;1;0;2;3;4;0,3;0;0,6;0,9;1,2
+;;Molenlaankwartier;3;1;8;1;10;0,4;0,1;1,1;0,1;1,3
+;;Hillegersberg-Schiebroek;35;34;57;34;62;0,9;0,8;1,4;0,8;1,5
+;;Rotterdam;682;850;834;780;729;1,2;1,5;1,4;1,3;1,2
+
+;;2.5.2 aangiften winkeldiefstal;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;12;9;5;8;7;118,8;67,2;37,9;62;57,4
+;;Hillegersberg Zuid;5;4;12;1;5;64,9;32;97,6;8,1;41
+;;Hillegersberg Noord;7;10;7;3;11;55,1;72,5;52,2;20,4;79,7
+;;Terbregge;0;0;0;0;1;0;0;0;0;66,7
+;;Molenlaankwartier;0;2;0;1;0;0;35,7;0;18,9;0
+;;Hillegersberg-Schiebroek;24;25;24;13;24;72,9;53,2;51,8;27,7;53,1
+;;Rotterdam;1377;1227;1004;1050;775;263,1;178,9;147,7;156,6;122
+
+;;1.6.2 aangiften overige vermogensdelicten;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;187;147;115;123;171;12,1;9,7;7,6;8,1;10,8
+;;Hillegersberg Zuid;54;47;43;50;66;7,1;6,2;5,6;6,6;8,6
+;;Hillegersberg Noord;85;71;72;72;67;12,7;10,4;10,2;9,6;8,6
+;;Terbregge;15;14;13;20;19;4,3;4;3,7;5,7;5,5
+;;Molenlaankwartier;59;32;61;36;46;7,8;4,2;8,1;4,7;5,9
+;;Hillegersberg-Schiebroek;400;311;304;301;369;9,8;7,6;7,4;7,3;8,7
+;;Rotterdam;6743;6410;6346;6196;7209;11,5;11;10,9;10,6;12,1
+
+Drugsoverlast;;;;;;;;;;;;
+
+;;buurtprobleem drugsoverlast;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Schiebroek;3,4;3,8;3;4,8;7,1;;;;;
+;;Hillegersberg Zuid;5,7;1,3;0,5;2,9;3,4;;;;;
+;;Hillegersberg Noord;1,1;3,2;1,8;1,6;1,3;;;;;
+;;Terbregge;2,3;0;0,7;1,4;1,1;;;;;
+;;Molenlaankwartier;1,1;1,9;1,1;0,9;0,7;;;;;
+;;Hillegersberg-Schiebroek;2,9;2,6;1,8;2,9;3,7;;;;;
+;;Rotterdam;8,2;6,7;9,9;10,2;10,1;;;;;
+
+;;2.1.1 meldingen drugsoverlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;% vaak;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;9;5;6;9;9;0,6;0,3;0,4;0,6;0,6
+;;Hillegersberg Zuid;13;1;5;7;6;1,7;0,1;0,7;0,9;0,8
+;;Hillegersberg Noord;2;1;1;5;1;0,3;0,2;0,1;0,7;0,1
+;;Terbregge;2;1;3;3;0;0,6;0,3;0,9;0,9;0
+;;Molenlaankwartier;3;2;4;3;1;0,4;0,3;0,5;0,4;0,1
+;;Hillegersberg-Schiebroek;29;10;19;27;17;0,7;0,2;0,5;0,7;0,4
+;;Rotterdam;1242;1135;1071;1022;726;2,1;2;1,8;1,7;1,2
+
+Geweld;;;;;;;;;;;;
+
+;;buurtprobleem bedreiging;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Schiebroek;2,8;1,1;2,4;2,3;3,2;;;;;
+;;Hillegersberg Zuid;1,7;0;1,3;0,3;1,3;;;;;
+;;Hillegersberg Noord;0,6;0,6;1;1,6;2,4;;;;;
+;;Terbregge;0;0;0;0,4;0,6
+;;Molenlaankwartier;0,6;0,7;1,1;0,3;1,1
+;;Hillegersberg-Schiebroek;1,6;0,6;1,5;1,3;2,1
+;;Rotterdam;3,3;3,1;4,5;4,8;5,8
+
+;;buurtprobleem geweldsdelicten;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;1,8;1,1;2,8;2,1;3,5
+;;Hillegersberg Zuid;1,1;0;0;1,3;0
+;;Hillegersberg Noord;1,1;0,6;1,4;0,5;2,2
+;;Terbregge;0;0;0,7;0,4;0,6
+;;Molenlaankwartier;0,6;0,7;0,8;0;0,7
+;;Hillegersberg-Schiebroek;1,2;0,6;1,5;1,1;1,9
+;;Rotterdam;3,9;3,7;4,6;4,7;5,9
+
+;;buurtprobleem tasjesroof;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;4,4;1,1;0,7;0,9;2,5
+;;Hillegersberg Zuid;0,6;1,3;0;0,5;0,4
+;;Hillegersberg Noord;1,7;0,6;0,4;0,8;1,4
+;;Terbregge;1,1;0;0,7;0,4;0
+;;Molenlaankwartier;0,6;1,3;0,7;0,3;0
+;;Hillegersberg-Schiebroek;2,3;1,1;0,5;0,7;1,3
+;;Rotterdam;3,2;2,8;3,4;3;3,4
+
+;;slachtofferschap tasjesroof met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;0,4;0;0;0;0,2
+;;Hillegersberg Zuid;0,6;0,7;0;0,2;0
+;;Hillegersberg Noord;0;0;0,5;0,3;0
+;;Terbregge;0;0;0;0;0
+;;Molenlaankwartier;0;1,3;0;0;0
+;;Hillegersberg-Schiebroek;0,3;0,3;0,1;0,1;0,1
+;;Rotterdam;0,5;0,5;0,3;0,2;0,2
+
+;;slachtofferschap tasjesroof zonder geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;0,8;1,6;0,7;1,2;0,6
+;;Hillegersberg Zuid;0,9;1,3;0,6;1,3;0,6
+;;Hillegersberg Noord;0;0;0,5;0,2;1,2
+;;Terbregge;0,6;0,7;1,4;1,2;0,8
+;;Molenlaankwartier;0;0,7;2,1;1;1,1
+;;Hillegersberg-Schiebroek;0,5;1;0,9;1;0,8
+;;Rotterdam;1,3;1,3;1,3;1,2;1,2
+
+;;slachtofferschap bedreiging met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;1,7;3,4;3,3;2,4;3,9
+;;Hillegersberg Zuid;1,7;0,7;3,6;2,5;2,1
+;;Hillegersberg Noord;0,6;0,7;2;2;3,2
+;;Terbregge;0,6;0;2;2,5;3,9
+;;Molenlaankwartier;1,7;0,7;2;0,1;1,5
+;;Hillegersberg-Schiebroek;1,4;1,6;2,8;2,1;3
+;;Rotterdam;2,8;2,6;2,8;2,9;3,1
+
+;;slachtofferschap mishandeling;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;0,4;0;1;0,3;0,8
+;;Hillegersberg Zuid;0;0,7;0,6;0;0,5
+;;Hillegersberg Noord;0;0;0,8;0;0,3
+;;Terbregge;0;0;0,8;0,6;0,7
+;;Molenlaankwartier;0;0;0,2;0,2;0,6
+;;Hillegersberg-Schiebroek;0,2;0,1;0,7;0,2;0,6
+;;Rotterdam;0,4;0,5;0,8;0,4;0,8
+
+;;1.4.1 aangiften zedenmisdrijven;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;20;12;13;13;2;1,3;0,8;0,9;0,9;0,1
+;;Hillegersberg Zuid;6;2;2;1;3;0,8;0,3;0,3;0,1;0,4
+;;Hillegersberg Noord;2;4;3;9;1;0,3;0,6;0,4;1,2;0,1
+;;Terbregge;0;0;0;1;0;0;0;0;0,3;0
+;;Molenlaankwartier;3;2;5;7;3;0,4;0,3;0,7;0,9;0,4
+;;Hillegersberg-Schiebroek;31;20;23;31;9;0,8;0,5;0,6;0,7;0,2
+;;Rotterdam;474;433;376;352;236;0,8;0,7;0,6;0,6;0,4
+
+;;1.4.3 aangiften openlijke geweldpleging tegen personen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;6;15;12;9;9;0,4;1;0,8;0,6;0,6
+;;Hillegersberg Zuid;3;1;7;6;0;0,4;0,1;0,9;0,8;0
+;;Hillegersberg Noord;3;3;3;0;6;0,4;0,4;0,4;0;0,8
+;;Terbregge;0;0;0;0;0;0;0;0;0;0
+;;Molenlaankwartier;3;3;8;0;1;0,4;0,4;1,1;0;0,1
+;;Hillegersberg-Schiebroek;15;22;30;15;16;0,4;0,5;0,7;0,4;0,4
+;;Rotterdam;637;700;621;620;508;1,1;1,2;1,1;1,1;0,9
+
+;;1.4.6 aangiften straatroof;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;17;14;14;11;12;1,1;0,9;0,9;0,7;0,8
+;;Hillegersberg Zuid;4;10;1;2;3;0,5;1,3;0,1;0,3;0,4
+;;Hillegersberg Noord;4;3;3;5;3;0,6;0,4;0,4;0,7;0,4
+;;Terbregge;0;0;0;0;1;0;0;0;0;0,3
+;;Molenlaankwartier;2;2;1;1;1;0,3;0,3;0,1;0,1;0,1
+;;Hillegersberg-Schiebroek;27;29;19;19;20;0,7;0,7;0,5;0,5;0,5
+;;Rotterdam;1484;1262;1161;992;1018;2,5;2,2;2;1,7;1,7
+
+;;1.4.7 aangiften overval;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;2;2;4;6;6;0,1;0,1;0,3;0,4;0,4
+;;Hillegersberg Zuid;1;2;2;1;2;0,1;0,3;0,3;0,1;0,3
+;;Hillegersberg Noord;2;2;7;3;3;0,3;0,3;1;0,4;0,4
+;;Terbregge;0;1;0;0;1;0;0,3;0;0;0,3
+;;Molenlaankwartier;0;0;0;4;0;0;0;0;0,5;0
+;;Hillegersberg-Schiebroek;5;7;13;14;12;0,1;0,2;0,3;0,3;0,3
+;;Rotterdam;212;245;304;295;235;0,4;0,4;0,5;0,5;0,4
+
+;;1.4.4 meldingen bedreiging;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;31;25;30;23;19;2;1,7;2;1,5;1,2
+;;Hillegersberg Zuid;13;12;11;9;12;1,7;1,6;1,4;1,2;1,6
+;;Hillegersberg Noord;6;12;12;7;10;0,9;1,8;1,7;0,9;1,3
+;;Terbregge;1;2;0;1;1;0,3;0,6;0;0,3;0,3
+;;Molenlaankwartier;8;9;5;3;3;1,1;1,2;0,7;0,4;0,4
+;;Hillegersberg-Schiebroek;59;60;58;43;45;1,4;1,5;1,4;1;1,1
+;;Rotterdam;1723;1742;1591;1488;1287;2,9;3;2,7;2,5;2,2
+
+;;1.4.5 meldingen mishandeling;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;157;142;159;165;140;10,1;9,4;10,5;10,9;8,8
+;;Hillegersberg Zuid;59;58;55;80;47;7,7;7,6;7,2;10,5;6,1
+;;Hillegersberg Noord;61;55;54;66;57;9,1;8;7,7;8,8;7,3
+;;Terbregge;16;19;17;17;20;4,6;5,5;4,9;4,9;5,8
+;;Molenlaankwartier;20;24;23;18;28;2,6;3,2;3;2,4;3,6
+;;Hillegersberg-Schiebroek;313;298;308;346;292;7,7;7,3;7,5;8,4;6,9
+;;Rotterdam;10335;10639;10667;10882;9915;17,6;18,3;18,4;18,6;16,7
+
+Inbraak;;;;;;;;;;;;
+
+;;buurtprobleem woninginbraak;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Schiebroek;13,1;9,3;11,5;11;17,1;;;;;
+;;Hillegersberg Zuid;4,7;6,5;8,8;5,3;5,6;;;;;
+;;Hillegersberg Noord;7,9;10,1;9,2;7,5;5,9;;;;;
+;;Terbregge;5,7;2;3,9;6,3;3,9;;;;;
+;;Molenlaankwartier;17,1;19,4;26,1;17,7;15,5;;;;;
+;;Hillegersberg-Schiebroek;10,8;10;12,7;10,1;11,6;;;;;
+;;Rotterdam;12,9;12;12,1;11,1;13,5;;;;;
+
+;;slachtofferschap poging tot inbraak;;;;;;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;2,2;0,6;1;2;2,8
+;;Hillegersberg Zuid;3,8;1,3;1,3;3;1,7
+;;Hillegersberg Noord;1,7;3,2;1,7;0,8;0,4
+;;Terbregge;1,7;0,7;0,7;1,5;1,7
+;;Molenlaankwartier;1,1;3,2;3,1;1,7;2,4
+;;Hillegersberg-Schiebroek;2,2;1,7;1,5;1,9;2
+;;Rotterdam;3,5;3,1;3;2,5;2,8
+
+;;slachtofferschap woninginbraak;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;1,2;2,8;2,7;1,3;1,4
+;;Hillegersberg Zuid;0,4;0,7;1,3;0,6;1,2
+;;Hillegersberg Noord;0;1,3;0,9;1,5;1,2
+;;Terbregge;1,7;0,7;0,7;3,4;0,6
+;;Molenlaankwartier;2,3;2,6;1,5;0,9;0,7
+;;Hillegersberg-Schiebroek;1,1;1,8;1,7;1,3;1,1;;;;;
+;;Rotterdam;2;2;2;1,4;1,3;;;;;
+
+;;1.1.1 aangiften woninginbraak;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;108;87;101;111;139;14,5;11,9;13,8;15,2;18,4
+;;Hillegersberg Zuid;37;31;37;37;24;10,7;8,9;10,7;10,6;6,9
+;;Hillegersberg Noord;42;30;61;39;27;13,7;9,5;18,7;11,2;7,5
+;;Terbregge;14;5;14;17;2;11,2;4;11,1;13,5;1,6
+;;Molenlaankwartier;41;46;70;45;34;12,8;14,3;21,9;14;10,5
+;;Hillegersberg-Schiebroek;242;199;283;249;226;13,1;10,8;15,3;13,3;11,8
+;;Rotterdam;4420;3779;4018;3756;3787;16,4;14;14,9;13,8;13,7
+
+;;1.1.2 aangiften inbraak in garages, schuren en tuinhuizen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;35;28;45;64;32;4,7;3,8;6,2;8,8;4,2
+;;Hillegersberg Zuid;9;4;10;5;5;2,6;1,2;2,9;1,4;1,4
+;;Hillegersberg Noord;12;5;8;10;5;3,9;1,6;2,5;2,9;1,4
+;;Terbregge;3;2;3;6;3;2,4;1,6;2,4;4,8;2,4
+;;Molenlaankwartier;12;10;6;13;6;3,7;3,1;1,9;4,1;1,9
+;;Hillegersberg-Schiebroek;71;49;72;98;51;3,9;2,7;3,9;5,2;2,7
+;;Rotterdam;2629;1881;1746;1595;1295;9,8;7;6,5;5,8;4,7
+
+;;2.5.1 aangiften inbraak in bedrijven/instellingen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;79;50;49;51;36;167,7;102,7;95,9;99,4;70,2
+;;Hillegersberg Zuid;27;18;16;15;17;63,8;41,5;35,3;32,5;34,8
+;;Hillegersberg Noord;26;31;17;28;13;82;93,7;50,9;77,1;33
+;;Terbregge;3;3;3;12;13;26,3;23,6;23,3;92,3;102,4
+;;Molenlaankwartier;29;25;12;19;7;111,5;88,3;40,7;63,8;21,3
+;;Hillegersberg-Schiebroek;164;127;97;125;86;103,5;76,4;56,3;70,8;46,5
+;;Rotterdam;2730;2271;1957;1947;1237;132,4;108,7;90,9;89,2;55,2
+
+Vandalisme;;;;;;;;;;;;
+
+;;buurtprobleem bekladding muren/gebouwen;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Schiebroek;11,5;12,4;16,2;12,4;11,4;;;;;
+;;Hillegersberg Zuid;5,7;5,9;9,3;6,7;7,6;;;;;
+;;Hillegersberg Noord;5,1;7;5,4;5,6;5,2;;;;;
+;;Terbregge;3,4;0,7;8,5;5,2;2,8;;;;;
+;;Molenlaankwartier;3,4;5,8;6,5;2,2;4;;;;;
+;;Hillegersberg-Schiebroek;7,2;7,9;10,6;7,6;7,5;;;;;
+;;Rotterdam;14,3;14,9;18,7;17;13,9;;;;;
+
+;;buurtprobleem vernieling telefooncellen/bus- of tramhokjes ;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;33,5;26,7;28,5;24,7;17,5
+;;Hillegersberg Zuid;20,5;16;16,5;11,5;7,6
+;;Hillegersberg Noord;13,9;14,1;14,9;9,5;9,2
+;;Terbregge;4,6;4;3,9;1;2,3
+;;Molenlaankwartier;12;9,7;14,2;10,5;6,8
+;;Hillegersberg-Schiebroek;21,5;17,3;19,2;14,9;11
+;;Rotterdam;18,6;17,7;19,4;16,2;11,8
+
+;;slachtofferschap overige beschadiging/vernieling;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;1,2;1,7;4,5;5,3;5,5
+;;Hillegersberg Zuid;3,6;0,7;9,9;5,2;4,4
+;;Hillegersberg Noord;1,7;1,8;4,7;4,4;2,8
+;;Terbregge;1,7;4;5,5;5,9;3,6
+;;Molenlaankwartier;1,1;0;2,9;2,8;2,3;;;;;
+;;Hillegersberg-Schiebroek;1,8;1,5;5,3;4,7;4,1;;;;;
+;;Rotterdam;3,7;2,7;8,1;7,3;6,5;;;;;
+
+;;2.2.1 meldingen vernieling cq zaakbeschadiging;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;104;76;66;67;38;6,7;5;4,4;4,4;2,4
+;;Hillegersberg Zuid;30;62;37;34;21;3,9;8,1;4,9;4,5;2,7
+;;Hillegersberg Noord;48;40;35;31;19;7,2;5,8;5;4,1;2,4
+;;Terbregge;10;14;14;9;9;2,9;4;4;2,6;2,6
+;;Molenlaankwartier;22;21;22;18;15;2,9;2,8;2,9;2,4;1,9
+;;Hillegersberg-Schiebroek;214;213;174;159;102;5,2;5,2;4,3;3,8;2,4
+;;Rotterdam;3972;3999;3803;3203;2376;6,8;6,9;6,6;5,5;4
+
+;;meldingen kleine buitenbranden;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;30;22;17;24;15;0,6;0,5;0,3;0,5;0,3
+;;Hillegersberg Zuid;15;9;4;6;12;1,2;0,7;0,3;0,5;0,9
+;;Hillegersberg Noord;14;5;13;13;3;0,5;0,2;0,4;0,4;0,1
+;;Terbregge;1;5;8;6;2;0,1;0,3;0,4;0,3;0,1
+;;Molenlaankwartier;6;2;6;4;7;0,3;0,1;0,3;0,2;0,3
+;;Hillegersberg-Schiebroek;66;43;48;53;39;0,5;0,3;0,4;0,4;0,3
+;;Rotterdam;967;970;900;849;556;0,7;0,7;0,7;0,6;0,4
+
+Overlast;;;;;;;;;;;;
+
+;;buurtprobleem overlast van groepen jongeren;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Schiebroek;13,7;12,9;17;15,3;14,4;;;;;
+;;Hillegersberg Zuid;9,1;7,3;4,9;9,4;5,4;;;;;
+;;Hillegersberg Noord;6;5,8;8,9;9;6,9
+;;Terbregge;5,6;2;7,2;5,5;6,8
+;;Molenlaankwartier;1,7;3,9;3,1;1,6;3,5
+;;Hillegersberg-Schiebroek;8,7;8;9,9;9,7;8,8
+;;Rotterdam;14,3;14;19,1;20,1;20
+
+;;buurtprobleem dronken mensen op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;1,6;1,7;3,8;2,3;4
+;;Hillegersberg Zuid;4;0,7;4,6;4,5;3,4
+;;Hillegersberg Noord;2,8;2,5;2;3,3;3,6
+;;Terbregge;1,1;1,3;0,7;2,4;1,1
+;;Molenlaankwartier;0,6;1,3;1,2;1,1;0,7
+;;Hillegersberg-Schiebroek;2;1,7;2,9;2,7;3
+;;Rotterdam;5,4;5;8,7;10,5;11,1
+
+;;buurtprobleem lastig gevallen worden op straat;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Schiebroek;1,8;0;2,4;2,5;3;;;;;
+;;Hillegersberg Zuid;0,6;0;1;0,5;0;;;;;
+;;Hillegersberg Noord;0;0,6;1;1,9;1,8;;;;;
+;;Terbregge;0,6;0;1,3;0,9;0;;;;;
+;;Molenlaankwartier;0;0,7;0;0,3;0,7;;;;;
+;;Hillegersberg-Schiebroek;0,8;0,5;1,4;1,5;1,6;;;;;
+;;Rotterdam;3,1;2,6;5,6;6,2;6,4;;;;;
+
+;;2.4.1 meldingen burengerucht (relatieproblemen);;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;362;318;341;351;383;23,4;21;22,5;23,1;24,1
+;;Hillegersberg Zuid;159;101;108;110;95;20,9;13,3;14,2;14,5;12,4
+;;Hillegersberg Noord;135;121;127;122;144;20,2;17,7;18,1;16,3;18,5
+;;Terbregge;23;19;16;45;23;6,6;5,5;4,6;12,9;6,6
+;;Molenlaankwartier;45;26;33;31;49;5,9;3,4;4,4;4,1;6,3
+;;Hillegersberg-Schiebroek;724;585;625;659;694;17,7;14,4;15,3;15,9;16,3
+;;Rotterdam;15483;15318;16151;16936;16299;26,4;26,3;27,8;29;27,4
+
+;;2.7.1 meldingen overlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;289;283;242;271;211;18,7;18,7;16;17,9;13,3
+;;Hillegersberg Zuid;68;67;53;127;65;8,9;8,8;6,9;16,7;8,5
+;;Hillegersberg Noord;100;69;75;118;110;15;10,1;10,7;15,8;14,2
+;;Terbregge;40;44;43;35;12;11,5;12,6;12,4;10;3,5
+;;Molenlaankwartier;57;61;51;29;45;7,5;8,1;6,8;3,8;5,8
+;;Hillegersberg-Schiebroek;554;524;464;580;443;13,6;12,9;11,4;14;10,4
+;;Rotterdam;11983;10454;9484;9740;8323;20,4;18;16,3;16,7;14
+
+Schoon en heel;;;;;;;
+
+;;buurtprobleem vervuiling op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;21,9;22,5;23,8;25,5;24,2
+;;Hillegersberg Zuid;28,3;22,2;19,6;23,4;20,3
+;;Hillegersberg Noord;11,8;14;17,5;17,3;17,6
+;;Terbregge;9,1;3,3;7,9;8,2;6,2
+;;Molenlaankwartier;6,9;9,7;10,2;6,7;7,1
+;;Hillegersberg-Schiebroek;17,7;16,3;18;18,7;17,7
+;;Rotterdam;33,8;32,9;36,3;36;33,9
+
+;;buurtprobleem hondenpoep op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;32,9;36,9;34;26,4;27,1
+;;Hillegersberg Zuid;52,2;46,6;46;44,6;40,4
+;;Hillegersberg Noord;25,7;28,5;26,9;24,1;32,9
+;;Terbregge;24,9;26,7;28,3;26,7;23,2
+;;Molenlaankwartier;23,4;25,9;30;21,5;20,6
+;;Hillegersberg-Schiebroek;33;33,4;33,8;28,5;29,1
+;;Rotterdam;38,1;35,9;36,5;35,1;32,4
+
+;;buurtprobleem vuil naast de container;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;22,1;20;30,7;27,5;23,4
+;;Hillegersberg Zuid;41,6;30,7;38;38,4;29,1
+;;Hillegersberg Noord;16,3;15,4;25;21,4;20,7
+;;Terbregge;10,8;9,3;11,7;11,9;16,4
+;;Molenlaankwartier;6,9;9,1;11,9;4,6;7
+;;Hillegersberg-Schiebroek;21,2;17,8;26;22,9;20,4
+;;Rotterdam;23,9;23,6;37,1;37,5;35,9
+
+;;buurtprobleem wildplassen;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;3,2;3,7;5,3;8,6;7,9
+;;Hillegersberg Zuid;3,4;5,2;9,4;5,4;7,2
+;;Hillegersberg Noord;3,9;1,9;5,4;7,9;5,8
+;;Terbregge;0,5;1,3;0;2,5;2,3
+;;Molenlaankwartier;0,6;2,6;3,5;1,1;2,2
+;;Hillegersberg-Schiebroek;2,7;3,2;5,3;6;5,9
+;;Rotterdam;9,9;9,3;18;19,3;17,9
+
+;;buurtprobleem gaten of verzakkingen in de bestrating;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;26,3;23,6;34,1;30,1;30,4
+;;Hillegersberg Zuid;23,4;20,8;26,2;22,8;22,3
+;;Hillegersberg Noord;18;22,8;26,4;22,2;24
+;;Terbregge;12,5;9,3;8,4;10,2;14,6
+;;Molenlaankwartier;26,3;27,9;32,6;29,7;32,1;
+;;Hillegersberg-Schiebroek;23,3;21,5;28,8;25,5;26,8;
+;;Rotterdam;21,7;21,2;26,5;25,4;23,5;
+
+;;buurtprobleem vernield of kapot straatmeubilair;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;
+;;Schiebroek;7,3;7,8;13,6;9,7;11,1;
+;;Hillegersberg Zuid;3,4;3,3;9,8;4,2;4,2;
+;;Hillegersberg Noord;5,6;6,9;10,4;9,9;6,2;
+;;Terbregge;2,9;2,7;3,2;2,4;1,7;
+;;Molenlaankwartier;2,3;3,2;7,3;2;3;
+;;Hillegersberg-Schiebroek;5;5,4;10,3;6,7;6,7;
+;;Rotterdam;8;8;13;12,8;10,4;
+
+;;score op de productnormering;;;;;;
+;;;Schoon;;;;;Heel
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;4,5;4,5;4,6;4,7;4,7;3,9;3,9;4;4,3;4,3
+;;Hillegersberg Zuid;4,2;4,4;4,3;4,5;4,4;3,7;3,8;4,1;4,3;4,5
+;;Hillegersberg Noord;4,4;4,5;4,5;4,6;4,8;3,6;3,8;3,8;4,2;4,4
+;;Terbregge;4,5;4,6;4,6;4,8;4,8;4,1;4,1;4,4;4,8;4,7
+;;Molenlaankwartier;4,5;4,6;4,6;4,7;4,9;3,9;3,9;4;4,3;4,4
+;;Hillegersberg-Schiebroek;4,4;4,5;4,5;4,6;4,7;3,8;3,9;4;4,3;4,4
+;;Rotterdam;4,1;4,2;4,2;4,4;4,5;3,7;3,7;3,7;3,9;4,1
+
+Verkeer;;;;;;;;;;;;
+
+;;buurtprobleem aanrijdingen;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Schiebroek;3,4;2,3;6,6;4,2;3;;;;;
+;;Hillegersberg Zuid;5,1;3,4;8,1;5,9;5,4;;;;;
+;;Hillegersberg Noord;2,8;1,3;4,1;5,7;6,5;;;;;
+;;Terbregge;5,1;4;4,6;4,8;9,1
+;;Molenlaankwartier;1,1;2,6;8,1;5,1;5,6
+;;Hillegersberg-Schiebroek;3,4;2,4;6,6;5;5
+;;Rotterdam;6,2;4,9;8,9;9,8;9
+
+;;buurtprobleem agressief verkeersgedrag;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Schiebroek;18,6;12,8;12,7;10,4;11,6
+;;Hillegersberg Zuid;20,5;15,1;19,4;13,8;15
+;;Hillegersberg Noord;8,2;8,3;9,8;13,2;7,9
+;;Terbregge;14,8;13,3;11,1;8,2;13
+;;Molenlaankwartier;13,1;13,6;17,9;11;12
+;;Hillegersberg-Schiebroek;15,9;12,4;14,3;11,5;11,7
+;;Rotterdam;21,1;19,5;19,5;20,2;18,9
+
+;;slachtofferschap aanrijding met doorrijden;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;0,8;1,1;1;0,9;0,6
+;;Hillegersberg Zuid;2,3;0,7;0,7;1,1;0,4
+;;Hillegersberg Noord;1,7;0,6;0,6;0,4;0,5
+;;Terbregge;0,6;0,7;1,3;1;1
+;;Molenlaankwartier;0;0,7;0,6;0,7;1,5
+;;Hillegersberg-Schiebroek;1,1;0,9;0,8;1;0,8
+;;Rotterdam;0,8;0,8;0,8;0,9;1
+
+;;slachtofferschap aanrijding zonder doorrijden;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Schiebroek;2,1;2,8;3,5;2,6;2,3
+;;Hillegersberg Zuid;3,4;2;5,6;4,3;3,4
+;;Hillegersberg Noord;1,1;3,2;3,6;4,2;3,8
+;;Terbregge;2,9;6,7;3,4;4,3;4,5
+;;Molenlaankwartier;2,9;1,3;3,6;5,1;4,9
+;;Hillegersberg-Schiebroek;2,4;2,8;3,9;3,8;3,4;;;;;
+;;Rotterdam;2;2,3;3,1;3,3;3;;;;;
+
+;;1.3.1 meldingen verkeersongevallen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Schiebroek;122;118;94;96;68;7,9;7,8;6,2;6,3;4,3
+;;Hillegersberg Zuid;123;123;103;113;84;16,1;16,1;13,5;14,8;11
+;;Hillegersberg Noord;73;96;91;57;53;10,9;14;12,9;7,6;6,8
+;;Terbregge;153;119;120;113;103;44;34,2;34,5;32,4;29,7
+;;Molenlaankwartier;84;78;88;88;81;11,1;10,3;11,7;11,5;10,4
+;;Hillegersberg-Schiebroek;555;534;496;467;389;13,6;13,1;12,1;11,3;9,1
+;;Rotterdam;10352;10242;9755;9636;7830;17,7;17,6;16,8;16,5;13,2
+
+Overig;;;;;;;;;;;;
+
+;;tevredenheid met het wonen in de buurt ;;;;;
+;;% (zeer) tevreden;2006;2007;2008;2009;2011
+;;Schiebroek;79,5;83,4;85,1;80,7;83,2
+;;Hillegersberg Zuid;89;92,2;90,9;92,2;91
+;;Hillegersberg Noord;92,1;85,9;90,6;91,8;89,9
+;;Terbregge;94,3;95,4;91,3;92,2;91
+;;Molenlaankwartier;94,9;92,2;97;96,9;95,7
+;;Hillegersberg-Schiebroek;87,4;87,4;89,9;88,8;88,7
+;;Rotterdam;79,4;79,9;75;73,4;74,4
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;

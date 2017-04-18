@@ -1,0 +1,570 @@
+Stadscentrum;;;;;;;
+
+
+Diefstal;;;;;;;
+;;buurtprobleem fietsendiefstal;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;25,1;22,7;25;22,5;24,2
+;;Oude Westen;23,1;25,3;29,1;26,6;22,2
+;;Cool/Nieuwe Werk/Dijkzigt;30,7;20,6;29,2;28,8;21,6
+;;Stadscentrum;25,2;23,1;27,3;25,1;23,1
+;;Rotterdam;18,7;18,2;20;18,5;18,2
+
+;;buurtprobleem diefstal uit de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;32,1;29,9;25,8;25,3;18,3
+;;Oude Westen;20,6;23,8;21,2;19,8;12,6
+;;Cool/Nieuwe Werk/Dijkzigt;34,9;26,9;22,7;31,6;20,2
+;;Stadscentrum;29,3;27,2;23,7;24,8;16,9
+;;Rotterdam;16,6;15,8;15,4;15,7;14,1
+
+;;buurtprobleem beschadiging aan of diefstal vanaf de auto;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;23,4;23,9;20,6;19,1;17,1
+;;Oude Westen;22,3;19,5;22,1;21,2;15,1
+;;Cool/Nieuwe Werk/Dijkzigt;29,9;20,6;23,2;25,1;19,6
+;;Stadscentrum;24,6;21,7;21,5;21;17
+;;Rotterdam;16,9;16,8;18,2;18,2;17,2
+
+;;slachtofferschap autodiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;0;1;2,4;1;0,3
+;;Oude Westen;0;1,6;1,7;0;0,3
+;;Cool/Nieuwe Werk/Dijkzigt;1;0,7;2,5;2,6;0,4
+;;Stadscentrum;0,3;1,1;2,2;1;0,3
+;;Rotterdam;0,7;0,5;1,2;1;0,6
+
+;;slachtofferschap diefstal uit de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;7,7;8,7;8,5;6,3;4,8
+;;Oude Westen;6,2;7,2;9,5;6,2;3,8
+;;Cool/Nieuwe Werk/Dijkzigt;10,5;11,4;13,9;10,4;8,2
+;;Stadscentrum;8,5;8,8;9,9;7,1;5,1
+;;Rotterdam;7,1;6,8;5,8;4,9;4
+
+;;slachtofferschap diefstal vanaf de auto;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;38;42,2;22,3;20,4;15,4
+;;Oude Westen;33,8;31;33;21,3;15
+;;Cool/Nieuwe Werk/Dijkzigt;36;29,5;35,4;23;20,8
+;;Stadscentrum;36;36,3;28;21,2;16,3
+;;Rotterdam;29,6;30,5;25,2;15,7;14,7
+
+;;slachtofferschap fietsendiefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;5,9;6,7;7,6;5,5;4,8
+;;Oude Westen;10,1;6,5;9,6;6,2;8
+;;Cool/Nieuwe Werk/Dijkzigt;7,6;8,5;10,8;6,5;3,5
+;;Stadscentrum;7,2;7;8,9;5,9;5,4
+;;Rotterdam;5,3;5,2;9,1;3,9;5
+
+;;slachtofferschap overige diefstal;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;3;5,2;3,6;2,4;3,8
+;;Oude Westen;2,1;1,5;3,1;2,9;1,5;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;2,9;2,8;2,7;2,3;2,2;;;;;
+;;Stadscentrum;2,6;3,4;3,3;2,5;2,7;;;;;
+;;Rotterdam;2,6;3,7;3,3;3;3,2;;;;;
+
+;;1.2.1 aangiften diefstal uit/vanaf motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;678;643;753;625;350;52,3;49,6;56,2;45,4;24,1
+;;Oude Westen;145;234;275;114;112;14,6;24,3;28,9;11,9;11,7
+;;Cool/Nieuwe Werk/Dijkzigt;826;686;876;684;472;128,2;108,8;143;112,4;76,6
+;;Stadscentrum;1649;1563;1904;1423;934;56,1;54,1;65,6;48,4;30,9
+;;Rotterdam;9249;8086;9744;8917;7615;15,8;13,9;16,8;15,3;12,8
+
+;;1.2.2 aangiften diefstal van motorvoertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;53;52;46;46;33;4,1;4;3,4;3,3;2,3
+;;Oude Westen;19;28;11;11;11;1,9;2,9;1,2;1,1;1,1
+;;Cool/Nieuwe Werk/Dijkzigt;35;34;26;31;25;5,4;5,4;4,2;5,1;4,1
+;;Stadscentrum;107;114;83;88;69;3,6;3,9;2,9;3;2,3
+;;Rotterdam;1679;1423;1323;1411;1173;2,9;2,4;2,3;2,4;2
+
+;;1.2.3 aangiften diefstal van brom-, snor-, fietsen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;277;366;596;320;417;21,3;28,2;44,5;23,2;28,8
+;;Oude Westen;55;69;99;44;65;5,5;7,2;10,4;4,6;6,8
+;;Cool/Nieuwe Werk/Dijkzigt;231;193;484;207;239;35,9;30,6;79;34;38,8
+;;Stadscentrum;563;628;1179;571;721;19,2;21,7;40,6;19,4;23,8
+;;Rotterdam;3983;3982;4927;4108;4438;6,8;6,8;8,5;7;7,5
+
+;;1.2.4 aangiften zakkenrollerij;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;742;748;699;400;438;57,2;57,7;52,2;29,1;30,2
+;;Oude Westen;40;44;40;47;31;4;4,6;4,2;4,9;3,2
+;;Cool/Nieuwe Werk/Dijkzigt;466;519;504;258;325;72,3;82,3;82,3;42,4;52,7
+;;Stadscentrum;1248;1311;1243;705;794;42,5;45,4;42,8;24;26,3
+;;Rotterdam;2456;2570;2564;1996;2138;4,2;4,4;4,4;3,4;3,6
+
+;;1.2.5 aangiften diefstal af/uit/van overige voertuigen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;48;49;39;43;36;3,7;3,8;2,9;3,1;2,5
+;;Oude Westen;10;21;10;12;10;1;2,2;1,1;1,3;1
+;;Cool/Nieuwe Werk/Dijkzigt;43;68;54;52;42;6,7;10,8;8,8;8,5;6,8
+;;Stadscentrum;101;138;103;107;88;3,4;4,8;3,5;3,6;2,9
+;;Rotterdam;682;850;834;780;729;1,2;1,5;1,4;1,3;1,2
+
+;;2.5.2 aangiften winkeldiefstal;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;197;192;170;134;110;461,4;362,3;319,5;255,2;217,8
+;;Oude Westen;18;18;31;25;31;84,5;80;136;111,1;150,5
+;;Cool/Nieuwe Werk/Dijkzigt;391;350;188;222;183;714,8;558,2;302,7;365,7;313,4
+;;Stadscentrum;606;560;389;381;324;510,5;405,2;281,7;280,8;250,2
+;;Rotterdam;1377;1227;1004;1050;775;263,1;178,9;147,7;156,6;122
+
+;;1.6.2 aangiften overige vermogensdelicten;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;872;889;849;808;949;67,2;68,6;63,4;58,7;65,5
+;;Oude Westen;208;196;187;194;179;20,9;20,4;19,7;20,3;18,7
+;;Cool/Nieuwe Werk/Dijkzigt;846;882;847;880;882;131,3;139,9;138,3;144,6;143,1
+;;Stadscentrum;1926;1967;1883;1882;2010;65,6;68,1;64,9;64;66,5
+;;Rotterdam;6743;6410;6346;6196;7209;11,5;11;10,9;10,6;12,1
+
+Drugsoverlast;;;;;;;;;;;;
+
+;;buurtprobleem drugsoverlast;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;12,2;7,1;10,3;13;7,8;;;;;
+;;Oude Westen;28,2;28,7;47,3;37,3;18,9;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;15,7;6,1;10;12,1;10,2;;;;;
+;;Stadscentrum;17,3;14,1;22,4;20,7;11,8;;;;;
+;;Rotterdam;8,2;6,7;9,9;10,2;10,1;;;;;
+
+;;2.1.1 meldingen drugsoverlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;% vaak;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;59;59;68;61;59;4,5;4,6;5,1;4,4;4,1
+;;Oude Westen;112;165;120;106;39;11,3;17,2;12,6;11,1;4,1
+;;Cool/Nieuwe Werk/Dijkzigt;78;40;24;34;26;12,1;6,4;3,9;5,6;4,2
+;;Stadscentrum;249;264;212;201;124;8,5;9,1;7,3;6,8;4,1
+;;Rotterdam;1242;1135;1071;1022;726;2,1;2;1,8;1,7;1,2
+
+Geweld;;;;;;;;;;;;
+
+;;buurtprobleem bedreiging;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;5,8;3,2;5,4;3,4;6,2;;;;;
+;;Oude Westen;3,7;5,3;9,6;10,1;7,3;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;7;6,1;4,9;8,1;4,3;;;;;
+;;Stadscentrum;5,1;4,5;6,7;6,5;6,1;;;;;
+;;Rotterdam;3,3;3,1;4,5;4,8;5,8;;;;;
+
+;;buurtprobleem geweldsdelicten;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;5,2;4;6,2;3,9;4,1
+;;Oude Westen;7,7;10,7;16,7;11,7;5,6
+;;Cool/Nieuwe Werk/Dijkzigt;5,9;5;4,8;11,4;4,4
+;;Stadscentrum;5,8;6,4;9,3;8;4,6
+;;Rotterdam;3,9;3,7;4,6;4,7;5,9
+
+;;buurtprobleem tasjesroof;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;5,9;4,8;5,8;2,2;4,4
+;;Oude Westen;5,5;5,3;10,2;5,3;4,8
+;;Cool/Nieuwe Werk/Dijkzigt;6,7;3,9;5,2;4,7;5,9
+;;Stadscentrum;5,9;4,8;7,2;3,7;4,8
+;;Rotterdam;3,2;2,8;3,4;3;3,4
+
+;;slachtofferschap tasjesroof met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;1,3;0;0;0,4;0,3
+;;Oude Westen;0,7;1;0;0;0
+;;Cool/Nieuwe Werk/Dijkzigt;0,5;1,2;0;0,6;0,5
+;;Stadscentrum;0,9;0,6;0,3;0,3;0,2
+;;Rotterdam;0,5;0,5;0,3;0,2;0,2
+
+;;slachtofferschap tasjesroof zonder geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;1,6;4;1,7;1,6;1,4
+;;Oude Westen;1,9;1;1,9;2,1;1,6
+;;Cool/Nieuwe Werk/Dijkzigt;3,5;2,7;2;2,6;1,2
+;;Stadscentrum;2,2;2,7;1,8;2;1,4
+;;Rotterdam;1,3;1,3;1,3;1,2;1,2
+
+;;slachtofferschap bedreiging met geweld;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;4,3;2,8;3;3,8;3,6
+;;Oude Westen;3,4;4,9;2,2;3,3;2,2
+;;Cool/Nieuwe Werk/Dijkzigt;4,3;4,3;4,7;2,7;1,5
+;;Stadscentrum;4;3,8;3,1;3,4;2,7
+;;Rotterdam;2,8;2,6;2,8;2,9;3,1
+
+;;slachtofferschap mishandeling;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;1;1,7;0,6;0,6;0,5
+;;Oude Westen;0,8;0;1,3;0,2;0,6
+;;Cool/Nieuwe Werk/Dijkzigt;0,5;1,1;1,1;1,1;0,9
+;;Stadscentrum;0,9;1;0,9;0,6;0,6
+;;Rotterdam;0,4;0,5;0,8;0,4;0,8
+
+;;1.4.1 aangiften zedenmisdrijven;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;27;26;25;28;19;2,1;2;1,9;2;1,3
+;;Oude Westen;10;10;8;7;6;1;1;0,8;0,7;0,6
+;;Cool/Nieuwe Werk/Dijkzigt;23;16;20;23;11;3,6;2,5;3,3;3,8;1,8
+;;Stadscentrum;60;52;53;58;36;2;1,8;1,8;2;1,2
+;;Rotterdam;474;433;376;352;236;0,8;0,7;0,6;0,6;0,4
+
+;;1.4.3 aangiften openlijke geweldpleging tegen personen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;73;96;64;70;72;5,6;7,4;4,8;5,1;5
+;;Oude Westen;17;14;16;15;10;1,7;1,5;1,7;1,6;1
+;;Cool/Nieuwe Werk/Dijkzigt;109;97;81;88;76;16,9;15,4;13,2;14,5;12,3
+;;Stadscentrum;199;207;161;173;158;6,8;7,2;5,5;5,9;5,2
+;;Rotterdam;637;700;621;620;508;1,1;1,2;1,1;1,1;0,9
+
+;;1.4.6 aangiften straatroof;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;133;119;81;83;74;10,3;9,2;6;6;5,1
+;;Oude Westen;77;83;75;75;33;7,7;8,6;7,9;7,8;3,4
+;;Cool/Nieuwe Werk/Dijkzigt;150;134;100;83;67;23,3;21,3;16,3;13,6;10,9
+;;Stadscentrum;360;336;256;241;174;12,3;11,6;8,8;8,2;5,8
+;;Rotterdam;1484;1262;1161;992;1018;2,5;2,2;2;1,7;1,7
+
+;;1.4.7 aangiften overval;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;8;14;10;7;6;0,6;1,1;0,7;0,5;0,4
+;;Oude Westen;10;11;10;6;2;1;1,1;1,1;0,6;0,2
+;;Cool/Nieuwe Werk/Dijkzigt;12;11;11;10;4;1,9;1,7;1,8;1,6;0,6
+;;Stadscentrum;30;36;31;23;12;1;1,2;1,1;0,8;0,4
+;;Rotterdam;212;245;304;295;235;0,4;0,4;0,5;0,5;0,4
+
+;;1.4.4 meldingen bedreiging;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;85;97;83;67;64;6,6;7,5;6,2;4,9;4,4
+;;Oude Westen;53;75;49;57;37;5,3;7,8;5,2;6;3,9
+;;Cool/Nieuwe Werk/Dijkzigt;90;84;75;55;56;14;13,3;12,2;9;9,1
+;;Stadscentrum;228;256;207;179;157;7,8;8,9;7,1;6,1;5,2
+;;Rotterdam;1723;1742;1591;1488;1287;2,9;3;2,7;2,5;2,2
+
+;;1.4.5 meldingen mishandeling;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;813;942;948;1080;1009;62,7;72,7;70,7;78,4;69,6
+;;Oude Westen;442;464;423;398;317;44,4;48,2;44,5;41,6;33,1
+;;Cool/Nieuwe Werk/Dijkzigt;877;961;952;982;899;136,1;152,5;155,4;161,4;145,9
+;;Stadscentrum;2132;2367;2323;2460;2225;72,6;81,9;80;83,6;73,6
+;;Rotterdam;10335;10639;10667;10882;9915;17,6;18,3;18,4;18,6;16,7
+
+Inbraak;;;;;;;;;;;;
+
+;;buurtprobleem woninginbraak;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;11,3;12,9;13,1;7,9;8,6;;;;;
+;;Oude Westen;14,1;8,3;9,5;7,9;11,2;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;13,1;8,7;9,8;9,1;8,3;;;;;
+;;Stadscentrum;12,4;10,5;11,3;8,2;9,4;;;;;
+;;Rotterdam;12,9;12;12,1;11,1;13,5;;;;;
+
+;;slachtofferschap poging tot inbraak;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;5,4;2,8;4;1,6;2,3
+;;Oude Westen;3,1;4,4;4,9;3,7;3,1
+;;Cool/Nieuwe Werk/Dijkzigt;4,3;3,6;2,3;3,5;4,6
+;;Stadscentrum;4,6;3,5;4;2,7;3
+;;Rotterdam;3,5;3,1;3;2,5;2,8
+
+;;slachtofferschap woninginbraak;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;1;5,8;3,2;1;1,8
+;;Oude Westen;3,4;2;5,3;0,4;2
+;;Cool/Nieuwe Werk/Dijkzigt;1,3;1,6;1,7;1;0,4
+;;Stadscentrum;1,8;3,6;3,6;0,8;1,6
+;;Rotterdam;2;2;2;1,4;1,3
+
+;;1.1.1 aangiften woninginbraak;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;73;73;95;69;57;9,3;9,3;11,7;8,3;6,6
+;;Oude Westen;99;84;88;55;39;23,2;19,9;20,8;12,8;9,1
+;;Cool/Nieuwe Werk/Dijkzigt;55;39;63;30;36;15,4;11;17,6;8,4;9,8
+;;Stadscentrum;227;196;246;154;132;14,5;12,5;15,4;9,5;8
+;;Rotterdam;4420;3779;4018;3756;3787;16,4;14;14,9;13,8;13,7
+
+;;1.1.2 aangiften inbraak in garages, schuren en tuinhuizen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;132;103;40;69;16;16,9;13,1;4,9;8,3;1,9
+;;Oude Westen;82;74;37;20;18;19,2;17,6;8,8;4,7;4,2
+;;Cool/Nieuwe Werk/Dijkzigt;54;16;21;18;19;15,2;4,5;5,9;5;5,2
+;;Stadscentrum;268;193;98;107;53;17,1;12,3;6,1;6,6;3,2
+;;Rotterdam;2629;1881;1746;1595;1295;9,8;7;6,5;5,8;4,7
+
+;;2.5.1 aangiften inbraak in bedrijven/instellingen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;234;196;169;148;121;140,5;118,3;99,4;86,1;67
+;;Oude Westen;50;45;36;29;30;87,1;83;65,8;52,4;53,1
+;;Cool/Nieuwe Werk/Dijkzigt;154;151;166;143;129;101,2;100,3;111,3;97,9;89,4
+;;Stadscentrum;438;392;371;320;280;116,4;105,8;99,3;85,8;73,4
+;;Rotterdam;2730;2271;1957;1947;1237;132,4;108,7;90,9;89,2;55,2
+
+Vandalisme;;;;;;;;;;;;
+
+;;buurtprobleem bekladding muren/gebouwen;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;29,6;26,9;26,3;19,7;16,6
+;;Oude Westen;21,9;18;21,9;18,2;19
+;;Cool/Nieuwe Werk/Dijkzigt;20,5;23,2;27,1;24,3;23,9
+;;Stadscentrum;24,2;23,1;25,1;20,2;18,9
+;;Rotterdam;14,3;14,9;18,7;17;13,9
+
+;;buurtprobleem vernieling telefooncellen/bus- of tramhokjes ;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;11,6;13,3;8;9,4;7,3
+;;Oude Westen;10,7;5,9;9,8;8,9;7,6
+;;Cool/Nieuwe Werk/Dijkzigt;12,8;12,8;11,1;12,9;5,1
+;;Stadscentrum;11,2;10,7;9,2;10;7
+;;Rotterdam;18,6;17,7;19,4;16,2;11,8
+
+;;slachtofferschap overige beschadiging/vernieling;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;3,2;4,4;10,7;8;7,9;;;;;
+;;Oude Westen;3,6;1,5;8;16,2;6,7;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;6,1;4,1;12,8;14,3;8,3;;;;;
+;;Stadscentrum;4,1;3,3;10,3;12;7,6;;;;;
+;;Rotterdam;3,7;2,7;8,1;7,3;6,5;;;;;
+
+;;2.2.1 meldingen vernieling cq zaakbeschadiging;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;205;242;210;183;151;15,8;18,7;15,7;13,3;10,4
+;;Oude Westen;100;81;65;52;54;10;8,4;6,8;5,4;5,6
+;;Cool/Nieuwe Werk/Dijkzigt;150;130;142;130;108;23,3;20,6;23,2;21,4;17,5
+;;Stadscentrum;455;453;417;365;313;15,5;15,7;14,4;12,4;10,3
+;;Rotterdam;3972;3999;3803;3203;2376;6,8;6,9;6,6;5,5;4
+
+;;meldingen kleine buitenbranden;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;21;13;17;18;8;1;0,6;0,8;0,9;0,4
+;;Oude Westen;6;8;5;8;3;1;1,4;0,8;1,4;0,5
+;;Cool/Nieuwe Werk/Dijkzigt;27;25;12;22;15;1,3;1,2;0,6;1;0,7
+;;Stadscentrum;54;46;34;48;26;1,1;1;0,7;1;0,5
+;;Rotterdam;967;970;900;849;556;0,7;0,7;0,7;0,6;0,4
+
+Overlast;;;;;;;;;;;;
+
+;;buurtprobleem overlast van groepen jongeren;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;15,7;14,8;17,2;19,1;17,5;;;;;
+;;Oude Westen;17,7;19,4;26,4;28,3;28;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;19,9;14,5;24;26,4;25,1;;;;;
+;;Stadscentrum;16,8;16,3;21,5;23,6;22,4;;;;;
+;;Rotterdam;14,3;14;19,1;20,1;20
+
+;;buurtprobleem dronken mensen op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;20,6;17,1;24,9;26,6;28,9
+;;Oude Westen;17,2;17,5;30,3;30,6;24,6
+;;Cool/Nieuwe Werk/Dijkzigt;21,8;17,4;27,7;30,2;30,1
+;;Stadscentrum;19,7;17,3;27,3;28,6;27,8
+;;Rotterdam;5,4;5;8,7;10,5;11,1
+
+;;buurtprobleem lastig gevallen worden op straat;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;8,1;5,4;6;6,7;7,8
+;;Oude Westen;8;4,4;13,7;13,4;13,1
+;;Cool/Nieuwe Werk/Dijkzigt;8,3;5,8;6,5;8,1;7,5
+;;Stadscentrum;7,7;5,2;8,7;9,2;9,4
+;;Rotterdam;3,1;2,6;5,6;6,2;6,4;;;;;
+
+;;2.4.1 meldingen burengerucht (relatieproblemen);;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;371;440;473;442;518;28,6;33,9;35,3;32,1;35,7
+;;Oude Westen;421;390;413;376;360;42,3;40,5;43,5;39,3;37,6
+;;Cool/Nieuwe Werk/Dijkzigt;338;345;304;298;292;52,5;54,7;49,6;49;47,4
+;;Stadscentrum;1130;1175;1190;1116;1170;38,5;40,7;41;37,9;38,7
+;;Rotterdam;15483;15318;16151;16936;16299;26,4;26,3;27,8;29;27,4
+
+;;2.7.1 meldingen overlast;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;411;413;405;401;461;31,7;31,9;30,2;29,1;31,8
+;;Oude Westen;289;228;200;244;184;29;23,7;21;25,5;19,2
+;;Cool/Nieuwe Werk/Dijkzigt;390;265;245;283;252;60,5;42;40;46,5;40,9
+;;Stadscentrum;1090;906;850;928;897;37,1;31,4;29,3;31,5;29,7
+;;Rotterdam;11983;10454;9484;9740;8323;20,4;18;16,3;16,7;14
+
+Schoon en heel;;;;;;;;;;;;
+
+;;buurtprobleem vervuiling op straat;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;45,4;45,3;42,5;41,6;38,5;;;;;
+;;Oude Westen;43,2;45,2;47,9;43,9;34,3;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;32,7;33;35,8;40,5;35,2;;;;;
+;;Stadscentrum;41,1;42,6;42,7;42,1;36,5;;;;;
+;;Rotterdam;33,8;32,9;36,3;36;33,9;;;;;
+
+;;buurtprobleem hondenpoep op straat;;;;;;;;;;
+;;% vaak;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;39,7;35,9;32,7;28,2;25
+;;Oude Westen;46,5;49,6;46,5;39,3;36,6
+;;Cool/Nieuwe Werk/Dijkzigt;31,1;30,2;33,1;27,6;27,1
+;;Stadscentrum;39,4;39,2;37,2;31,7;29,1
+;;Rotterdam;38,1;35,9;36,5;35,1;32,4
+
+;;buurtprobleem vuil naast de container;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;29,9;28,3;42,9;38;36,1
+;;Oude Westen;12,8;15,5;36;43,7;39,4
+;;Cool/Nieuwe Werk/Dijkzigt;16,8;14,1;32,1;32,8;34,4
+;;Stadscentrum;21,7;21;38,2;38,8;36,8
+;;Rotterdam;23,9;23,6;37,1;37,5;35,9
+
+;;buurtprobleem wildplassen;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;30,2;27,5;42,7;51,4;46,7
+;;Oude Westen;24,4;24,3;48,4;45,3;44,1
+;;Cool/Nieuwe Werk/Dijkzigt;37;22,2;48,8;51,3;49,3
+;;Stadscentrum;30;25,3;46;49,4;46,4
+;;Rotterdam;9,9;9,3;18;19,3;17,9
+
+;;buurtprobleem gaten of verzakkingen in de bestrating;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;23,7;19,6;28,6;23,2;17,4
+;;Oude Westen;23,9;16,6;23;24,1;17,1
+;;Cool/Nieuwe Werk/Dijkzigt;18,1;14,5;25,1;25,1;22
+;;Stadscentrum;22;17,5;26,1;23,9;18,2
+;;Rotterdam;21,7;21,2;26,5;25,4;23,5
+
+;;buurtprobleem vernield of kapot straatmeubilair;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;7,6;6,4;11,1;9,9;7,4;;;;;
+;;Oude Westen;7,6;7,3;12,2;10,7;6,6;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;6,5;6;10,1;12,3;12,3;;;;;
+;;Stadscentrum;7,1;6,6;11,3;10,7;8,2;;;;;
+;;Rotterdam;8;8;13;12,8;10,4;;;;;
+
+;;score op de productnormering;;;;;;;;;;
+;;;Schoon;;;;;Heel;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;3,9;4,1;4,2;4,4;4,5;3,9;4,2;4;4;4
+;;Oude Westen;3,8;4;4,3;4,5;4,4;4;4,1;4,1;4,2;3,9
+;;Cool/Nieuwe Werk/Dijkzigt;3,9;4,3;4,3;4,5;4,5;4;4,2;4;4;4,1
+;;Stadscentrum;3,8;4,1;4,3;4,5;4,5;4;4,1;4,1;4,1;4
+;;Rotterdam;4,1;4,2;4,2;4,4;4,5;3,7;3,7;3,7;3,9;4,1
+
+Verkeer;;;;;;;;;;;;
+
+;;buurtprobleem aanrijdingen;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;8,6;6,2;15,4;11,5;11,8
+;;Oude Westen;6,9;6,8;14,5;11,4;11,6
+;;Cool/Nieuwe Werk/Dijkzigt;6,7;3,6;8,2;7,8;9,1
+;;Stadscentrum;7,3;5,8;13,6;10,7;11,2
+;;Rotterdam;6,2;4,9;8,9;9,8;9
+
+;;buurtprobleem agressief verkeersgedrag;;;;;
+;;% vaak;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;33,5;31,4;30,1;23,9;24,4
+;;Oude Westen;25,2;23,9;26,4;30,4;23,7
+;;Cool/Nieuwe Werk/Dijkzigt;25,7;18,8;21,4;22,5;18,8
+;;Stadscentrum;28,4;26,2;27,1;25,7;23
+;;Rotterdam;21,1;19,5;19,5;20,2;18,9
+
+;;slachtofferschap aanrijding met doorrijden;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;0,4;1,6;1,1;0,5;1,3
+;;Oude Westen;0,7;1;1,1;1,2;0,9
+;;Cool/Nieuwe Werk/Dijkzigt;1;0,8;0,7;1,3;1
+;;Stadscentrum;0,6;1,2;1;0,9;1,1
+;;Rotterdam;0,8;0,8;0,8;0,9;1
+
+;;slachtofferschap aanrijding zonder doorrijden;;;;;
+;;% slachtofferschap;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;1,7;2,1;3,7;2,7;3,5
+;;Oude Westen;1,2;1,9;2,6;2,8;2,3
+;;Cool/Nieuwe Werk/Dijkzigt;2,6;0,4;2,7;3,7;2,6
+;;Stadscentrum;1,7;1,7;3,1;2,9;2,9
+;;Rotterdam;2;2,3;3,1;3,3;3
+
+;;1.3.1 meldingen verkeersongevallen;;;;;;;;;;
+;;;absoluut;;;;;genormaliseerd;;;;
+;;;2006;2007;2008;2009;2011;2006;2007;2008;2009;2011
+;;Stadsdriehoek/C.S. Kwartier;713;795;744;696;546;55;61,3;55,5;50,5;37,7
+;;Oude Westen;237;207;270;209;142;23,8;21,5;28,4;21,8;14,8
+;;Cool/Nieuwe Werk/Dijkzigt;407;460;433;425;362;63,2;73;70,7;69,8;58,7
+;;Stadscentrum;1357;1462;1447;1330;1050;46,2;50,6;49,8;45,2;34,7
+;;Rotterdam;10352;10242;9755;9636;7830;17,7;17,6;16,8;16,5;13,2
+
+Overig;;;;;;;;;;;;
+
+;;tevredenheid met het wonen in de buurt ;;;;;;;;;;
+;;% (zeer) tevreden;2006;2007;2008;2009;2011;;;;;
+;;Stadsdriehoek/C.S. Kwartier;89,6;90,8;81,8;77,6;87,2;;;;;
+;;Oude Westen;74,1;69,8;63,6;60,9;76;;;;;
+;;Cool/Nieuwe Werk/Dijkzigt;86,7;87,9;81,5;79,2;83,6
+;;Stadscentrum;84,4;83,1;75,7;72,5;82,9
+;;Rotterdam;79,4;79,9;75;73,4;74,4
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+
+
+
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
