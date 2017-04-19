@@ -66,5 +66,12 @@ namespace VeiligWonenNewUI
         {
             Application.Exit();
         }
+
+        private void Register_Btn_Click(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+            this.Hide();
+        }
     }
 }

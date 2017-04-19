@@ -173,5 +173,9 @@ namespace VeiligWonenNewUI
             }
         }
 
+        private void Show_btn_Click(object sender, EventArgs e)
+        {
+            LoadGridData(@"select * From huis ");
+        }
     }
 }

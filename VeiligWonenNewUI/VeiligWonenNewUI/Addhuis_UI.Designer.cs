@@ -66,6 +66,7 @@
             this.gebied_Dropdown = new System.Windows.Forms.ComboBox();
             this.Exit_btn = new System.Windows.Forms.PictureBox();
             this.clear_button = new System.Windows.Forms.Button();
+            this.Show_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_HuisResults)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).BeginInit();
             this.SuspendLayout();
@@ -123,9 +124,9 @@
             // 
             // Search_Button
             // 
-            this.Search_Button.Location = new System.Drawing.Point(772, 314);
+            this.Search_Button.Location = new System.Drawing.Point(729, 314);
             this.Search_Button.Name = "Search_Button";
-            this.Search_Button.Size = new System.Drawing.Size(79, 41);
+            this.Search_Button.Size = new System.Drawing.Size(68, 41);
             this.Search_Button.TabIndex = 68;
             this.Search_Button.Text = "Search";
             this.Search_Button.UseVisualStyleBackColor = true;
@@ -169,9 +170,9 @@
             // 
             // UpdateButton
             // 
-            this.UpdateButton.Location = new System.Drawing.Point(687, 314);
+            this.UpdateButton.Location = new System.Drawing.Point(655, 314);
             this.UpdateButton.Name = "UpdateButton";
-            this.UpdateButton.Size = new System.Drawing.Size(79, 41);
+            this.UpdateButton.Size = new System.Drawing.Size(68, 41);
             this.UpdateButton.TabIndex = 63;
             this.UpdateButton.Text = "Update";
             this.UpdateButton.UseVisualStyleBackColor = true;
@@ -179,9 +180,9 @@
             // 
             // Delete_button
             // 
-            this.Delete_button.Location = new System.Drawing.Point(602, 314);
+            this.Delete_button.Location = new System.Drawing.Point(586, 314);
             this.Delete_button.Name = "Delete_button";
-            this.Delete_button.Size = new System.Drawing.Size(79, 41);
+            this.Delete_button.Size = new System.Drawing.Size(63, 41);
             this.Delete_button.TabIndex = 62;
             this.Delete_button.Text = "Delete";
             this.Delete_button.UseVisualStyleBackColor = true;
@@ -191,7 +192,7 @@
             // 
             this.Button_Add.Location = new System.Drawing.Point(513, 314);
             this.Button_Add.Name = "Button_Add";
-            this.Button_Add.Size = new System.Drawing.Size(79, 41);
+            this.Button_Add.Size = new System.Drawing.Size(67, 41);
             this.Button_Add.TabIndex = 61;
             this.Button_Add.Text = "Add";
             this.Button_Add.UseVisualStyleBackColor = true;
@@ -406,13 +407,23 @@
             // 
             // clear_button
             // 
-            this.clear_button.Location = new System.Drawing.Point(857, 314);
+            this.clear_button.Location = new System.Drawing.Point(803, 314);
             this.clear_button.Name = "clear_button";
-            this.clear_button.Size = new System.Drawing.Size(79, 41);
+            this.clear_button.Size = new System.Drawing.Size(65, 41);
             this.clear_button.TabIndex = 76;
             this.clear_button.Text = "Clear";
             this.clear_button.UseVisualStyleBackColor = true;
             this.clear_button.Click += new System.EventHandler(this.clear_button_Click);
+            // 
+            // Show_btn
+            // 
+            this.Show_btn.Location = new System.Drawing.Point(874, 314);
+            this.Show_btn.Name = "Show_btn";
+            this.Show_btn.Size = new System.Drawing.Size(74, 41);
+            this.Show_btn.TabIndex = 77;
+            this.Show_btn.Text = "Show all";
+            this.Show_btn.UseVisualStyleBackColor = true;
+            this.Show_btn.Click += new System.EventHandler(this.Show_btn_Click);
             // 
             // Addhuis_UI
             // 
@@ -420,6 +431,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(991, 716);
+            this.Controls.Add(this.Show_btn);
             this.Controls.Add(this.clear_button);
             this.Controls.Add(this.Exit_btn);
             this.Controls.Add(this.LongTextBox);
@@ -497,5 +509,6 @@
         private System.Windows.Forms.ComboBox gebied_Dropdown;
         private System.Windows.Forms.PictureBox Exit_btn;
         private System.Windows.Forms.Button clear_button;
+        private System.Windows.Forms.Button Show_btn;
     }
 }

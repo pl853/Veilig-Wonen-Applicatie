@@ -99,6 +99,7 @@
             this.Register_Btn.Size = new System.Drawing.Size(264, 58);
             this.Register_Btn.TabIndex = 4;
             this.Register_Btn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Register_Btn.Click += new System.EventHandler(this.Register_Btn_Click);
             // 
             // Username_TextBox
             // 

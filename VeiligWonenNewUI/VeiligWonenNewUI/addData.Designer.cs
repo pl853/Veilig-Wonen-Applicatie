@@ -46,14 +46,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.Addperc_Datagrid = new System.Windows.Forms.DataGridView();
-            this.clear_button = new System.Windows.Forms.Button();
-            this.Search_Button = new System.Windows.Forms.Button();
-            this.UpdateButton = new System.Windows.Forms.Button();
-            this.Delete_button = new System.Windows.Forms.Button();
-            this.Button_Add = new System.Windows.Forms.Button();
-            this.Exit_btn = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.gebied_Dropdown = new System.Windows.Forms.ComboBox();
             this.SCIDcol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.WijkCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HcatCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,6 +54,15 @@
             this.per2014 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.per2015 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.per2016 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clear_button = new System.Windows.Forms.Button();
+            this.Search_Button = new System.Windows.Forms.Button();
+            this.UpdateButton = new System.Windows.Forms.Button();
+            this.Delete_button = new System.Windows.Forms.Button();
+            this.Button_Add = new System.Windows.Forms.Button();
+            this.Exit_btn = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.gebied_Dropdown = new System.Windows.Forms.ComboBox();
+            this.show_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Addperc_Datagrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).BeginInit();
             this.SuspendLayout();
@@ -248,9 +249,49 @@
             this.Addperc_Datagrid.TabIndex = 18;
             this.Addperc_Datagrid.DoubleClick += new System.EventHandler(this.Addperc_Datagrid_DoubleClick);
             // 
+            // SCIDcol
+            // 
+            this.SCIDcol.HeaderText = "SCID";
+            this.SCIDcol.Name = "SCIDcol";
+            // 
+            // WijkCol
+            // 
+            this.WijkCol.HeaderText = "Wijk";
+            this.WijkCol.Name = "WijkCol";
+            // 
+            // HcatCol
+            // 
+            this.HcatCol.HeaderText = "Hoofdcat";
+            this.HcatCol.Name = "HcatCol";
+            // 
+            // sCatCol
+            // 
+            this.sCatCol.HeaderText = "SubCat";
+            this.sCatCol.Name = "sCatCol";
+            // 
+            // per2013
+            // 
+            this.per2013.HeaderText = "%2013";
+            this.per2013.Name = "per2013";
+            // 
+            // per2014
+            // 
+            this.per2014.HeaderText = "%2014";
+            this.per2014.Name = "per2014";
+            // 
+            // per2015
+            // 
+            this.per2015.HeaderText = "%2015";
+            this.per2015.Name = "per2015";
+            // 
+            // per2016
+            // 
+            this.per2016.HeaderText = "%2016";
+            this.per2016.Name = "per2016";
+            // 
             // clear_button
             // 
-            this.clear_button.Location = new System.Drawing.Point(870, 323);
+            this.clear_button.Location = new System.Drawing.Point(762, 324);
             this.clear_button.Name = "clear_button";
             this.clear_button.Size = new System.Drawing.Size(93, 64);
             this.clear_button.TabIndex = 81;
@@ -260,7 +301,7 @@
             // 
             // Search_Button
             // 
-            this.Search_Button.Location = new System.Drawing.Point(771, 323);
+            this.Search_Button.Location = new System.Drawing.Point(663, 324);
             this.Search_Button.Name = "Search_Button";
             this.Search_Button.Size = new System.Drawing.Size(93, 64);
             this.Search_Button.TabIndex = 80;
@@ -270,7 +311,7 @@
             // 
             // UpdateButton
             // 
-            this.UpdateButton.Location = new System.Drawing.Point(673, 323);
+            this.UpdateButton.Location = new System.Drawing.Point(565, 324);
             this.UpdateButton.Name = "UpdateButton";
             this.UpdateButton.Size = new System.Drawing.Size(93, 64);
             this.UpdateButton.TabIndex = 79;
@@ -279,7 +320,7 @@
             // 
             // Delete_button
             // 
-            this.Delete_button.Location = new System.Drawing.Point(574, 323);
+            this.Delete_button.Location = new System.Drawing.Point(466, 324);
             this.Delete_button.Name = "Delete_button";
             this.Delete_button.Size = new System.Drawing.Size(93, 64);
             this.Delete_button.TabIndex = 78;
@@ -289,7 +330,7 @@
             // 
             // Button_Add
             // 
-            this.Button_Add.Location = new System.Drawing.Point(475, 323);
+            this.Button_Add.Location = new System.Drawing.Point(367, 324);
             this.Button_Add.Name = "Button_Add";
             this.Button_Add.Size = new System.Drawing.Size(93, 64);
             this.Button_Add.TabIndex = 77;
@@ -334,45 +375,14 @@
             this.gebied_Dropdown.SelectedIndexChanged += new System.EventHandler(this.gebied_Dropdown_SelectedIndexChanged);
             this.gebied_Dropdown.MouseDown += new System.Windows.Forms.MouseEventHandler(this.gebied_Dropdown_MouseDown);
             // 
-            // SCIDcol
+            // show_btn
             // 
-            this.SCIDcol.HeaderText = "SCID";
-            this.SCIDcol.Name = "SCIDcol";
-            // 
-            // WijkCol
-            // 
-            this.WijkCol.HeaderText = "Wijk";
-            this.WijkCol.Name = "WijkCol";
-            // 
-            // HcatCol
-            // 
-            this.HcatCol.HeaderText = "Hoofdcat";
-            this.HcatCol.Name = "HcatCol";
-            // 
-            // sCatCol
-            // 
-            this.sCatCol.HeaderText = "SubCat";
-            this.sCatCol.Name = "sCatCol";
-            // 
-            // per2013
-            // 
-            this.per2013.HeaderText = "%2013";
-            this.per2013.Name = "per2013";
-            // 
-            // per2014
-            // 
-            this.per2014.HeaderText = "%2014";
-            this.per2014.Name = "per2014";
-            // 
-            // per2015
-            // 
-            this.per2015.HeaderText = "%2015";
-            this.per2015.Name = "per2015";
-            // 
-            // per2016
-            // 
-            this.per2016.HeaderText = "%2016";
-            this.per2016.Name = "per2016";
+            this.show_btn.Location = new System.Drawing.Point(861, 324);
+            this.show_btn.Name = "show_btn";
+            this.show_btn.Size = new System.Drawing.Size(93, 64);
+            this.show_btn.TabIndex = 83;
+            this.show_btn.Text = "Clear";
+            this.show_btn.UseVisualStyleBackColor = true;
             // 
             // addData
             // 
@@ -380,6 +390,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(991, 716);
+            this.Controls.Add(this.show_btn);
             this.Controls.Add(this.Exit_btn);
             this.Controls.Add(this.clear_button);
             this.Controls.Add(this.Search_Button);
@@ -451,5 +462,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn per2014;
         private System.Windows.Forms.DataGridViewTextBoxColumn per2015;
         private System.Windows.Forms.DataGridViewTextBoxColumn per2016;
+        private System.Windows.Forms.Button show_btn;
     }
 }

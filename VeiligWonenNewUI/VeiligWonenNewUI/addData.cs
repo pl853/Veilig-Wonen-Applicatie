@@ -199,9 +199,18 @@ namespace VeiligWonenNewUI
 
             string wijkstring = dt.Rows[0][0].ToString();
             int wijkint = int.Parse(wijkstring);
-         
-            con.Execute("delete from subcategoriecriminaliteit where SCID = '" + SCID_Text.Text + "'");
-            LoadGridData("select * from subcategoriecriminaliteit where subcategoriecriminaliteit.WID = '" + wijkint + "' ");
+
+            if (SCID_Text.Text != "")
+            {
+                con.Execute("delete from subcategoriecriminaliteit where SCID = '" + SCID_Text.Text + "'");
+                LoadGridData("select * from subcategoriecriminaliteit where subcategoriecriminaliteit.WID = '" + wijkint + "' ");
+            }
+            else
+            {
+                MessageBox.Show("Please select a item from the datagrid by double clicking on the item.");
+            }
+
+          
 
         }
     }
