@@ -68,6 +68,7 @@
             // 
             // SCID_Text
             // 
+            this.SCID_Text.Enabled = false;
             this.SCID_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SCID_Text.Location = new System.Drawing.Point(265, 51);
             this.SCID_Text.Name = "SCID_Text";
@@ -284,6 +285,7 @@
             this.Delete_button.TabIndex = 78;
             this.Delete_button.Text = "Delete";
             this.Delete_button.UseVisualStyleBackColor = true;
+            this.Delete_button.Click += new System.EventHandler(this.Delete_button_Click);
             // 
             // Button_Add
             // 

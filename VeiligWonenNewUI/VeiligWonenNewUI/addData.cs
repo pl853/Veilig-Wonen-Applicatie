@@ -189,5 +189,20 @@ namespace VeiligWonenNewUI
                 MessageBox.Show("Er is geen data om te weergeven");
             }
         }
+
+        private void Delete_button_Click(object sender, EventArgs e)
+        {
+            MySqlDataAdapter sda1 = new MySqlDataAdapter("Select WID From wijk where wijk.naam = '" + Wijk_dropdown.Text + "'", con);
+      
+            DataTable dt = new DataTable();
+            sda1.Fill(dt);
+
+            string wijkstring = dt.Rows[0][0].ToString();
+            int wijkint = int.Parse(wijkstring);
+         
+            con.Execute("delete from subcategoriecriminaliteit where SCID = '" + SCID_Text.Text + "'");
+            LoadGridData("select * from subcategoriecriminaliteit where subcategoriecriminaliteit.WID = '" + wijkint + "' ");
+
+        }
     }
 }

@@ -71,6 +71,16 @@ namespace VeiligWonenNewUI
             vandilsme_chart.Series["Perc"].Points.AddXY("2015", 17);
             vandilsme_chart.Series["Perc"].Points.AddXY("2016", 13.9);
 
+            //fill Circles
+
+            Woning_circle.Value = 14;
+            Auto_circle.Value = 4;
+            Gewelds_circle.Value = 6;
+            Bedreiging_circle.Value = 6;
+            Vernieling_circle.Value = 7;
+            Bekladding_circle.Value = 14;
+            
+
             // what check who logged and what to display
             if (Role_label.Text != "Admin")
             {
@@ -186,24 +196,50 @@ namespace VeiligWonenNewUI
         public void FillPercentages()
         {
             MySqlDataAdapter sda = new MySqlDataAdapter(@"select subcategoriecriminaliteit.Per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Woninginbraak' ", con);
-            DataTable dt = new DataTable();
-            sda.Fill(dt);
+            MySqlDataAdapter sda1 = new MySqlDataAdapter(@"select subcategoriecriminaliteit.Per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Auto-inbraak' ", con);
+            MySqlDataAdapter sda2 = new MySqlDataAdapter(@"select subcategoriecriminaliteit.Per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Geweldsdelicten' ", con);
+            MySqlDataAdapter sda3 = new MySqlDataAdapter(@"select subcategoriecriminaliteit.Per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Bedreiging' ", con);
+            MySqlDataAdapter sda4 = new MySqlDataAdapter(@"select subcategoriecriminaliteit.Per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Vernieling' ", con);
+            MySqlDataAdapter sda5 = new MySqlDataAdapter(@"select subcategoriecriminaliteit.Per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Bekladding' ", con);
+            DataTable dt = new DataTable(); DataTable dt1 = new DataTable(); DataTable dt2 = new DataTable(); DataTable dt3 = new DataTable(); DataTable dt4 = new DataTable();DataTable dt5 = new DataTable();
+            sda.Fill(dt); sda1.Fill(dt1); sda2.Fill(dt2); sda3.Fill(dt3); sda4.Fill(dt4); sda5.Fill(dt5);
 
             if (dt.Rows.Count >= 1)
             {
-                string WoningInbraak_percstr = dt.Rows[0][0].ToString();
-                int WoningInbraak_percint = int.Parse(WoningInbraak_percstr);
-               // WoningInbraak_Circle.Value = WoningInbraak_percint;
+                string woninginbraak_percstr = dt.Rows[0][0].ToString();
+                float woninginbraak_percfloat = float.Parse(woninginbraak_percstr);
+                int woninginbraak_percint = Convert.ToInt32(woninginbraak_percfloat);
+                string Autoinbraak_percstr = dt1.Rows[0][0].ToString();
+                float Autoinbraak_percfloat = float.Parse(Autoinbraak_percstr);
+                int Autoinbraak_percint = Convert.ToInt32(Autoinbraak_percfloat);
+                string Geweldsdel_percstr = dt2.Rows[0][0].ToString();
+                float Geweldsdel_perfloat = float.Parse(Geweldsdel_percstr);
+                int Geweldsdel_perint = Convert.ToInt32(Geweldsdel_perfloat);
+                string Bedreiging_perstr = dt3.Rows[0][0].ToString();
+                float Bedreiging_perfloat = float.Parse(Bedreiging_perstr);
+                int Bedreiging_perint = Convert.ToInt32(Bedreiging_perfloat);
+                string Vernieling_perstr = dt4.Rows[0][0].ToString();
+               float Vernieling_perfloat = float.Parse(Vernieling_perstr);
+                int Vernieling_perint = Convert.ToInt32(Vernieling_perfloat);
+                string Bekladding_perstr = dt5.Rows[0][0].ToString();
+                float Bekladding_perfloat = float.Parse(Bekladding_perstr);
+                int Bekladding_perint = Convert.ToInt32(Bekladding_perfloat);
+
+                Woning_circle.Value = woninginbraak_percint;
+                Auto_circle.Value = Autoinbraak_percint;
+                Gewelds_circle.Value = Geweldsdel_perint;
+                Bedreiging_circle.Value = Bedreiging_perint;
+                Vernieling_circle.Value = Vernieling_perint;
+                Bekladding_circle.Value = Bekladding_perint;
             }
         }
 
         private void Search_Btn_Click(object sender, EventArgs e)
         {
 
-
-            ClearPercentages(); //clears last 
-            //FillPercentages(); // fills new
-            //FillChart();
+            RemoveGraphData();
+            FillPercentages(); 
+            FillChart();
 
             if (StadsGebied_Dropdown.Text == "")
             {
@@ -253,11 +289,7 @@ namespace VeiligWonenNewUI
             }
         }
 
-        void ClearPercentages()
-        {
-            //WoningInbraak_Circle.Value = 0;
-            //AutoInbraak_Circle.Value = 0;
-        }
+
 
         private void Logout_Button_Click(object sender, EventArgs e)
         {
@@ -279,11 +311,79 @@ namespace VeiligWonenNewUI
             sda = new MySqlDataAdapter("select per2013,per2014,per2015,per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Woninginbraak'",con);
             dt = new DataTable();
             sda.Fill(dt);
+            MySqlDataAdapter sda1 = new MySqlDataAdapter("select per2013,per2014,per2015,per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Vandalisme'", con);
+            DataTable dt1 = new DataTable();
+            sda1.Fill(dt1);
+            MySqlDataAdapter sda2 = new MySqlDataAdapter("select per2013,per2014,per2015,per2016 from subcategoriecriminaliteit join wijk on  subcategoriecriminaliteit.WID = wijk.WID where wijk.Naam = '" + Wijk_dropdown.Text + "'and subcategoriecriminaliteit.Naam = 'Geweld'", con);
+            DataTable dt2 = new DataTable();
+            sda2.Fill(dt2);
 
-            Inbraak_Chart.Series["Perc"].Points.AddXY("2013", dt.Rows[0][0].ToString());
-            Inbraak_Chart.Series["Perc"].Points.AddXY("2014", dt.Rows[0][1].ToString());
-            Inbraak_Chart.Series["Perc"].Points.AddXY("2015", dt.Rows[0][2].ToString());
-            Inbraak_Chart.Series["Perc"].Points.AddXY("2016", dt.Rows[0][3].ToString());
+            if (dt.Rows.Count >= 1)
+            {
+                Inbraak_Chart.Series["Perc"].Points.AddXY("2013", dt.Rows[0][0].ToString());
+                Inbraak_Chart.Series["Perc"].Points.AddXY("2014", dt.Rows[0][1].ToString());
+                Inbraak_Chart.Series["Perc"].Points.AddXY("2015", dt.Rows[0][2].ToString());
+                Inbraak_Chart.Series["Perc"].Points.AddXY("2016", dt.Rows[0][3].ToString());
+
+                gewelds_chart.Series["Perc"].Points.AddXY("2013", dt.Rows[0][0].ToString());
+                gewelds_chart.Series["Perc"].Points.AddXY("2014", dt.Rows[0][1].ToString());
+                gewelds_chart.Series["Perc"].Points.AddXY("2015", dt.Rows[0][2].ToString());
+                gewelds_chart.Series["Perc"].Points.AddXY("2016", dt.Rows[0][3].ToString());
+
+                vandilsme_chart.Series["Perc"].Points.AddXY("2013", dt.Rows[0][0].ToString());
+                vandilsme_chart.Series["Perc"].Points.AddXY("2014", dt.Rows[0][1].ToString());
+                vandilsme_chart.Series["Perc"].Points.AddXY("2015", dt.Rows[0][2].ToString());
+                vandilsme_chart.Series["Perc"].Points.AddXY("2016", dt.Rows[0][3].ToString());
+            }
+            else
+            {
+                MessageBox.Show("Sorry er is momenteel geen data beschikbaar");
+            }
+
+        }
+
+        private void Show_allbutton_Click(object sender, EventArgs e)
+        {
+
+            ShowMarkers("select * from huis ", @"SELECT `huis`.`Straat`,`huis`.`Lat`,`huis`.`Long`,`huis`.`HuisNummer`,`huis`.`Prijs`,`huis`.`KoopHuur` FROM `sql11169883`.`huis` ");
+            RemoveGraphData();
+
+            Inbraak_Chart.Series["Perc"].Points.AddXY("2013", 12);
+            Inbraak_Chart.Series["Perc"].Points.AddXY("2014", 12.1);
+            Inbraak_Chart.Series["Perc"].Points.AddXY("2015", 11.1);
+            Inbraak_Chart.Series["Perc"].Points.AddXY("2016", 13.5);
+
+            gewelds_chart.Series["Perc"].Points.AddXY("2013", 4);
+            gewelds_chart.Series["Perc"].Points.AddXY("2014", 3.5);
+            gewelds_chart.Series["Perc"].Points.AddXY("2015", 4.6);
+            gewelds_chart.Series["Perc"].Points.AddXY("2016", 5.5);
+
+            vandilsme_chart.Series["Perc"].Points.AddXY("2013", 14.9);
+            vandilsme_chart.Series["Perc"].Points.AddXY("2014", 18.7);
+            vandilsme_chart.Series["Perc"].Points.AddXY("2015", 17);
+            vandilsme_chart.Series["Perc"].Points.AddXY("2016", 13.9);
+
+
+
+            //fill Circles
+
+            Woning_circle.Value = 14;
+            Auto_circle.Value = 4;
+            Gewelds_circle.Value = 6;
+            Bedreiging_circle.Value = 6;
+            Vernieling_circle.Value = 7;
+            Bekladding_circle.Value = 14;
+
+            GoogleMapsControl.Position = new PointLatLng(51.906582, 4.492979);
+            GoogleMapsControl.Zoom = 12;
+
+        }
+
+        void RemoveGraphData()
+        {
+            Inbraak_Chart.Series["Perc"].Points.Clear();
+            gewelds_chart.Series["Perc"].Points.Clear();
+            vandilsme_chart.Series["Perc"].Points.Clear();
 
         }
     }
