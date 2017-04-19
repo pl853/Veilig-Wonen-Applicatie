@@ -27,7 +27,16 @@ namespace VeiligWonenNewUI
 
         private void Search_Button_Click(object sender, EventArgs e)
         {
+            MySqlDataAdapter sda1 = new MySqlDataAdapter("Select WID From wijk where wijk.naam = '" + Wijk_dropdown.Text + "'", con);
+            MySqlDataAdapter sda = new MySqlDataAdapter("Select CID From categoriecriminaliteit where categoriecriminaliteit.Soort= '" + Hcategorie_Combobox.Text + "'", con);
+            DataTable dt = new DataTable();
+            DataTable dt1 = new DataTable();
+            sda1.Fill(dt);
+            sda.Fill(dt1);
 
+            string wijkstring = dt.Rows[0][0].ToString();
+            int wijkint = int.Parse(wijkstring);
+            LoadGridData("select * from subcategoriecriminaliteit where subcategoriecriminaliteit.WID = '" + wijkint + "' ");
         }
 
 

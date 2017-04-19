@@ -228,8 +228,6 @@
             // 
             this.Addperc_Datagrid.AllowUserToAddRows = false;
             this.Addperc_Datagrid.AllowUserToDeleteRows = false;
-            this.Addperc_Datagrid.AllowUserToResizeColumns = false;
-            this.Addperc_Datagrid.AllowUserToResizeRows = false;
             this.Addperc_Datagrid.BackgroundColor = System.Drawing.Color.White;
             this.Addperc_Datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Addperc_Datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -244,6 +242,7 @@
             this.Addperc_Datagrid.Location = new System.Drawing.Point(23, 407);
             this.Addperc_Datagrid.Name = "Addperc_Datagrid";
             this.Addperc_Datagrid.RowTemplate.Height = 24;
+            this.Addperc_Datagrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Addperc_Datagrid.Size = new System.Drawing.Size(940, 283);
             this.Addperc_Datagrid.TabIndex = 18;
             this.Addperc_Datagrid.DoubleClick += new System.EventHandler(this.Addperc_Datagrid_DoubleClick);
