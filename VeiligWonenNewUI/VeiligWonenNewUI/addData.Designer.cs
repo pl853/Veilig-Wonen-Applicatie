@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addData));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.SCID_Text = new System.Windows.Forms.TextBox();
             this.Wijk_dropdown = new System.Windows.Forms.ComboBox();
             this.Hcategorie_Combobox = new System.Windows.Forms.ComboBox();
             this.SCategorie_Combobox = new System.Windows.Forms.ComboBox();
@@ -46,15 +46,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.Addperc_Datagrid = new System.Windows.Forms.DataGridView();
-            this.SCIDcol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gebiedcol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.WijkCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sCatCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HcatCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.per2013 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.per2014 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.per2015 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.per2016 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clear_button = new System.Windows.Forms.Button();
             this.Search_Button = new System.Windows.Forms.Button();
             this.UpdateButton = new System.Windows.Forms.Button();
@@ -63,18 +54,26 @@
             this.Exit_btn = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.gebied_Dropdown = new System.Windows.Forms.ComboBox();
+            this.SCIDcol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WijkCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HcatCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sCatCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.per2013 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.per2014 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.per2015 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.per2016 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.Addperc_Datagrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exit_btn)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // SCID_Text
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(265, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(100, 30);
-            this.textBox1.TabIndex = 0;
+            this.SCID_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SCID_Text.Location = new System.Drawing.Point(265, 51);
+            this.SCID_Text.Name = "SCID_Text";
+            this.SCID_Text.ReadOnly = true;
+            this.SCID_Text.Size = new System.Drawing.Size(100, 30);
+            this.SCID_Text.TabIndex = 0;
             // 
             // Wijk_dropdown
             // 
@@ -235,10 +234,9 @@
             this.Addperc_Datagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Addperc_Datagrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.SCIDcol,
-            this.Gebiedcol,
             this.WijkCol,
-            this.sCatCol,
             this.HcatCol,
+            this.sCatCol,
             this.per2013,
             this.per2014,
             this.per2015,
@@ -248,51 +246,7 @@
             this.Addperc_Datagrid.RowTemplate.Height = 24;
             this.Addperc_Datagrid.Size = new System.Drawing.Size(940, 283);
             this.Addperc_Datagrid.TabIndex = 18;
-            // 
-            // SCIDcol
-            // 
-            this.SCIDcol.HeaderText = "SCID";
-            this.SCIDcol.Name = "SCIDcol";
-            // 
-            // Gebiedcol
-            // 
-            this.Gebiedcol.HeaderText = "Gebied";
-            this.Gebiedcol.Name = "Gebiedcol";
-            // 
-            // WijkCol
-            // 
-            this.WijkCol.HeaderText = "Wijk";
-            this.WijkCol.Name = "WijkCol";
-            // 
-            // sCatCol
-            // 
-            this.sCatCol.HeaderText = "SubCat";
-            this.sCatCol.Name = "sCatCol";
-            // 
-            // HcatCol
-            // 
-            this.HcatCol.HeaderText = "Hoofdcat";
-            this.HcatCol.Name = "HcatCol";
-            // 
-            // per2013
-            // 
-            this.per2013.HeaderText = "%2013";
-            this.per2013.Name = "per2013";
-            // 
-            // per2014
-            // 
-            this.per2014.HeaderText = "%2014";
-            this.per2014.Name = "per2014";
-            // 
-            // per2015
-            // 
-            this.per2015.HeaderText = "%2015";
-            this.per2015.Name = "per2015";
-            // 
-            // per2016
-            // 
-            this.per2016.HeaderText = "%2016";
-            this.per2016.Name = "per2016";
+            this.Addperc_Datagrid.DoubleClick += new System.EventHandler(this.Addperc_Datagrid_DoubleClick);
             // 
             // clear_button
             // 
@@ -302,6 +256,7 @@
             this.clear_button.TabIndex = 81;
             this.clear_button.Text = "Clear";
             this.clear_button.UseVisualStyleBackColor = true;
+            this.clear_button.Click += new System.EventHandler(this.clear_button_Click);
             // 
             // Search_Button
             // 
@@ -378,6 +333,46 @@
             this.gebied_Dropdown.SelectedIndexChanged += new System.EventHandler(this.gebied_Dropdown_SelectedIndexChanged);
             this.gebied_Dropdown.MouseDown += new System.Windows.Forms.MouseEventHandler(this.gebied_Dropdown_MouseDown);
             // 
+            // SCIDcol
+            // 
+            this.SCIDcol.HeaderText = "SCID";
+            this.SCIDcol.Name = "SCIDcol";
+            // 
+            // WijkCol
+            // 
+            this.WijkCol.HeaderText = "Wijk";
+            this.WijkCol.Name = "WijkCol";
+            // 
+            // HcatCol
+            // 
+            this.HcatCol.HeaderText = "Hoofdcat";
+            this.HcatCol.Name = "HcatCol";
+            // 
+            // sCatCol
+            // 
+            this.sCatCol.HeaderText = "SubCat";
+            this.sCatCol.Name = "sCatCol";
+            // 
+            // per2013
+            // 
+            this.per2013.HeaderText = "%2013";
+            this.per2013.Name = "per2013";
+            // 
+            // per2014
+            // 
+            this.per2014.HeaderText = "%2014";
+            this.per2014.Name = "per2014";
+            // 
+            // per2015
+            // 
+            this.per2015.HeaderText = "%2015";
+            this.per2015.Name = "per2015";
+            // 
+            // per2016
+            // 
+            this.per2016.HeaderText = "%2016";
+            this.per2016.Name = "per2016";
+            // 
             // addData
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -408,7 +403,7 @@
             this.Controls.Add(this.Hcategorie_Combobox);
             this.Controls.Add(this.Wijk_dropdown);
             this.Controls.Add(this.gebied_Dropdown);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SCID_Text);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "addData";
             this.Text = "addData";
@@ -422,7 +417,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox SCID_Text;
         private System.Windows.Forms.ComboBox Wijk_dropdown;
         private System.Windows.Forms.ComboBox Hcategorie_Combobox;
         private System.Windows.Forms.ComboBox SCategorie_Combobox;
@@ -439,15 +434,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.DataGridView Addperc_Datagrid;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SCIDcol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Gebiedcol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn WijkCol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sCatCol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HcatCol;
-        private System.Windows.Forms.DataGridViewTextBoxColumn per2013;
-        private System.Windows.Forms.DataGridViewTextBoxColumn per2014;
-        private System.Windows.Forms.DataGridViewTextBoxColumn per2015;
-        private System.Windows.Forms.DataGridViewTextBoxColumn per2016;
         private System.Windows.Forms.Button clear_button;
         private System.Windows.Forms.Button Search_Button;
         private System.Windows.Forms.Button UpdateButton;
@@ -456,5 +442,13 @@
         private System.Windows.Forms.PictureBox Exit_btn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox gebied_Dropdown;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SCIDcol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn WijkCol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HcatCol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sCatCol;
+        private System.Windows.Forms.DataGridViewTextBoxColumn per2013;
+        private System.Windows.Forms.DataGridViewTextBoxColumn per2014;
+        private System.Windows.Forms.DataGridViewTextBoxColumn per2015;
+        private System.Windows.Forms.DataGridViewTextBoxColumn per2016;
     }
 }

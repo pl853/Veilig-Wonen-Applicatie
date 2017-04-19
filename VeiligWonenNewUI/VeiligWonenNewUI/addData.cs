@@ -30,34 +30,6 @@ namespace VeiligWonenNewUI
 
         }
 
-        private void Button_Add_Click(object sender, EventArgs e)
-        {
-            MySqlDataAdapter sda1 = new MySqlDataAdapter("Select WID where wijk = '" + Wijk_dropdown.Text + "'", con);
-            MySqlDataAdapter sda = new MySqlDataAdapter("Select CID where wijk = '" + Hcategorie_Combobox.Text + "'", con);
-            DataTable dt = new DataTable();
-            DataTable dt1 = new DataTable();
-            sda1.Fill(dt);
-            sda.Fill(dt1);
-
-            string wijkstring = dt.Rows[0][0].ToString();
-            int wijkint = int.Parse(wijkstring);
-            string hcategoriestring = dt1.Rows[0][1].ToString();
-            int hcategorieint = int.Parse(hcategoriestring);
-
-            con.Execute(@"INSERT INTO `sql11169883`.`subcategoriecriminaliteit`
-            (
-            `Naam`,
-            `CID`,
-            `WID`,
-            `per2013`,
-            `Per2014`,
-            `Per2015`,
-            `Per2016`)
-            VALUES
- (hoi,1,1,2,3,4,5",con);
-            //('"+SCategorie_Combobox.Text+"','"+hcategorieint+ "','"+wijkint+ "','"+Perc2013.Text+ "','"+Perc2014.Text+ "','"+Perc2015.Text+ "','"+Perc2016.Text+"'");
-
-        }
 
         private void gebied_Dropdown_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -90,6 +62,7 @@ namespace VeiligWonenNewUI
             string query = "SELECT stadsgebied.GID , stadsgebied.Naam from stadsgebied";  //Aanmaken van invulling voor Combobox
             fillcombo(gebied_Dropdown, query, "Naam", "GID");            //Aanmaken van invulling voor Combobox
             gebied_Dropdown_SelectedIndexChanged(null, null);            //Aanmaken van invulling voor Combobox
+            LoadGridData("select * From subcategoriecriminaliteit");
         }
 
         void RemoveComboItems()
@@ -146,6 +119,65 @@ namespace VeiligWonenNewUI
             else
             {
                 MessageBox.Show("Please fill in all boxes");
+            }
+
+        }
+
+        void ClearAll()
+        {
+            SCID_Text.Text = "";
+            SCategorie_Combobox.SelectedIndex = -1;
+            Hcategorie_Combobox.SelectedIndex = -1;
+            Perc2013.Clear();
+            Perc2014.Clear();
+            Perc2015.Clear();
+            Perc2016.Clear();
+        }
+
+        private void clear_button_Click(object sender, EventArgs e)
+        {
+            ClearAll();
+        }
+
+        public void LoadGridData(string query)
+        {
+            Addperc_Datagrid.Rows.Clear();
+            MySqlDataAdapter sda = new MySqlDataAdapter(query, con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            foreach (DataRow item in dt.Rows)
+            {
+                int n = Addperc_Datagrid.Rows.Add();
+                Addperc_Datagrid.Rows[n].Cells[0].Value = item["SCID"].ToString();
+                Addperc_Datagrid.Rows[n].Cells[1].Value = item["WID"].ToString();
+                Addperc_Datagrid.Rows[n].Cells[2].Value = item["CID"].ToString();
+                Addperc_Datagrid.Rows[n].Cells[3].Value = item["Naam"].ToString();
+                Addperc_Datagrid.Rows[n].Cells[4].Value = item["per2013"].ToString();
+                Addperc_Datagrid.Rows[n].Cells[5].Value = item["Per2014"].ToString();
+                Addperc_Datagrid.Rows[n].Cells[6].Value = item["Per2015"].ToString();
+                Addperc_Datagrid.Rows[n].Cells[7].Value = item["Per2016"].ToString();
+            }
+        }
+
+
+        private void Addperc_Datagrid_DoubleClick(object sender, EventArgs e)
+        {
+            if (Addperc_Datagrid.Rows.Count != 0)
+            {
+                SCID_Text.Text = Addperc_Datagrid.SelectedRows[0].Cells[0].Value.ToString();
+                Wijk_dropdown.Text = Addperc_Datagrid.SelectedRows[0].Cells[1].Value.ToString();
+                Hcategorie_Combobox.Text = Addperc_Datagrid.SelectedRows[0].Cells[2].Value.ToString();
+                SCategorie_Combobox.Text = Addperc_Datagrid.SelectedRows[0].Cells[3].Value.ToString();
+                Perc2013.Text = Addperc_Datagrid.SelectedRows[0].Cells[4].Value.ToString();
+                Perc2014.Text = Addperc_Datagrid.SelectedRows[0].Cells[5].Value.ToString();
+                Perc2015.Text = Addperc_Datagrid.SelectedRows[0].Cells[6].Value.ToString();
+                Perc2016.Text = Addperc_Datagrid.SelectedRows[0].Cells[7].Value.ToString();
+
+            }
+            else
+            {
+                MessageBox.Show("Er is geen data om te weergeven");
             }
         }
     }

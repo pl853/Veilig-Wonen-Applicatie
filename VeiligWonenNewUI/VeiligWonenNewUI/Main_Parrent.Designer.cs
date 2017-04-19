@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main_Ui));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Logout_Button = new Bunifu.Framework.UI.BunifuFlatButton();
             this.Role_label = new System.Windows.Forms.Label();
@@ -56,12 +56,6 @@
             this.Search_Btn = new Bunifu.Framework.UI.BunifuThinButton2();
             this.Vandalisme = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.bunifuCircleProgressbar6 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuCircleProgressbar5 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuCircleProgressbar4 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuCircleProgressbar3 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuCircleProgressbar2 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuCircleProgressbar1 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel25 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel21 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -85,6 +79,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.GoogleMapsControl = new GMap.NET.WindowsForms.GMapControl();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.bunifuCircleProgressbar1 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar2 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar3 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar4 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar5 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
+            this.bunifuCircleProgressbar6 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -480,138 +484,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Diagrammen criminaliteit";
             // 
-            // bunifuCircleProgressbar6
-            // 
-            this.bunifuCircleProgressbar6.animated = false;
-            this.bunifuCircleProgressbar6.animationIterval = 5;
-            this.bunifuCircleProgressbar6.animationSpeed = 300;
-            this.bunifuCircleProgressbar6.BackColor = System.Drawing.Color.White;
-            this.bunifuCircleProgressbar6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar6.BackgroundImage")));
-            this.bunifuCircleProgressbar6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar6.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar6.LabelVisible = true;
-            this.bunifuCircleProgressbar6.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar6.LineThickness = 5;
-            this.bunifuCircleProgressbar6.Location = new System.Drawing.Point(23, 396);
-            this.bunifuCircleProgressbar6.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar6.MaxValue = 100;
-            this.bunifuCircleProgressbar6.Name = "bunifuCircleProgressbar6";
-            this.bunifuCircleProgressbar6.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgressbar6.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar6.Size = new System.Drawing.Size(150, 150);
-            this.bunifuCircleProgressbar6.TabIndex = 63;
-            this.bunifuCircleProgressbar6.Value = 0;
-            // 
-            // bunifuCircleProgressbar5
-            // 
-            this.bunifuCircleProgressbar5.animated = false;
-            this.bunifuCircleProgressbar5.animationIterval = 5;
-            this.bunifuCircleProgressbar5.animationSpeed = 300;
-            this.bunifuCircleProgressbar5.BackColor = System.Drawing.Color.White;
-            this.bunifuCircleProgressbar5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar5.BackgroundImage")));
-            this.bunifuCircleProgressbar5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar5.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar5.LabelVisible = true;
-            this.bunifuCircleProgressbar5.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar5.LineThickness = 5;
-            this.bunifuCircleProgressbar5.Location = new System.Drawing.Point(211, 394);
-            this.bunifuCircleProgressbar5.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar5.MaxValue = 100;
-            this.bunifuCircleProgressbar5.Name = "bunifuCircleProgressbar5";
-            this.bunifuCircleProgressbar5.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgressbar5.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar5.Size = new System.Drawing.Size(150, 150);
-            this.bunifuCircleProgressbar5.TabIndex = 62;
-            this.bunifuCircleProgressbar5.Value = 0;
-            // 
-            // bunifuCircleProgressbar4
-            // 
-            this.bunifuCircleProgressbar4.animated = false;
-            this.bunifuCircleProgressbar4.animationIterval = 5;
-            this.bunifuCircleProgressbar4.animationSpeed = 300;
-            this.bunifuCircleProgressbar4.BackColor = System.Drawing.Color.White;
-            this.bunifuCircleProgressbar4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar4.BackgroundImage")));
-            this.bunifuCircleProgressbar4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar4.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar4.LabelVisible = true;
-            this.bunifuCircleProgressbar4.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar4.LineThickness = 5;
-            this.bunifuCircleProgressbar4.Location = new System.Drawing.Point(211, 201);
-            this.bunifuCircleProgressbar4.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar4.MaxValue = 100;
-            this.bunifuCircleProgressbar4.Name = "bunifuCircleProgressbar4";
-            this.bunifuCircleProgressbar4.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgressbar4.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar4.Size = new System.Drawing.Size(150, 150);
-            this.bunifuCircleProgressbar4.TabIndex = 61;
-            this.bunifuCircleProgressbar4.Value = 0;
-            // 
-            // bunifuCircleProgressbar3
-            // 
-            this.bunifuCircleProgressbar3.animated = false;
-            this.bunifuCircleProgressbar3.animationIterval = 5;
-            this.bunifuCircleProgressbar3.animationSpeed = 300;
-            this.bunifuCircleProgressbar3.BackColor = System.Drawing.Color.White;
-            this.bunifuCircleProgressbar3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar3.BackgroundImage")));
-            this.bunifuCircleProgressbar3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar3.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar3.LabelVisible = true;
-            this.bunifuCircleProgressbar3.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar3.LineThickness = 5;
-            this.bunifuCircleProgressbar3.Location = new System.Drawing.Point(23, 201);
-            this.bunifuCircleProgressbar3.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar3.MaxValue = 100;
-            this.bunifuCircleProgressbar3.Name = "bunifuCircleProgressbar3";
-            this.bunifuCircleProgressbar3.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgressbar3.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar3.Size = new System.Drawing.Size(150, 150);
-            this.bunifuCircleProgressbar3.TabIndex = 60;
-            this.bunifuCircleProgressbar3.Value = 0;
-            // 
-            // bunifuCircleProgressbar2
-            // 
-            this.bunifuCircleProgressbar2.animated = false;
-            this.bunifuCircleProgressbar2.animationIterval = 5;
-            this.bunifuCircleProgressbar2.animationSpeed = 300;
-            this.bunifuCircleProgressbar2.BackColor = System.Drawing.Color.White;
-            this.bunifuCircleProgressbar2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar2.BackgroundImage")));
-            this.bunifuCircleProgressbar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar2.LabelVisible = true;
-            this.bunifuCircleProgressbar2.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar2.LineThickness = 5;
-            this.bunifuCircleProgressbar2.Location = new System.Drawing.Point(211, 21);
-            this.bunifuCircleProgressbar2.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar2.MaxValue = 100;
-            this.bunifuCircleProgressbar2.Name = "bunifuCircleProgressbar2";
-            this.bunifuCircleProgressbar2.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgressbar2.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar2.Size = new System.Drawing.Size(150, 150);
-            this.bunifuCircleProgressbar2.TabIndex = 59;
-            this.bunifuCircleProgressbar2.Value = 0;
-            // 
-            // bunifuCircleProgressbar1
-            // 
-            this.bunifuCircleProgressbar1.animated = false;
-            this.bunifuCircleProgressbar1.animationIterval = 5;
-            this.bunifuCircleProgressbar1.animationSpeed = 300;
-            this.bunifuCircleProgressbar1.BackColor = System.Drawing.Color.White;
-            this.bunifuCircleProgressbar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar1.BackgroundImage")));
-            this.bunifuCircleProgressbar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
-            this.bunifuCircleProgressbar1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar1.LabelVisible = true;
-            this.bunifuCircleProgressbar1.LineProgressThickness = 8;
-            this.bunifuCircleProgressbar1.LineThickness = 5;
-            this.bunifuCircleProgressbar1.Location = new System.Drawing.Point(23, 21);
-            this.bunifuCircleProgressbar1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.bunifuCircleProgressbar1.MaxValue = 100;
-            this.bunifuCircleProgressbar1.Name = "bunifuCircleProgressbar1";
-            this.bunifuCircleProgressbar1.ProgressBackColor = System.Drawing.Color.Gainsboro;
-            this.bunifuCircleProgressbar1.ProgressColor = System.Drawing.Color.SeaGreen;
-            this.bunifuCircleProgressbar1.Size = new System.Drawing.Size(150, 150);
-            this.bunifuCircleProgressbar1.TabIndex = 58;
-            this.bunifuCircleProgressbar1.Value = 0;
-            // 
             // bunifuCustomLabel3
             // 
             this.bunifuCustomLabel3.AutoSize = true;
@@ -680,6 +552,10 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label13);
+            this.tabPage2.Controls.Add(this.label12);
+            this.tabPage2.Controls.Add(this.label11);
+            this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.vandilsme_chart);
             this.tabPage2.Controls.Add(this.gewelds_chart);
             this.tabPage2.Controls.Add(this.Inbraak_Chart);
@@ -688,7 +564,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(405, 555);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Geweld";
+            this.tabPage2.Text = "Grafieken criminaliteit";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // vandilsme_chart
@@ -696,21 +572,21 @@
             this.vandilsme_chart.BorderlineColor = System.Drawing.Color.Gray;
             this.vandilsme_chart.BorderSkin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
             this.vandilsme_chart.BorderSkin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            chartArea1.Name = "ChartArea1";
-            this.vandilsme_chart.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.vandilsme_chart.Legends.Add(legend1);
-            this.vandilsme_chart.Location = new System.Drawing.Point(12, 371);
+            chartArea7.Name = "ChartArea1";
+            this.vandilsme_chart.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.vandilsme_chart.Legends.Add(legend7);
+            this.vandilsme_chart.Location = new System.Drawing.Point(-23, 374);
             this.vandilsme_chart.Name = "vandilsme_chart";
             this.vandilsme_chart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Grayscale;
-            series1.ChartArea = "ChartArea1";
-            series1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
-            series1.LabelForeColor = System.Drawing.Color.Silver;
-            series1.Legend = "Legend1";
-            series1.Name = "Perc";
-            series1.ShadowColor = System.Drawing.Color.White;
-            this.vandilsme_chart.Series.Add(series1);
-            this.vandilsme_chart.Size = new System.Drawing.Size(371, 181);
+            series7.ChartArea = "ChartArea1";
+            series7.Color = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
+            series7.LabelForeColor = System.Drawing.Color.Silver;
+            series7.Legend = "Legend1";
+            series7.Name = "Perc";
+            series7.ShadowColor = System.Drawing.Color.White;
+            this.vandilsme_chart.Series.Add(series7);
+            this.vandilsme_chart.Size = new System.Drawing.Size(415, 181);
             this.vandilsme_chart.TabIndex = 30;
             this.vandilsme_chart.Text = "chart1";
             // 
@@ -719,21 +595,21 @@
             this.gewelds_chart.BorderlineColor = System.Drawing.Color.Gray;
             this.gewelds_chart.BorderSkin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
             this.gewelds_chart.BorderSkin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            chartArea2.Name = "ChartArea1";
-            this.gewelds_chart.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.gewelds_chart.Legends.Add(legend2);
-            this.gewelds_chart.Location = new System.Drawing.Point(12, 184);
+            chartArea8.Name = "ChartArea1";
+            this.gewelds_chart.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.gewelds_chart.Legends.Add(legend8);
+            this.gewelds_chart.Location = new System.Drawing.Point(-20, 205);
             this.gewelds_chart.Name = "gewelds_chart";
             this.gewelds_chart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Grayscale;
-            series2.ChartArea = "ChartArea1";
-            series2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
-            series2.LabelForeColor = System.Drawing.Color.Silver;
-            series2.Legend = "Legend1";
-            series2.Name = "Perc";
-            series2.ShadowColor = System.Drawing.Color.White;
-            this.gewelds_chart.Series.Add(series2);
-            this.gewelds_chart.Size = new System.Drawing.Size(371, 181);
+            series8.ChartArea = "ChartArea1";
+            series8.Color = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            series8.LabelForeColor = System.Drawing.Color.Silver;
+            series8.Legend = "Legend1";
+            series8.Name = "Perc";
+            series8.ShadowColor = System.Drawing.Color.White;
+            this.gewelds_chart.Series.Add(series8);
+            this.gewelds_chart.Size = new System.Drawing.Size(412, 181);
             this.gewelds_chart.TabIndex = 29;
             this.gewelds_chart.Text = "chart1";
             // 
@@ -742,21 +618,21 @@
             this.Inbraak_Chart.BorderlineColor = System.Drawing.Color.Gray;
             this.Inbraak_Chart.BorderSkin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
             this.Inbraak_Chart.BorderSkin.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
-            chartArea3.Name = "ChartArea1";
-            this.Inbraak_Chart.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.Inbraak_Chart.Legends.Add(legend3);
-            this.Inbraak_Chart.Location = new System.Drawing.Point(6, 6);
+            chartArea9.Name = "ChartArea1";
+            this.Inbraak_Chart.ChartAreas.Add(chartArea9);
+            legend9.Name = "Legend1";
+            this.Inbraak_Chart.Legends.Add(legend9);
+            this.Inbraak_Chart.Location = new System.Drawing.Point(-23, 33);
             this.Inbraak_Chart.Name = "Inbraak_Chart";
             this.Inbraak_Chart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Grayscale;
-            series3.ChartArea = "ChartArea1";
-            series3.Color = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
-            series3.LabelForeColor = System.Drawing.Color.Silver;
-            series3.Legend = "Legend1";
-            series3.Name = "Perc";
-            series3.ShadowColor = System.Drawing.Color.White;
-            this.Inbraak_Chart.Series.Add(series3);
-            this.Inbraak_Chart.Size = new System.Drawing.Size(371, 181);
+            series9.ChartArea = "ChartArea1";
+            series9.Color = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
+            series9.LabelForeColor = System.Drawing.Color.Silver;
+            series9.Legend = "Legend1";
+            series9.Name = "Perc";
+            series9.ShadowColor = System.Drawing.Color.White;
+            this.Inbraak_Chart.Series.Add(series9);
+            this.Inbraak_Chart.Size = new System.Drawing.Size(415, 181);
             this.Inbraak_Chart.TabIndex = 28;
             this.Inbraak_Chart.Text = "chart1";
             // 
@@ -924,6 +800,178 @@
             this.GoogleMapsControl.TabIndex = 10;
             this.GoogleMapsControl.Zoom = 0D;
             // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.Location = new System.Drawing.Point(300, 28);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(83, 17);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Inbraak";
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.DimGray;
+            this.label11.Location = new System.Drawing.Point(300, 185);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(83, 17);
+            this.label11.TabIndex = 31;
+            this.label11.Text = "Geweld";
+            // 
+            // label12
+            // 
+            this.label12.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.DimGray;
+            this.label12.Location = new System.Drawing.Point(281, 369);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(114, 17);
+            this.label12.TabIndex = 32;
+            this.label12.Text = "Vandalisme";
+            // 
+            // label13
+            // 
+            this.label13.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.DimGray;
+            this.label13.Location = new System.Drawing.Point(6, 3);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(348, 17);
+            this.label13.TabIndex = 33;
+            this.label13.Text = "Percentage verhoging / verlaging per jaar";
+            // 
+            // bunifuCircleProgressbar1
+            // 
+            this.bunifuCircleProgressbar1.animated = true;
+            this.bunifuCircleProgressbar1.animationIterval = 2;
+            this.bunifuCircleProgressbar1.animationSpeed = 1;
+            this.bunifuCircleProgressbar1.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar1.BackgroundImage")));
+            this.bunifuCircleProgressbar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
+            this.bunifuCircleProgressbar1.LabelVisible = true;
+            this.bunifuCircleProgressbar1.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar1.LineThickness = 5;
+            this.bunifuCircleProgressbar1.Location = new System.Drawing.Point(27, 25);
+            this.bunifuCircleProgressbar1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar1.MaxValue = 100;
+            this.bunifuCircleProgressbar1.Name = "bunifuCircleProgressbar1";
+            this.bunifuCircleProgressbar1.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar1.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar1.Size = new System.Drawing.Size(146, 146);
+            this.bunifuCircleProgressbar1.TabIndex = 58;
+            this.bunifuCircleProgressbar1.Value = 0;
+            // 
+            // bunifuCircleProgressbar2
+            // 
+            this.bunifuCircleProgressbar2.animated = false;
+            this.bunifuCircleProgressbar2.animationIterval = 5;
+            this.bunifuCircleProgressbar2.animationSpeed = 300;
+            this.bunifuCircleProgressbar2.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar2.BackgroundImage")));
+            this.bunifuCircleProgressbar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.bunifuCircleProgressbar2.LabelVisible = true;
+            this.bunifuCircleProgressbar2.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar2.LineThickness = 5;
+            this.bunifuCircleProgressbar2.Location = new System.Drawing.Point(31, 205);
+            this.bunifuCircleProgressbar2.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar2.MaxValue = 100;
+            this.bunifuCircleProgressbar2.Name = "bunifuCircleProgressbar2";
+            this.bunifuCircleProgressbar2.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar2.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar2.Size = new System.Drawing.Size(146, 146);
+            this.bunifuCircleProgressbar2.TabIndex = 59;
+            this.bunifuCircleProgressbar2.Value = 0;
+            // 
+            // bunifuCircleProgressbar3
+            // 
+            this.bunifuCircleProgressbar3.animated = false;
+            this.bunifuCircleProgressbar3.animationIterval = 5;
+            this.bunifuCircleProgressbar3.animationSpeed = 300;
+            this.bunifuCircleProgressbar3.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar3.BackgroundImage")));
+            this.bunifuCircleProgressbar3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
+            this.bunifuCircleProgressbar3.LabelVisible = true;
+            this.bunifuCircleProgressbar3.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar3.LineThickness = 5;
+            this.bunifuCircleProgressbar3.Location = new System.Drawing.Point(31, 397);
+            this.bunifuCircleProgressbar3.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar3.MaxValue = 100;
+            this.bunifuCircleProgressbar3.Name = "bunifuCircleProgressbar3";
+            this.bunifuCircleProgressbar3.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar3.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar3.Size = new System.Drawing.Size(146, 146);
+            this.bunifuCircleProgressbar3.TabIndex = 60;
+            this.bunifuCircleProgressbar3.Value = 0;
+            // 
+            // bunifuCircleProgressbar4
+            // 
+            this.bunifuCircleProgressbar4.animated = false;
+            this.bunifuCircleProgressbar4.animationIterval = 5;
+            this.bunifuCircleProgressbar4.animationSpeed = 300;
+            this.bunifuCircleProgressbar4.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar4.BackgroundImage")));
+            this.bunifuCircleProgressbar4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
+            this.bunifuCircleProgressbar4.LabelVisible = true;
+            this.bunifuCircleProgressbar4.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar4.LineThickness = 5;
+            this.bunifuCircleProgressbar4.Location = new System.Drawing.Point(215, 25);
+            this.bunifuCircleProgressbar4.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar4.MaxValue = 100;
+            this.bunifuCircleProgressbar4.Name = "bunifuCircleProgressbar4";
+            this.bunifuCircleProgressbar4.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar4.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar4.Size = new System.Drawing.Size(146, 146);
+            this.bunifuCircleProgressbar4.TabIndex = 61;
+            this.bunifuCircleProgressbar4.Value = 0;
+            // 
+            // bunifuCircleProgressbar5
+            // 
+            this.bunifuCircleProgressbar5.animated = false;
+            this.bunifuCircleProgressbar5.animationIterval = 5;
+            this.bunifuCircleProgressbar5.animationSpeed = 300;
+            this.bunifuCircleProgressbar5.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar5.BackgroundImage")));
+            this.bunifuCircleProgressbar5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(202)))), ((int)(((byte)(254)))));
+            this.bunifuCircleProgressbar5.LabelVisible = true;
+            this.bunifuCircleProgressbar5.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar5.LineThickness = 5;
+            this.bunifuCircleProgressbar5.Location = new System.Drawing.Point(215, 205);
+            this.bunifuCircleProgressbar5.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar5.MaxValue = 100;
+            this.bunifuCircleProgressbar5.Name = "bunifuCircleProgressbar5";
+            this.bunifuCircleProgressbar5.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar5.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar5.Size = new System.Drawing.Size(146, 146);
+            this.bunifuCircleProgressbar5.TabIndex = 62;
+            this.bunifuCircleProgressbar5.Value = 0;
+            // 
+            // bunifuCircleProgressbar6
+            // 
+            this.bunifuCircleProgressbar6.animated = false;
+            this.bunifuCircleProgressbar6.animationIterval = 5;
+            this.bunifuCircleProgressbar6.animationSpeed = 300;
+            this.bunifuCircleProgressbar6.BackColor = System.Drawing.Color.White;
+            this.bunifuCircleProgressbar6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuCircleProgressbar6.BackgroundImage")));
+            this.bunifuCircleProgressbar6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F);
+            this.bunifuCircleProgressbar6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(159)))), ((int)(((byte)(201)))));
+            this.bunifuCircleProgressbar6.LabelVisible = true;
+            this.bunifuCircleProgressbar6.LineProgressThickness = 8;
+            this.bunifuCircleProgressbar6.LineThickness = 5;
+            this.bunifuCircleProgressbar6.Location = new System.Drawing.Point(215, 397);
+            this.bunifuCircleProgressbar6.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.bunifuCircleProgressbar6.MaxValue = 100;
+            this.bunifuCircleProgressbar6.Name = "bunifuCircleProgressbar6";
+            this.bunifuCircleProgressbar6.ProgressBackColor = System.Drawing.Color.Gainsboro;
+            this.bunifuCircleProgressbar6.ProgressColor = System.Drawing.Color.SeaGreen;
+            this.bunifuCircleProgressbar6.Size = new System.Drawing.Size(146, 146);
+            this.bunifuCircleProgressbar6.TabIndex = 63;
+            this.bunifuCircleProgressbar6.Value = 0;
+            // 
             // Main_Ui
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1000,6 +1048,10 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.DataVisualization.Charting.Chart vandilsme_chart;
         private System.Windows.Forms.DataVisualization.Charting.Chart gewelds_chart;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
         private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar6;
         private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar5;
         private Bunifu.Framework.UI.BunifuCircleProgressbar bunifuCircleProgressbar4;
