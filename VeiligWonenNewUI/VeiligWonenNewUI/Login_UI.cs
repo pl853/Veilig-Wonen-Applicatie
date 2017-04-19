@@ -14,7 +14,7 @@ namespace VeiligWonenNewUI
 {
     public partial class Login_UI : Form
     {
-        MySqlConnection con = new MySqlConnection("server = sql11.freemysqlhosting.net; database=sql11168746; user=sql11168746; password=7u21Rl2GCK");
+        MySqlConnection con = new MySqlConnection("server = sql11.freemysqlhosting.net; database=sql11169883; user=sql11169883; password=sbCqYkpscM");
 
         MySqlDataAdapter sda;
 

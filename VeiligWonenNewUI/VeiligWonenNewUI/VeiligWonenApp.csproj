@@ -84,6 +84,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addData.Designer.cs">
+      <DependentUpon>addData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Addhuis_UI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="addData.resx">
+      <DependentUpon>addData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Addhuis_UI.resx">
       <DependentUpon>Addhuis_UI.cs</DependentUpon>
     </EmbeddedResource>

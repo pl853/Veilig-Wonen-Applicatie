@@ -106,7 +106,7 @@
             // 
             this.HID_Lable.AutoSize = true;
             this.HID_Lable.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HID_Lable.Location = new System.Drawing.Point(46, 60);
+            this.HID_Lable.Location = new System.Drawing.Point(41, 60);
             this.HID_Lable.Name = "HID_Lable";
             this.HID_Lable.Size = new System.Drawing.Size(66, 25);
             this.HID_Lable.TabIndex = 70;
@@ -326,7 +326,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(46, 217);
+            this.label14.Location = new System.Drawing.Point(41, 217);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(91, 25);
             this.label14.TabIndex = 57;
@@ -336,7 +336,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(46, 275);
+            this.label15.Location = new System.Drawing.Point(41, 275);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(157, 25);
             this.label15.TabIndex = 56;
@@ -346,7 +346,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(46, 325);
+            this.label16.Location = new System.Drawing.Point(41, 325);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(205, 25);
             this.label16.TabIndex = 55;
@@ -356,7 +356,7 @@
             // 
             this.label_Wijk.AutoSize = true;
             this.label_Wijk.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Wijk.Location = new System.Drawing.Point(46, 167);
+            this.label_Wijk.Location = new System.Drawing.Point(41, 167);
             this.label_Wijk.Name = "label_Wijk";
             this.label_Wijk.Size = new System.Drawing.Size(73, 25);
             this.label_Wijk.TabIndex = 54;
@@ -366,7 +366,7 @@
             // 
             this.label_stadsgebied.AutoSize = true;
             this.label_stadsgebied.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_stadsgebied.Location = new System.Drawing.Point(46, 113);
+            this.label_stadsgebied.Location = new System.Drawing.Point(41, 113);
             this.label_stadsgebied.Name = "label_stadsgebied";
             this.label_stadsgebied.Size = new System.Drawing.Size(150, 25);
             this.label_stadsgebied.TabIndex = 53;

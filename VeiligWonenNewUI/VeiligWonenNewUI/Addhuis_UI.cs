@@ -13,7 +13,7 @@ namespace VeiligWonenNewUI
 {
     public partial class Addhuis_UI : Form
     {
-        MySqlConnection con = new MySqlConnection("server = sql11.freemysqlhosting.net; database=sql11168746; user=sql11168746; password=7u21Rl2GCK");
+        MySqlConnection con = new MySqlConnection("server = sql11.freemysqlhosting.net; database=sql11169883; user=sql11169883; password=sbCqYkpscM");
 
 
         public Addhuis_UI()
@@ -139,14 +139,14 @@ namespace VeiligWonenNewUI
 
         private void Button_Add_Click(object sender, EventArgs e)
         {
-            con.Execute(@"INSERT INTO `sql11168746`.`huis`(`StadsGebied`,`Wijk`,`Straat`,`Huisnummer`,`KoopHuur`,`Prijs`,`Omschrijving`,`Lat`,`Long`) VALUES('" + gebied_Dropdown.Text + "','" + Wijk_Dropdown.Text + "','" + Straat_TextBox.Text + "','" + Huisnum_Textbox.Text + "','" + HuurKoop_Textbox.Text + "','" + Prijs_Textbox.Text + "','" + Omschrijving_TextBox.Text + "','" + LatTextBox.Text + "','" + LongTextBox.Text + "')", con);
+            con.Execute(@"INSERT INTO `sql11169883`.`huis`(`StadsGebied`,`Wijk`,`Straat`,`Huisnummer`,`KoopHuur`,`Prijs`,`Omschrijving`,`Lat`,`Long`) VALUES('" + gebied_Dropdown.Text + "','" + Wijk_Dropdown.Text + "','" + Straat_TextBox.Text + "','" + Huisnum_Textbox.Text + "','" + HuurKoop_Textbox.Text + "','" + Prijs_Textbox.Text + "','" + Omschrijving_TextBox.Text + "','" + LatTextBox.Text + "','" + LongTextBox.Text + "')", con);
             LoadGridData(@"select * From huis where huis.StadsGebied = '" + gebied_Dropdown.Text + "' and huis.Wijk = '" + Wijk_Dropdown.Text + "'");
             
         }
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            con.Execute("UPDATE sql11168746.huis SET huis.StadsGebied = '" + gebied_Dropdown.Text + "' " + " ,huis.Wijk = '" + Wijk_Dropdown.Text + "' ,Straat='" + Straat_TextBox.Text + "' , Huisnummer = '" + Huisnum_Textbox.Text + "' ,KoopHuur = '" + HuurKoop_Textbox.Text + "' , Prijs = '" + Prijs_Textbox.Text + "' , Omschrijving = '" + Omschrijving_TextBox.Text + "' , huis.Lat = '" + LatTextBox.Text + "'  , huis.Long = '" + LongTextBox.Text + "' WHERE HID ='" + HID_Textbox.Text + "'", con);
+            con.Execute("UPDATE sql11169883.huis SET huis.StadsGebied = '" + gebied_Dropdown.Text + "' " + " ,huis.Wijk = '" + Wijk_Dropdown.Text + "' ,Straat='" + Straat_TextBox.Text + "' , Huisnummer = '" + Huisnum_Textbox.Text + "' ,KoopHuur = '" + HuurKoop_Textbox.Text + "' , Prijs = '" + Prijs_Textbox.Text + "' , Omschrijving = '" + Omschrijving_TextBox.Text + "' , huis.Lat = '" + LatTextBox.Text + "'  , huis.Long = '" + LongTextBox.Text + "' WHERE HID ='" + HID_Textbox.Text + "'", con);
             MessageBox.Show("Succesfully Updated");
             LoadGridData(@"select * From huis where huis.StadsGebied = '" + gebied_Dropdown.Text + "' " + "and huis.Wijk = '" + Wijk_Dropdown.Text + "'");
         }
