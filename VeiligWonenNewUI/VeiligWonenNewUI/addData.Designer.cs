@@ -78,15 +78,17 @@
             // 
             // Wijk_dropdown
             // 
+            this.Wijk_dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Wijk_dropdown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Wijk_dropdown.FormattingEnabled = true;
             this.Wijk_dropdown.Location = new System.Drawing.Point(265, 159);
             this.Wijk_dropdown.Name = "Wijk_dropdown";
-            this.Wijk_dropdown.Size = new System.Drawing.Size(161, 33);
+            this.Wijk_dropdown.Size = new System.Drawing.Size(217, 33);
             this.Wijk_dropdown.TabIndex = 2;
             // 
             // Hcategorie_Combobox
             // 
+            this.Hcategorie_Combobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Hcategorie_Combobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hcategorie_Combobox.FormattingEnabled = true;
             this.Hcategorie_Combobox.Items.AddRange(new object[] {
@@ -95,19 +97,21 @@
             "Vandalisme"});
             this.Hcategorie_Combobox.Location = new System.Drawing.Point(265, 215);
             this.Hcategorie_Combobox.Name = "Hcategorie_Combobox";
-            this.Hcategorie_Combobox.Size = new System.Drawing.Size(161, 33);
+            this.Hcategorie_Combobox.Size = new System.Drawing.Size(217, 33);
             this.Hcategorie_Combobox.TabIndex = 3;
+            this.Hcategorie_Combobox.DropDown += new System.EventHandler(this.Hcategorie_Combobox_DropDown);
             // 
             // SCategorie_Combobox
             // 
+            this.SCategorie_Combobox.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.SCategorie_Combobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.SCategorie_Combobox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SCategorie_Combobox.FormattingEnabled = true;
             this.SCategorie_Combobox.Location = new System.Drawing.Point(265, 274);
             this.SCategorie_Combobox.Name = "SCategorie_Combobox";
-            this.SCategorie_Combobox.Size = new System.Drawing.Size(161, 33);
+            this.SCategorie_Combobox.Size = new System.Drawing.Size(217, 33);
             this.SCategorie_Combobox.TabIndex = 4;
-            this.SCategorie_Combobox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SCategorie_Combobox_MouseClick);
-            this.SCategorie_Combobox.MouseHover += new System.EventHandler(this.SCategorie_Combobox_MouseHover);
+            this.SCategorie_Combobox.DropDown += new System.EventHandler(this.SCategorie_Combobox_DropDown);
             // 
             // scid
             // 
@@ -152,7 +156,7 @@
             // Perc2013
             // 
             this.Perc2013.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Perc2013.Location = new System.Drawing.Point(592, 54);
+            this.Perc2013.Location = new System.Drawing.Point(665, 63);
             this.Perc2013.Name = "Perc2013";
             this.Perc2013.Size = new System.Drawing.Size(100, 30);
             this.Perc2013.TabIndex = 10;
@@ -160,7 +164,7 @@
             // Perc2015
             // 
             this.Perc2015.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Perc2015.Location = new System.Drawing.Point(592, 164);
+            this.Perc2015.Location = new System.Drawing.Point(665, 173);
             this.Perc2015.Name = "Perc2015";
             this.Perc2015.Size = new System.Drawing.Size(100, 30);
             this.Perc2015.TabIndex = 11;
@@ -168,7 +172,7 @@
             // Perc2016
             // 
             this.Perc2016.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Perc2016.Location = new System.Drawing.Point(592, 226);
+            this.Perc2016.Location = new System.Drawing.Point(665, 235);
             this.Perc2016.Name = "Perc2016";
             this.Perc2016.Size = new System.Drawing.Size(100, 30);
             this.Perc2016.TabIndex = 12;
@@ -176,7 +180,7 @@
             // Perc2014
             // 
             this.Perc2014.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Perc2014.Location = new System.Drawing.Point(592, 109);
+            this.Perc2014.Location = new System.Drawing.Point(665, 118);
             this.Perc2014.Name = "Perc2014";
             this.Perc2014.Size = new System.Drawing.Size(100, 30);
             this.Perc2014.TabIndex = 13;
@@ -185,7 +189,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(488, 57);
+            this.label5.Location = new System.Drawing.Point(561, 66);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 24);
             this.label5.TabIndex = 14;
@@ -195,7 +199,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(488, 226);
+            this.label6.Location = new System.Drawing.Point(561, 235);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 24);
             this.label6.TabIndex = 15;
@@ -205,7 +209,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(488, 168);
+            this.label7.Location = new System.Drawing.Point(561, 177);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(80, 24);
             this.label7.TabIndex = 16;
@@ -215,7 +219,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(488, 113);
+            this.label8.Location = new System.Drawing.Point(561, 122);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 24);
             this.label8.TabIndex = 17;
@@ -335,6 +339,7 @@
             this.Button_Add.TabIndex = 77;
             this.Button_Add.Text = "Add";
             this.Button_Add.UseVisualStyleBackColor = true;
+            this.Button_Add.Click += new System.EventHandler(this.Button_Add_Click_1);
             // 
             // Exit_btn
             // 
@@ -358,6 +363,7 @@
             // 
             // gebied_Dropdown
             // 
+            this.gebied_Dropdown.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.gebied_Dropdown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gebied_Dropdown.FormattingEnabled = true;
             this.gebied_Dropdown.Items.AddRange(new object[] {
@@ -367,7 +373,7 @@
             "4"});
             this.gebied_Dropdown.Location = new System.Drawing.Point(265, 104);
             this.gebied_Dropdown.Name = "gebied_Dropdown";
-            this.gebied_Dropdown.Size = new System.Drawing.Size(161, 33);
+            this.gebied_Dropdown.Size = new System.Drawing.Size(217, 33);
             this.gebied_Dropdown.TabIndex = 1;
             this.gebied_Dropdown.SelectedIndexChanged += new System.EventHandler(this.gebied_Dropdown_SelectedIndexChanged);
             this.gebied_Dropdown.MouseDown += new System.Windows.Forms.MouseEventHandler(this.gebied_Dropdown_MouseDown);

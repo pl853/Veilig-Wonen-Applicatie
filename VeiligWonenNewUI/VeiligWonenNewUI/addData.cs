@@ -33,7 +33,7 @@ namespace VeiligWonenNewUI
         private void Button_Add_Click(object sender, EventArgs e)
         {
             MySqlDataAdapter sda1 = new MySqlDataAdapter("Select WID where wijk = '" + Wijk_dropdown.Text + "'", con);
-            MySqlDataAdapter sda = new MySqlDataAdapter("Select SCID where wijk = '" + Hcategorie_Combobox.Text + "'", con);
+            MySqlDataAdapter sda = new MySqlDataAdapter("Select CID where wijk = '" + Hcategorie_Combobox.Text + "'", con);
             DataTable dt = new DataTable();
             DataTable dt1 = new DataTable();
             sda1.Fill(dt);
@@ -45,7 +45,7 @@ namespace VeiligWonenNewUI
             int hcategorieint = int.Parse(hcategoriestring);
 
             con.Execute(@"INSERT INTO `sql11169883`.`subcategoriecriminaliteit`
-            (`SCID`,
+            (
             `Naam`,
             `CID`,
             `WID`,
@@ -54,15 +54,8 @@ namespace VeiligWonenNewUI
             `Per2015`,
             `Per2016`)
             VALUES
-            (,
-            ,
-            ,
-            ,
-            ,
-            ,
-            ,
-            )
-            ");
+ (hoi,1,1,2,3,4,5",con);
+            //('"+SCategorie_Combobox.Text+"','"+hcategorieint+ "','"+wijkint+ "','"+Perc2013.Text+ "','"+Perc2014.Text+ "','"+Perc2015.Text+ "','"+Perc2016.Text+"'");
 
         }
 
@@ -99,30 +92,61 @@ namespace VeiligWonenNewUI
             gebied_Dropdown_SelectedIndexChanged(null, null);            //Aanmaken van invulling voor Combobox
         }
 
-
-        private void SCategorie_Combobox_MouseHover(object sender, EventArgs e)
+        void RemoveComboItems()
         {
-            if (Hcategorie_Combobox.Text == "Inbraak")
-            {
-                SCategorie_Combobox.Items.Add("Woninginbraak");
-                SCategorie_Combobox.Items.Add("auto-inbraak");
-            }
+            SCategorie_Combobox.Items.Remove("Woninginbraak");
+            SCategorie_Combobox.Items.Remove("Auto-inbraak");
+            SCategorie_Combobox.Items.Remove("Geweldsdelicten");
+            SCategorie_Combobox.Items.Remove("Bedreiging");
         }
 
-        private void SCategorie_Combobox_MouseClick(object sender, MouseEventArgs e)
+        private void SCategorie_Combobox_DropDown(object sender, EventArgs e)
         {
             RemoveComboItems();
             if (Hcategorie_Combobox.Text == "Inbraak")
             {
                 SCategorie_Combobox.Items.Add("Woninginbraak");
-                SCategorie_Combobox.Items.Add("auto-inbraak");
+                SCategorie_Combobox.Items.Add("Auto-inbraak");
+            }
+            else if (Hcategorie_Combobox.Text == "Geweld")
+            {
+                SCategorie_Combobox.Items.Add("Geweldsdelicten");
+                SCategorie_Combobox.Items.Add("Bedreiging");
+            }
+            else if (Hcategorie_Combobox.Text == "Vandalisme")
+            {
+                SCategorie_Combobox.Items.Add("Vernieling");
+                SCategorie_Combobox.Items.Add("Bekladding");
             }
         }
-        
-        void RemoveComboItems()
+
+        private void Hcategorie_Combobox_DropDown(object sender, EventArgs e)
         {
-            SCategorie_Combobox.Items.Remove("Woninginbraak");
-            SCategorie_Combobox.Items.Remove("Auto-inbraak");
+            SCategorie_Combobox.Text = "";
+        }
+
+        private void Button_Add_Click_1(object sender, EventArgs e)
+        {
+            if (Hcategorie_Combobox.Text != "" && SCategorie_Combobox.Text !="" && Perc2013.Text != "" && Perc2014.Text != "" && Perc2015.Text != "" && Perc2016.Text != "")
+            {
+                MySqlDataAdapter sda1 = new MySqlDataAdapter("Select WID From wijk where wijk.naam = '" + Wijk_dropdown.Text + "'", con);
+                MySqlDataAdapter sda = new MySqlDataAdapter("Select CID From categoriecriminaliteit where categoriecriminaliteit.Soort= '" + Hcategorie_Combobox.Text + "'", con);
+                DataTable dt = new DataTable();
+                DataTable dt1 = new DataTable();
+                sda1.Fill(dt);
+                sda.Fill(dt1);
+
+                string wijkstring = dt.Rows[0][0].ToString();
+                int wijkint = int.Parse(wijkstring);
+                string hcategoriestring = dt1.Rows[0][0].ToString();
+                int hcategorieint = int.Parse(hcategoriestring);
+
+                con.Execute(@"INSERT INTO `sql11169883`.`subcategoriecriminaliteit`(`Naam`,`CID`,`WID`, `per2013`, `Per2014`,`Per2015`,`Per2016`) VALUES('" + SCategorie_Combobox.Text + "','" + hcategorieint + "','" + wijkint + "','" + Perc2013.Text + "','" + Perc2014.Text + "','" + Perc2015.Text + "','" + Perc2016.Text + "')", con);
+            }
+            else
+            {
+                MessageBox.Show("Please fill in all boxes");
+            }
         }
     }
 }
